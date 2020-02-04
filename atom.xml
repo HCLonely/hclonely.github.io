@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>HCLonely Blog</title>
+  <icon>http://hclonely.github.io/icon.png</icon>
+  <subtitle>一个懒人的博客</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://hclonely.github.io/"/>
+  <updated>2020-02-04T11:06:04.191Z</updated>
+  <id>http://hclonely.github.io/</id>
+  
+  <author>
+    <name>HCLonely</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Chrome插件推荐</title>
+    <link href="http://hclonely.github.io/ck67sglvs0001porx088r2ns4/"/>
+    <id>http://hclonely.github.io/ck67sglvs0001porx088r2ns4/</id>
+    <published>2020-02-04T10:24:23.000Z</published>
+    <updated>2020-02-04T11:06:04.191Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;这里推荐一些好用的谷歌浏览器(Chrome)插件&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;AdBlock-—-最佳广告拦截工具&quot;&gt;&lt;a href=&quot;#AdBlock-—-最佳广告拦截工具&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="浏览器插件" scheme="http://hclonely.github.io/categories/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6/"/>
+    
+    
+      <category term="Chrome" scheme="http://hclonely.github.io/tags/Chrome/"/>
+    
+      <category term="插件" scheme="http://hclonely.github.io/tags/%E6%8F%92%E4%BB%B6/"/>
+    
+      <category term="浏览器" scheme="http://hclonely.github.io/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Aria2 WebUI界面搭建</title>
+    <link href="http://hclonely.github.io/ck67sglvi0000porx8nbrgxdv/"/>
+    <id>http://hclonely.github.io/ck67sglvi0000porx8nbrgxdv/</id>
+    <published>2020-02-04T07:07:45.000Z</published>
+    <updated>2020-02-04T10:10:25.402Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;Aria2是没有图形界面的，这里介绍几款WebUI界面。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;WebUI-Aria2&quot;&gt;&lt;a href=&quot;#WebUI-Aria2&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Aria2" scheme="http://hclonely.github.io/tags/Aria2/"/>
+    
+      <category term="WebUI" scheme="http://hclonely.github.io/tags/WebUI/"/>
+    
+      <category term="图形界面" scheme="http://hclonely.github.io/tags/%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JS精简代码合集</title>
+    <link href="http://hclonely.github.io/ck67sglvz0005porx1uuo01ym/"/>
+    <id>http://hclonely.github.io/ck67sglvz0005porx1uuo01ym/</id>
+    <published>2019-11-09T14:22:43.000Z</published>
+    <updated>2020-02-04T07:20:20.202Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;单行简洁的代码很难维护（有时甚至难以理解），但这并不能阻止广大攻城狮们脑洞，在编写简洁的代码后获得一定的满足感。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;以下我收藏的一些javascript精简代码。它们都可以在你的开发控制台中运行，你可以从控制台中查看运行结果。&lt;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="jsvascript" scheme="http://hclonely.github.io/categories/jsvascript/"/>
+    
+    
+      <category term="jsvascript" scheme="http://hclonely.github.io/tags/jsvascript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NodeJs读取某目录下所有目录和文件名</title>
+    <link href="http://hclonely.github.io/ck67sglw6000aporx9hwh78zf/"/>
+    <id>http://hclonely.github.io/ck67sglw6000aporx9hwh78zf/</id>
+    <published>2019-11-09T13:59:05.000Z</published>
+    <updated>2020-02-04T07:20:39.854Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;代码如下：&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;const path = require(&amp;quot;path&amp;quot;);
+const fs =
+        
+      
+    
+    </summary>
+    
+    
+      <category term="jsvascript" scheme="http://hclonely.github.io/categories/jsvascript/"/>
+    
+      <category term="Linux" scheme="http://hclonely.github.io/categories/jsvascript/Linux/"/>
+    
+      <category term="NodeJs" scheme="http://hclonely.github.io/categories/jsvascript/Linux/NodeJs/"/>
+    
+      <category term="windows" scheme="http://hclonely.github.io/categories/jsvascript/Linux/NodeJs/windows/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>实用bat脚本</title>
+    <link href="http://hclonely.github.io/ck67sgly3002sporxfx68a0k9/"/>
+    <id>http://hclonely.github.io/ck67sgly3002sporxfx68a0k9/</id>
+    <published>2019-10-16T11:43:14.000Z</published>
+    <updated>2020-02-04T07:17:20.446Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;将所有子文件夹里的文件上移一层&quot;&gt;&lt;a href=&quot;#将所有子文件夹里的文件上移一层&quot; class=&quot;headerlink&quot; title=&quot;将所有子文件夹里的文件上移一层&quot;&gt;&lt;/a&gt;将所有子文件夹里的文件上移一层&lt;/h2&gt;&lt;h3 id=&quot;1-覆盖同名文件&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="windows" scheme="http://hclonely.github.io/categories/windows/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Linux ownCloud私有云搭建</title>
+    <link href="http://hclonely.github.io/ck67sglw20006porx6g302dmj/"/>
+    <id>http://hclonely.github.io/ck67sglw20006porx6g302dmj/</id>
+    <published>2019-10-04T04:38:16.000Z</published>
+    <updated>2020-02-04T07:20:46.591Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;关于ownCloud&lt;br&gt;&amp;emsp;&amp;emsp;ownCloud是一个开源免费专业的私有云存储项目，它能帮你快速在个人电脑或服务器上架设一套专属的私有云文件同步网盘，可以像 百度云那样实现文件跨平台同步、共享、版本控制、团队协作等等。ownCloud
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Linux" scheme="http://hclonely.github.io/categories/Linux/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Linux挂载硬盘</title>
+    <link href="http://hclonely.github.io/ck67sglw40008porx1qtl6rf7/"/>
+    <id>http://hclonely.github.io/ck67sglw40008porx1qtl6rf7/</id>
+    <published>2019-09-14T11:49:14.000Z</published>
+    <updated>2020-02-04T07:21:10.010Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;需求: Linux新增加一块硬盘sdb，将sdb分区，只分一个区，格式化，挂载到目录/ssd下。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;1-查看现在已有的分区状态&quot;&gt;&lt;a href=&quot;#1-查看现在已有的分区状态&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Linux" scheme="http://hclonely.github.io/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="http://hclonely.github.io/tags/Linux/"/>
+    
+      <category term="硬盘" scheme="http://hclonely.github.io/tags/%E7%A1%AC%E7%9B%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>linux下aria2的安装与配置</title>
+    <link href="http://hclonely.github.io/ck67sglwb000fporxgvaedg8c/"/>
+    <id>http://hclonely.github.io/ck67sglwb000fporxgvaedg8c/</id>
+    <published>2019-09-14T04:19:26.000Z</published>
+    <updated>2020-02-04T10:13:35.563Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;这里来介绍一下linux系统下的安装与配置&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Ubuntu&quot;&gt;&lt;a href=&quot;#Ubuntu&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Linux" scheme="http://hclonely.github.io/categories/Linux/"/>
+    
+      <category term="下载软件" scheme="http://hclonely.github.io/categories/Linux/%E4%B8%8B%E8%BD%BD%E8%BD%AF%E4%BB%B6/"/>
+    
+      <category term="软件" scheme="http://hclonely.github.io/categories/Linux/%E4%B8%8B%E8%BD%BD%E8%BD%AF%E4%BB%B6/%E8%BD%AF%E4%BB%B6/"/>
+    
+    
+      <category term="Linux" scheme="http://hclonely.github.io/tags/Linux/"/>
+    
+      <category term="aria2" scheme="http://hclonely.github.io/tags/aria2/"/>
+    
+      <category term="下载软件" scheme="http://hclonely.github.io/tags/%E4%B8%8B%E8%BD%BD%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows配置Aria2教程</title>
+    <link href="http://hclonely.github.io/ck67sglw9000cporx67vu5eek/"/>
+    <id>http://hclonely.github.io/ck67sglw9000cporx67vu5eek/</id>
+    <published>2019-08-17T04:58:21.000Z</published>
+    <updated>2020-02-04T07:20:58.577Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;&amp;emsp;&amp;emsp;Aria2 是一个多平台轻量级，支持 HTTP、FTP、BitTorrent 等多协议、多来源的命令行下载工具。Aria2 可以从多个来源、多个协议下载资源，最大的程度上利用了你的带宽。Aria2
+        
+      
+    
+    </summary>
+    
+    
+      <category term="下载软件" scheme="http://hclonely.github.io/categories/%E4%B8%8B%E8%BD%BD%E8%BD%AF%E4%BB%B6/"/>
+    
+      <category term="软件" scheme="http://hclonely.github.io/categories/%E4%B8%8B%E8%BD%BD%E8%BD%AF%E4%BB%B6/%E8%BD%AF%E4%BB%B6/"/>
+    
+    
+      <category term="aria2" scheme="http://hclonely.github.io/tags/aria2/"/>
+    
+      <category term="webui" scheme="http://hclonely.github.io/tags/webui/"/>
+    
+      <category term="下载软件" scheme="http://hclonely.github.io/tags/%E4%B8%8B%E8%BD%BD%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>给网页添加一个Live2D看板娘（前端）</title>
+    <link href="http://hclonely.github.io/ck67sgly0002pporxfe7t1s4d/"/>
+    <id>http://hclonely.github.io/ck67sgly0002pporxfe7t1s4d/</id>
+    <published>2019-08-16T08:28:18.000Z</published>
+    <updated>2020-02-04T10:09:12.867Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;本篇文章教大家如何给自己的网页添加一个类似右下角的Live2D看板娘。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;使用插件&quot;&gt;&lt;a href=&quot;#使用插件&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Tampermonkey脚本" scheme="http://hclonely.github.io/categories/Tampermonkey%E8%84%9A%E6%9C%AC/"/>
+    
+      <category term="网页制作" scheme="http://hclonely.github.io/categories/Tampermonkey%E8%84%9A%E6%9C%AC/%E7%BD%91%E9%A1%B5%E5%88%B6%E4%BD%9C/"/>
+    
+    
+      <category term="live2d" scheme="http://hclonely.github.io/tags/live2d/"/>
+    
+      <category term="看板娘" scheme="http://hclonely.github.io/tags/%E7%9C%8B%E6%9D%BF%E5%A8%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>IP签名档制作</title>
+    <link href="http://hclonely.github.io/ck67sglvw0003porx7pi03ykc/"/>
+    <id>http://hclonely.github.io/ck67sglvw0003porx7pi03ykc/</id>
+    <published>2019-08-15T06:26:33.000Z</published>
+    <updated>2020-02-04T07:20:13.525Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;本篇文章教大家如何生成像下图一样的IP签名档。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://ip.hclonely.com&quot; alt=&quot;签名档&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;1-下载源码&quot;&gt;&lt;a href=&quot;#1-下载源码&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="网页制作" scheme="http://hclonely.github.io/categories/%E7%BD%91%E9%A1%B5%E5%88%B6%E4%BD%9C/"/>
+    
+    
+      <category term="ip" scheme="http://hclonely.github.io/tags/ip/"/>
+    
+      <category term="图片签名档" scheme="http://hclonely.github.io/tags/%E5%9B%BE%E7%89%87%E7%AD%BE%E5%90%8D%E6%A1%A3/"/>
+    
+      <category term="签名档" scheme="http://hclonely.github.io/tags/%E7%AD%BE%E5%90%8D%E6%A1%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>给网页添加社会主义核心价值观鼠标点击特效</title>
+    <link href="http://hclonely.github.io/ck67sgly5002vporx3em71ceg/"/>
+    <id>http://hclonely.github.io/ck67sgly5002vporx3em71ceg/</id>
+    <published>2019-08-15T03:14:17.000Z</published>
+    <updated>2020-02-04T08:05:07.359Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;本篇文章教大家如何给自己的网页添加一个像本页面一样鼠标点击显示富强,民主, 文明, 和谐,自由, 平等, 公正,法治, 爱国, 敬业,诚信, 友善的特效。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;原生JS实现代码&quot;&gt;&lt;a href=&quot;#原生JS实现代码&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="网页制作" scheme="http://hclonely.github.io/categories/%E7%BD%91%E9%A1%B5%E5%88%B6%E4%BD%9C/"/>
+    
+    
+      <category term="鼠标特效" scheme="http://hclonely.github.io/tags/%E9%BC%A0%E6%A0%87%E7%89%B9%E6%95%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>为网页添加一个社交分享插件</title>
+    <link href="http://hclonely.github.io/ck67sglwh000oporx5manfy74/"/>
+    <id>http://hclonely.github.io/ck67sglwh000oporx5manfy74/</id>
+    <published>2019-08-14T12:51:36.000Z</published>
+    <updated>2020-02-04T07:17:08.231Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;本篇文章教大家如何给自己的网页添加一个如页面底部和左下的社交分享插件。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;使用说明&quot;&gt;&lt;a href=&quot;#使用说明&quot; class=&quot;headerlink&quot; title=&quot;使用说明&quot;&gt;&lt;/a&gt;使用说明&lt;/h2&gt;&lt;h3
+        
+      
+    
+    </summary>
+    
+    
+      <category term="网页制作" scheme="http://hclonely.github.io/categories/%E7%BD%91%E9%A1%B5%E5%88%B6%E4%BD%9C/"/>
+    
+    
+      <category term="addThis" scheme="http://hclonely.github.io/tags/addThis/"/>
+    
+      <category term="分享" scheme="http://hclonely.github.io/tags/%E5%88%86%E4%BA%AB/"/>
+    
+      <category term="社交" scheme="http://hclonely.github.io/tags/%E7%A4%BE%E4%BA%A4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>为网页添加字体闪烁（变色）特效</title>
+    <link href="http://hclonely.github.io/ck67sglwj000sporx3ltf8o7o/"/>
+    <id>http://hclonely.github.io/ck67sglwj000sporx3ltf8o7o/</id>
+    <published>2019-08-14T11:00:44.000Z</published>
+    <updated>2020-02-04T07:17:14.512Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p style=&quot;color:#0693e3;font-weight:700&quot;&gt;本篇文章教大家如何给自己的网页添加一个字体&lt;font class=&quot;magic-color&quot;&gt;闪烁（变色）&lt;/font&gt;特效。  &lt;/p&gt;
+&lt;script&gt;
+function
+        
+      
+    
+    </summary>
+    
+    
+      <category term="网页制作" scheme="http://hclonely.github.io/categories/%E7%BD%91%E9%A1%B5%E5%88%B6%E4%BD%9C/"/>
+    
+    
+      <category term="网页特效" scheme="http://hclonely.github.io/tags/%E7%BD%91%E9%A1%B5%E7%89%B9%E6%95%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>为网页添加一个一言插件</title>
+    <link href="http://hclonely.github.io/ck67sglwd000hporxays7f0wh/"/>
+    <id>http://hclonely.github.io/ck67sglwd000hporxays7f0wh/</id>
+    <published>2019-08-14T07:00:08.000Z</published>
+    <updated>2020-02-04T07:16:49.147Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;本篇文章教大家如何给自己的网页添加一个一言插件。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;什么是一言？&quot;&gt;&lt;a href=&quot;#什么是一言？&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="网页制作" scheme="http://hclonely.github.io/categories/%E7%BD%91%E9%A1%B5%E5%88%B6%E4%BD%9C/"/>
+    
+    
+      <category term="一言" scheme="http://hclonely.github.io/tags/%E4%B8%80%E8%A8%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>为网页添加一个天气插件</title>
+    <link href="http://hclonely.github.io/ck67sglwg000lporx10krhvvi/"/>
+    <id>http://hclonely.github.io/ck67sglwg000lporx10krhvvi/</id>
+    <published>2019-08-13T12:56:04.000Z</published>
+    <updated>2020-02-04T07:16:58.964Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;本篇文章教大家如何给自己的网页添加一个类似右上角的天气预报插件。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;使用方法&quot;&gt;&lt;a href=&quot;#使用方法&quot; class=&quot;headerlink&quot; title=&quot;使用方法&quot;&gt;&lt;/a&gt;使用方法&lt;/h2&gt;&lt;h3
+        
+      
+    
+    </summary>
+    
+    
+      <category term="网页制作" scheme="http://hclonely.github.io/categories/%E7%BD%91%E9%A1%B5%E5%88%B6%E4%BD%9C/"/>
+    
+    
+      <category term="天气" scheme="http://hclonely.github.io/tags/%E5%A4%A9%E6%B0%94/"/>
+    
+      <category term="网页" scheme="http://hclonely.github.io/tags/%E7%BD%91%E9%A1%B5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>为网页添加一个音乐播放器插件</title>
+    <link href="http://hclonely.github.io/ck67sglxx002nporx2ko6c8tf/"/>
+    <id>http://hclonely.github.io/ck67sglxx002nporx2ko6c8tf/</id>
+    <published>2019-08-12T11:02:39.000Z</published>
+    <updated>2020-02-04T07:16:37.449Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;本篇文章教大家如何给自己的网页添加一个类似左下角的音乐播放器。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;插件名称：APlayer&quot;&gt;&lt;a href=&quot;#插件名称：APlayer&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="网页制作" scheme="http://hclonely.github.io/categories/%E7%BD%91%E9%A1%B5%E5%88%B6%E4%BD%9C/"/>
+    
+      <category term="音乐播放器" scheme="http://hclonely.github.io/categories/%E7%BD%91%E9%A1%B5%E5%88%B6%E4%BD%9C/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"/>
+    
+    
+      <category term="APlayer" scheme="http://hclonely.github.io/tags/APlayer/"/>
+    
+      <category term="音乐播放器" scheme="http://hclonely.github.io/tags/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"/>
+    
+  </entry>
+  
+</feed>

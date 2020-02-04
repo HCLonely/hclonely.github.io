@@ -1,0 +1,682 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="loading">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>linux下aria2的安装与配置 - HCLonely Blog</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate" />
+    <meta name="keywords" content="HCLonely,Hexo,"> 
+    <meta name="description" content="HCLonely的博客,这里来介绍一下linux系统下的安装与配置
+Ubuntuubuntu的用户可以直接使用下面命令完成aria2的安装:sudo apt-get install aria2
+CentOS1.下载
+到gi,"> 
+    <meta name="author" content="HCLonely"> 
+    <link rel="alternative" href="atom.xml" title="HCLonely Blog" type="application/atom+xml"> 
+    <link rel="icon" href="/img/favicon.jpg"> 
+    <link href="https://fonts.loli.net/css?family=Roboto+Mono|Rubik&display=swap" rel="stylesheet">
+    
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1429596_nzgqgvnmkjb.css">
+
+    
+<link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.7.2/animate.min.css">
+
+    
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
+
+    
+<link rel="stylesheet" href="//cdn.bootcss.com/codemirror/5.48.4/codemirror.min.css">
+
+    
+<link rel="stylesheet" href="//cdn.bootcss.com/codemirror/5.48.4/theme/dracula.css">
+
+    
+<link rel="stylesheet" href="/css/obsidian.css">
+
+    
+<link rel="stylesheet" href="/css/ball-atom.min.css">
+
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+
+<body class="loading">
+    <div class="loader">
+        <div class="la-ball-atom la-2x">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <span id="config-title" style="display:none">HCLonely Blog</span>
+    <div id="loader"></div>
+    <div id="single">
+    <div class="scrollbar gradient-bg-rev"></div>
+<div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <div class="navigation animated fadeIn fast delay-1s">
+        <img id="home-icon" class="icon-home" src="/img/favicon.png" alt="" data-url="http://hclonely.github.io">
+        <div id="play-icon" title="Play/Pause" class="iconfont icon-play"></div>
+        <h3 class="subtitle">linux下aria2的安装与配置</h3>
+        <div class="social">
+            <!--        <div class="like-icon">-->
+            <!--            <a href="javascript:;" class="likeThis active"><span class="icon-like"></span><span class="count">76</span></a>-->
+            <!--        </div>-->
+            <div>
+                <div class="share">
+                    
+                        <a href="javascript:;" class="iconfont icon-share1"></a>
+                        <div class="share-component-cc" data-disabled="facebook,douban,linkedin,diandian,google"></div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="section">
+        <div class=article-header-wrapper>
+    <div class="article-header">
+        <div class="article-cover animated fadeIn" style="
+            animation-delay: 600ms;
+            animation-duration: 1.2s;
+            background-image: 
+                radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.65), #100e17),
+                url(/img/cover.jpg);">
+        </div>
+        <div class="else">
+            <p class="animated fadeInDown">
+                
+                <a href="/categories/Linux"><b>「
+                    </b>LINUX<b> 」</b></a>
+                
+                九月 14, 2019
+            </p>
+            <h3 class="post-title animated fadeInDown"><a href="/ck67sglwb000fporxgvaedg8c/" title="linux下aria2的安装与配置" class="">linux下aria2的安装与配置</a>
+            </h3>
+            
+            <p class="post-count animated fadeInDown">
+                
+                <span>
+                    <b class="iconfont icon-text2"></b> <i>文章字数</i>
+                    6.8k
+                </span>
+                
+                
+                <span>
+                    <b class="iconfont icon-timer__s"></b> <i>阅读约需</i>
+                    6 mins.
+                </span>
+                
+                
+                
+                <span id="busuanzi_container_page_pv">
+                    <b class="iconfont icon-read"></b> <i>阅读次数</i>
+                    <span id="busuanzi_value_page_pv">0</span>
+                </span>
+                
+            </p>
+            
+            
+            <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Linux/" rel="tag">Linux</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/aria2/" rel="tag">aria2</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/%E4%B8%8B%E8%BD%BD%E8%BD%AF%E4%BB%B6/" rel="tag">下载软件</a></li></ul>
+            
+        </div>
+    </div>
+</div>
+
+<div class="screen-gradient-after">
+    <div class="screen-gradient-content">
+        <div class="screen-gradient-content-inside">
+            <div class="bold-underline-links screen-gradient-sponsor">
+                <p>
+                    <span class="animated fadeIn delay-1s"></span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="article">
+    <div class='main'>
+        <div class="content markdown animated fadeIn">
+            <p><strong>这里来介绍一下linux系统下的安装与配置</strong></p>
+<h2 id="Ubuntu"><a href="#Ubuntu" class="headerlink" title="Ubuntu"></a>Ubuntu</h2><p>ubuntu的用户可以直接使用下面命令完成aria2的安装:<br><code>sudo apt-get install aria2</code></p>
+<h2 id="CentOS"><a href="#CentOS" class="headerlink" title="CentOS"></a>CentOS</h2><h3 id="1-下载"><a href="#1-下载" class="headerlink" title="1.下载"></a>1.下载</h3><ul>
+<li>到githup上获取源码：<a href="https://github.com/aria2/aria2/releases" target="_blank" rel="noopener">https://github.com/aria2/aria2/releases</a></li>
+<li><a href="https://hclonely-cdn.oss-cn-hongkong.aliyuncs.com/aria2-1.35.0.tar.gz" target="_blank" rel="noopener">备用下载</a><br>我使用的是这个版本:<br><a href="https://github.com/aria2/aria2/releases/download/release-1.35.0/aria2-1.35.0.tar.gz" target="_blank" rel="noopener">https://github.com/aria2/aria2/releases/download/release-1.35.0/aria2-1.35.0.tar.gz</a></li>
+<li>定位到aria2目录并输入以下命令下载:<br><code>cd /ssd/aria2 &amp;&amp; wget https://github.com/aria2/aria2/releases/download/release-1.35.0/aria2-1.35.0.tar.gz</code></li>
+</ul>
+<h3 id="2-升级gcc"><a href="#2-升级gcc" class="headerlink" title="2.升级gcc"></a>2.升级gcc</h3><p>编译aria2需要升级一下gcc，最低要求 gcc &gt;= 4.8.2，使用<code>gcc --version</code>查看当前gcc版本，<strong>如果你的gcc已经在符合这个要求就可以跳到下一步了</strong><br>复制下面代码，保存为：update_gcc.sh</p>
+<pre><code class="bash"># 添加一个源
+cd /etc/yum.repos.d
+wget http://people.centos.org/tru/devtools-2/devtools-2.repo
+# 安装所需包
+yum install devtoolset-2-gcc devtoolset-2-binutils devtoolset-2-gcc-c++
+# 保存原来的版本
+mv /usr/bin/gcc /usr/bin/gcc-4.4.7
+mv /usr/bin/g++ /usr/bin/g++-4.4.7
+mv /usr/bin/c++ /usr/bin/c++-4.4.7
+# 链接到新版本的gcc
+ln -s /opt/rh/devtoolset-2/root/usr/bin/gcc /usr/bin/gcc
+ln -s /opt/rh/devtoolset-2/root/usr/bin/c++ /usr/bin/c++
+ln -s /opt/rh/devtoolset-2/root/usr/bin/g++ /usr/bin/g++
+# 查看当前gcc版本
+gcc --version</code></pre>
+<p>给予update_gcc.sh文件可执行权限并执行<br><code>chmod 754 update_gcc.sh &amp;&amp; ./update_gcc.sh</code><br><strong><em>在执行之前需要确保安装了wget，如果没有wget的话，脚本执行会报错!!!</em></strong><br>等待完成!!!</p>
+<h3 id="3-解压并开始编译安装"><a href="#3-解压并开始编译安装" class="headerlink" title="3.解压并开始编译安装"></a>3.解压并开始编译安装</h3><p><code>tar zxvf aria2-1.34.0.tar.gz &amp;&amp; cd aria2-1.34.0 &amp;&amp; mkdir build &amp;&amp; cd build &amp;&amp; ../configure &amp;&amp; make &amp;&amp; make install</code><br><em>比较长时间的等待~~</em></p>
+<h3 id="4-创建目录与配置文件"><a href="#4-创建目录与配置文件" class="headerlink" title="4.创建目录与配置文件"></a>4.创建目录与配置文件</h3><pre><code class="bash"># 这一步需要切换到root下进行 
+# 需要 su  一下
+cd /ssd/www &amp;&amp; mkdir aria2 &amp;&amp; cd aria2 &amp;&amp; touch aria2.conf &amp;&amp; touch aria2.session</code></pre>
+<p>编辑aria2.conf文件内容，内容如下:</p>
+<pre><code class="bash"># 文件的保存路径(可使用绝对路径或相对路径), 默认: 当前启动位置
+#dir=~/download
+# 启用磁盘缓存, 0为禁用缓存, 需1.16以上版本, 默认:16M
+disk-cache=5M
+# 文件预分配方式, 能有效降低磁盘碎片, 默认:prealloc
+# 预分配所需时间: none &lt; falloc ? trunc &lt; prealloc
+# falloc和trunc则需要文件系统和内核支持, NTFS建议使用falloc, EXT3/4建议trunc
+file-allocation=none
+# 断点续传
+continue=true
+## 下载连接相关 ##
+# 最大同时下载任务数, 运行时可修改, 默认:5
+max-concurrent-downloads=5
+# 同一服务器连接数, 添加时可指定, 默认:1
+max-connection-per-server=15
+# 最小文件分片大小, 添加时可指定, 取值范围1M -1024M, 默认:20M
+# 假定size=10M, 文件为20MiB 则使用两个来源下载; 文件为15MiB 则使用一个来源下载
+min-split-size=10M
+# 单个任务最大线程数, 添加时可指定, 默认:5
+split=5
+# 整体下载速度限制, 运行时可修改, 默认:0
+#max-overall-download-limit=0
+# 单个任务下载速度限制, 默认:0
+#max-download-limit=0
+# 整体上传速度限制, 运行时可修改, 默认:0
+max-overall-upload-limit=20kb
+# 单个任务上传速度限制, 默认:0
+max-upload-limit=5kb
+# 禁用IPv6, 默认:false
+disable-ipv6=true
+# 禁用https证书检查
+check-certificate=false
+#运行覆盖已存在文件
+allow-overwrite=true
+#自动重命名
+auto-file-renaming
+## 进度保存相关 ##
+# 从会话文件中读取下载任务
+input-file=/etc/aria2/aria2.session
+# 在Aria2退出时保存`错误/未完成`的下载任务到会话文件
+save-session=/etc/aria2/aria2.session
+# 定时保存会话, 0为退出时才保存, 需1.16.1以上版本, 默认:0
+save-session-interval=30
+## RPC相关设置 ##
+# 启用RPC, 默认:false
+enable-rpc=true
+# 允许所有来源, 默认:false
+rpc-allow-origin-all=true
+# 允许非外部访问, 默认:false
+rpc-listen-all=true
+# 事件轮询方式, 取值:[epoll, kqueue, port, poll, select], 不同系统默认值不同
+#event-poll=select
+# RPC监听端口, 端口被占用时可以修改, 默认:6800
+rpc-listen-port=6800
+# 保存上传的种子文件
+rpc-save-upload-metadata=false
+## BT/PT下载相关 ##
+# 当下载的是一个种子(以.torrent结尾)时, 自动开始BT任务, 默认:true
+#follow-torrent=true
+# BT监听端口, 当端口被屏蔽时使用, 默认:6881-6999
+listen-port=51413
+# 单个种子最大连接数, 默认:55
+#bt-max-peers=55
+# 打开DHT功能, PT需要禁用, 默认:true
+enable-dht=true
+# 打开IPv6 DHT功能, PT需要禁用
+enable-dht6=false
+# DHT网络监听端口, 默认:6881-6999
+#dht-listen-port=6881-6999
+# 本地节点查找, PT需要禁用, 默认:false
+bt-enable-lpd=true
+# 种子交换, PT需要禁用, 默认:true
+enable-peer-exchange=true
+# 每个种子限速, 对少种的PT很有用, 默认:50K
+#bt-request-peer-speed-limit=50K
+# 客户端伪装, PT需要
+peer-id-prefix=-UT341-
+user-agent=uTorrent/341(109279400)(30888)
+# 当种子的分享率达到这个数时, 自动停止做种, 0为一直做种, 默认:1.0
+seed-ratio=1.0
+# 强制保存会话, 话即使任务已经完成, 默认:false
+# 较新的版本开启后会在任务完成后依然保留.aria2文件
+#force-save=false
+# BT校验相关, 默认:true
+#bt-hash-check-seed=true
+# 继续之前的BT任务时, 无需再次校验, 默认:false
+bt-seed-unverified=true
+# 保存磁力链接元数据为种子文件(.torrent文件), 默认:false
+#bt-save-metadata=false
+#仅下载种子文件
+bt-metadata-only=true
+#通过网上的种子文件下载，种子保存在内存
+follow-torrent=mem</code></pre>
+<h3 id="5-设置环境变量"><a href="#5-设置环境变量" class="headerlink" title="5.设置环境变量"></a>5.设置环境变量</h3><ul>
+<li>编辑~/.bashrc文件,加入下面内容<br><code>export PATH=/usr/local/src/aria2-1.33.0/build/src:$PATH</code></li>
+<li>执行下面命令，使环境变量设置生效：<br><code>source ~/.bashrc</code></li>
+<li>完成这一系列操作后，输入 aria  并可以补全的话就说明aria2已经安装成功了!!!<br>然后，你就可以使用aria2下载你的bt种子或磁力链了，执行<code>aria2c -h</code>查看<strong>使用说明</strong></li>
+</ul>
+<h3 id="6-处理aria2下载bt种子或磁力链无速度或速度慢的情况，添加tracker"><a href="#6-处理aria2下载bt种子或磁力链无速度或速度慢的情况，添加tracker" class="headerlink" title="6.处理aria2下载bt种子或磁力链无速度或速度慢的情况，添加tracker"></a>6.处理aria2下载bt种子或磁力链无速度或速度慢的情况，添加tracker</h3><p>在aria2c.conf文件中添加下面内容:</p>
+<pre><code class="text">bt-tracker=tracker url.....
+例如:
+bt-tracker=udp://tracker.coppersurfer.tk:6969/announce,udp://tracker.open-internet.nl:6969/announce,udp://tracker.leechers-paradise.org:6969/announce,udp://tracker.opentrackr.org:1337/announce,http://tracker.internetwarriors.net:1337/announce,udp://9.rarbg.to:2710/announce,udp://exodus.desync.com:6969/announce,http://tracker3.itzmx.com:6961/announce,udp://explodie.org:6969/announce,udp://ipv4.tracker.harry.lu:80/announce,udp://denis.stalker.upeer.me:6969/announce,udp://tracker4.itzmx.com:2710/announce,udp://tracker.tiny-vps.com:6969/announce,udp://tracker.port443.xyz:6969/announce,udp://thetracker.org:80/announce,udp://open.stealth.si:80/announce,udp://open.demonii.si:1337/announce,udp://bt.xxx-tracker.com:2710/announce,udp://tracker1.wasabii.com.tw:6969/announce,udp://tracker.torrent.eu.org:451/announce</code></pre>
+<p>tracker 地址自行到这里取最新的添加，每个地址之间以逗号分开:<br><a href="https://github.com/ngosang/trackerslist" target="_blank" rel="noopener">https://github.com/ngosang/trackerslist</a></p>
+<h3 id="7-使用以下命令后台启动"><a href="#7-使用以下命令后台启动" class="headerlink" title="7.使用以下命令后台启动:"></a>7.使用以下命令后台启动:</h3><p><code>aria2c --conf-path=/ssd/www/aria2/aria2.conf -D</code></p>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls"
+                data-autoplay="false">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+            <ul id="audio-list" style="display:none">
+                
+                
+                <li title='0' data-url='/statics/demo.mp3'></li>
+                
+                    
+            </ul>
+            
+            
+            
+    <div id='gitalk-container' class="comment link"
+        data-ae='true'
+        data-ci='9e528f4c9431c9714512'
+        data-cs='35d723e7bfd4e47d84513518145269dac36807ed'
+        data-r='hclonely.github.io'
+        data-o='HCLonely'
+        data-a='HCLonely'
+        data-d=''
+    >留言</div>
+
+
+            
+            
+        </div>
+        <div class="sidebar">
+            <div class="box animated fadeInRight">
+                <div class="subbox">
+                    <img src="/img/favicon.jpg" height=300 width=300></img>
+                    <p>HCLonely</p>
+                    <span>艺术家思维去思考问题，工匠创造精神去开发</span>
+                    <dl>
+                        <dd><a href="https://github.com/HCLonely" target="_blank"><span
+                                    class=" iconfont icon-github"></span></a></dd>
+                        <dd><a href="https://twitter.com/HCL_Lonely" target="_blank"><span
+                                    class=" iconfont icon-twitter"></span></a></dd>
+                        <dd><a href="" target="_blank"><span
+                                    class=" iconfont icon-stack-overflow"></span></a></dd>
+                    </dl>
+                </div>
+                <ul>
+                    <li><a href="/">17 <p>文章</p></a></li>
+                    <li><a href="/categories">15 <p>分类</p></a></li>
+                    <li><a href="/tags">27 <p>标签</p></a></li>
+                </ul>
+            </div>
+            
+            
+            
+            <div class="box sticky animated fadeInRight faster">
+                <div id="toc" class="subbox">
+                    <h4>目录</h4>
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Ubuntu"><span class="toc-number">1.</span> <span class="toc-text">Ubuntu</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#CentOS"><span class="toc-number">2.</span> <span class="toc-text">CentOS</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-下载"><span class="toc-number">2.1.</span> <span class="toc-text">1.下载</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-升级gcc"><span class="toc-number">2.2.</span> <span class="toc-text">2.升级gcc</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-解压并开始编译安装"><span class="toc-number">2.3.</span> <span class="toc-text">3.解压并开始编译安装</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-创建目录与配置文件"><span class="toc-number">2.4.</span> <span class="toc-text">4.创建目录与配置文件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-设置环境变量"><span class="toc-number">2.5.</span> <span class="toc-text">5.设置环境变量</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-处理aria2下载bt种子或磁力链无速度或速度慢的情况，添加tracker"><span class="toc-number">2.6.</span> <span class="toc-text">6.处理aria2下载bt种子或磁力链无速度或速度慢的情况，添加tracker</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7-使用以下命令后台启动"><span class="toc-number">2.7.</span> <span class="toc-text">7.使用以下命令后台启动:</span></a></li></ol></li></ol>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+
+    </div>
+</div>
+    <div id="back-to-top" class="animated fadeIn faster">
+        <div class="flow"></div>
+        <span class="percentage animated fadeIn faster">0%</span>
+        <span class="iconfont icon-top02 animated fadeIn faster"></span>
+    </div>
+</body>
+<footer>
+    <p class="copyright" id="copyright">
+        &copy; 2020
+        <span class="gradient-text">
+            HCLonely
+        </span>.
+        Powered by <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a>
+        Theme
+        <span class="gradient-text">
+            <a href="https://github.com/TriDiamond/hexo-theme-obsidian" title="Obsidian" target="_blank" rel="noopener">Obsidian</a>
+        </span>
+        <small><a href="https://github.com/TriDiamond/hexo-theme-obsidian/blob/master/CHANGELOG.md" title="v1.4.3" target="_blank" rel="noopener">v1.4.3</a></small>
+    </p>
+</footer>
+
+<script type="text/javascript" src="https://cdn.bootcss.com/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+  MathJax.Hub.Config({
+    "HTML-CSS": {
+      preferredFont: "TeX",
+      availableFonts: ["STIX", "TeX"],
+      linebreaks: {
+        automatic: true
+      },
+      EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+      inlineMath: [
+        ["$", "$"],
+        ["\\(", "\\)"]
+      ],
+      processEscapes: true,
+      ignoreClass: "tex2jax_ignore|dno",
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    TeX: {
+      noUndefined: {
+        attributes: {
+          mathcolor: "red",
+          mathbackground: "#FFEEEE",
+          mathsize: "90%"
+        }
+      },
+      Macros: {
+        href: "{}"
+      }
+    },
+    messageStyle: "none"
+  });
+</script>
+<script>
+  function initialMathJax() {
+    MathJax.Hub.Queue(function () {
+      var all = MathJax.Hub.getAllJax(),
+        i;
+      // console.log(all);
+      for (i = 0; i < all.length; i += 1) {
+        console.log(all[i].SourceElement().parentNode)
+        all[i].SourceElement().parentNode.className += ' has-jax';
+      }
+    });
+  }
+
+  function reprocessMathJax() {
+    if (typeof MathJax !== 'undefined') {
+      MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+    }
+  }
+</script>
+
+
+
+
+<link rel="stylesheet" href="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css">
+
+
+<script src="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/obsidian.js"></script>
+<script src="/js/jquery.truncate.js"></script>
+<script src="/js/search.js"></script>
+
+
+<script src="//cdn.bootcss.com/typed.js/2.0.10/typed.min.js"></script>
+
+
+<script src="//cdn.bootcss.com/blueimp-md5/2.12.0/js/md5.min.js"></script>
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+
+
+<script src="https://cdn.bootcss.com/codemirror/5.48.4/codemirror.min.js"></script>
+
+
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/javascript/javascript.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/css/css.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/xml/xml.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/htmlmixed/htmlmixed.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/clike/clike.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/php/php.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/shell/shell.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/python/python.min.js"></script>
+
+
+
+
+
+<script src="/js/busuanzi.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        if ($('span[id^="busuanzi_"]').length) {
+            initialBusuanzi();
+        }
+    });
+</script>
+
+
+
+<link rel="stylesheet" href="//cdn.bootcss.com/photoswipe/4.1.3/photoswipe.min.css">
+<link rel="stylesheet" href="//cdn.bootcss.com/photoswipe/4.1.3/default-skin/default-skin.min.css">
+
+
+<script src="//cdn.bootcss.com/photoswipe/4.1.3/photoswipe.min.js"></script>
+<script src="//cdn.bootcss.com/photoswipe/4.1.3/photoswipe-ui-default.min.js"></script>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="//www.googletagmanager.com/gtag/js?id=UA-157706573-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-157706573-1');
+</script>
+
+
+
+
+
+<script>
+    function initialTyped() {
+        var typedTextEl = $('.typed-text');
+        if (typedTextEl && typedTextEl.length > 0) {
+            var typed = new Typed('.typed-text', {
+                strings: ["艺术家思维去思考问题，工匠创造精神去开发", "Think like an artist, develop like an artisan"],
+                typeSpeed: 90,
+                loop: true,
+                loopCount: Infinity,
+                backSpeed: 20,
+            });
+        }
+    }
+
+    if ($('.article-header') && $('.article-header').length) {
+        $(document).ready(function () {
+            initialTyped();
+        });
+    }
+</script>
+
+
+
+
+<script src="//cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.hclonely.com/live2d/autoloadHexo.js"></script>
+<script src="//lib.baomitu.com/layer/2.3/layer.js"></script>
+
+<script>
+    //动态标题
+    jQuery(document).ready(function () {
+        function d() {
+            document.title = document[b] ? "(つェ⊂)看不见我看不见我" : a
+        }
+        var b, c, a = document.title;
+        "undefined" != typeof document.hidden ? (b = "hidden", c = "visibilitychange") : "undefined" != typeof
+        document.mozHidden ? (b = "mozHidden", c = "mozvisibilitychange") : "undefined" != typeof document
+            .webkitHidden &&
+            (b = "webkitHidden", c = "webkitvisibilitychange"), ("undefined" != typeof document
+                .addEventListener || "undefined" !=
+                typeof document[b]) && document.addEventListener(c, d, !1)
+    });
+    //复制提醒
+    document.body.oncopy = function() {layer.msg('【HCLonely】复制成功,若要转载请务必保留原文链接', function(){});};
+    //鼠标点击特效
+    window.onload = () => {
+        let i = 0; //定义获取词语下标
+        let body = document.getElementsByTagName("body")[0];
+        body.onclick = function (e) { //点击body时触发事件
+            const a = ["富强", "民主", "文明", "和谐", "自由", "平等", "公正", "法治", "爱国", "敬业", "诚信", "友善"]; //需要显示的词语
+            let span = document.createElement("span"); //创建span标签
+            span.innerText = a[(i++) % a.length]; //设置词语给span标签
+            let x = e.pageX; //获取x指针坐标
+            let y = e.pageY; //获取y指针坐标
+            span.style.cssText = "z-index:999999999999999999999999;top:" + (y - 20) + "px;left:" + x +
+                "px;position:absolute;font-weight:bold;color:#0ed2f7;"; //在鼠标的指针的位置给span标签添加css样式
+            body.appendChild(span); //在body添加这个span标签
+            animate(span, {
+                "top": y - 180,
+                "opacity": 0
+            }, 15, 0.01, function () {
+                body.removeChild(span); //时间到了自动删除
+            })
+        }
+        //animate函数执行 CSS 属性集的自定义动画。
+        function animate(obj, json, interval, sp, fn) {
+            clearInterval(obj.timer);
+
+            function getStyle(obj, arr) {
+                if (obj.currentStyle) {
+                    return obj.currentStyle[arr]; //针对ie
+                } else {
+                    return document.defaultView.getComputedStyle(obj, null)[arr].replace(/px/g, "");
+                }
+            }
+            obj.timer = setInterval(function () {
+                var flag = true;
+                for (var arr in json) {
+                    var icur = 0;
+                    if (arr == "opacity") {
+                        icur = Math.round(parseFloat(getStyle(obj, arr)) * 100);
+                    } else {
+                        icur = parseInt(getStyle(obj, arr));
+                    }
+                    var speed = (json[arr] - icur) * sp;
+                    speed = speed > 0 ? Math.ceil(speed) : Math.floor(speed);
+                    if (icur != json[arr]) {
+                        flag = false;
+                    }
+                    if (arr == "opacity") {
+                        obj.style.filter = "alpha(opacity : '+(icur + speed)+' )";
+                        obj.style.opacity = (icur + speed) / 100;
+                    } else {
+                        obj.style[arr] = icur + speed + "px";
+                    }
+                }
+
+                if (flag) {
+                    clearInterval(obj.timer);
+                    if (fn) {
+                        fn();
+                    }
+                }
+            }, interval);
+        }
+    }
+</script>
+
+</html>
