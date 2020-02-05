@@ -1,542 +1,91 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"><title>标签: 网页 | HCLonely Blog</title><meta name="description" content="懒，是社会发展的动力..."><meta name="keywords" content="HCLonely,Hexo"><meta name="author" content="HCLonely,h1606051253@gmail.com"><meta name="copyright" content="HCLonely"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.jpg"><link rel="preconnect" href="//cdn.jsdelivr.net"><link rel="preconnect" href="https://www.google-analytics.com" crossorigin><link rel="preconnect" href="https://hm.baidu.com"><link rel="preconnect" href="http://ta.qq.com"><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin><link rel="preconnect" href="//busuanzi.ibruce.info"><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#fff"><meta name="msapplication-TileColor" content="#fff"><link rel="apple-touch-icon" sizes="180x180" href="/images/pwa/32.png"><link rel="icon" type="image/png" sizes="32x32" href="/images/pwaicons/32.png"><link rel="icon" type="image/png" sizes="16x16" href="/images/pwaicons/16.png"><link rel="mask-icon" href="/images/pwaicons/32.png" color="#5bbad5"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="标签: 网页"><meta name="twitter:description" content="懒，是社会发展的动力..."><meta name="twitter:image" content="https://blog.hclonely.com/img/avatar.jpg"><meta property="og:type" content="website"><meta property="og:title" content="标签: 网页"><meta property="og:url" content="https://blog.hclonely.com/tags/%E7%BD%91%E9%A1%B5/"><meta property="og:site_name" content="HCLonely Blog"><meta property="og:description" content="懒，是社会发展的动力..."><meta property="og:image" content="https://blog.hclonely.com/img/avatar.jpg"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><script src="https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js"></script><script>const autoChangeMode = '2'
+var t = Cookies.get("theme");
+if (autoChangeMode == '1'){
+const isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches
+const isLightMode = window.matchMedia("(prefers-color-scheme: light)").matches
+const isNotSpecified = window.matchMedia("(prefers-color-scheme: no-preference)").matches
+const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
 
-<!DOCTYPE html>
-<html lang="zh-CN" class="loading">
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Tag: 网页 - HCLonely Blog</title>
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="google" content="notranslate" />
-    <meta name="keywords" content="HCLonely,Hexo,"> 
-    <meta name="description" content="HCLonely的博客,"> 
-    <meta name="author" content="HCLonely"> 
-    <link rel="alternative" href="atom.xml" title="HCLonely Blog" type="application/atom+xml"> 
-    <link rel="icon" href="/img/favicon.jpg"> 
-    <link href="https://fonts.loli.net/css?family=Roboto+Mono|Rubik&display=swap" rel="stylesheet">
-    
-<link rel="stylesheet" href="//at.alicdn.com/t/font_1429596_nzgqgvnmkjb.css">
-
-    
-<link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.7.2/animate.min.css">
-
-    
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
-
-    
-<link rel="stylesheet" href="//cdn.bootcss.com/codemirror/5.48.4/codemirror.min.css">
-
-    
-<link rel="stylesheet" href="//cdn.bootcss.com/codemirror/5.48.4/theme/dracula.css">
-
-    
-<link rel="stylesheet" href="/css/obsidian.css">
-
-    
-<link rel="stylesheet" href="/css/ball-atom.min.css">
-
-<meta name="generator" content="Hexo 4.2.0"></head>
+if (t === undefined){
+  if (isLightMode) activateLightMode()
+  else if (isDarkMode) activateDarkMode()
+  else if (isNotSpecified || hasNoSupport){
+    console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+    now = new Date();
+    hour = now.getHours();
+    isNight = hour < 6 || hour >= 18
+    isNight ? activateDarkMode() : activateLightMode()
+}
+} else if (t == 'light') activateLightMode()
+else activateDarkMode()
 
 
-<body class="loading">
-    <div class="loader">
-        <div class="la-ball-atom la-2x">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
-    <span id="config-title" style="display:none">HCLonely Blog</span>
-    <div id="loader"></div>
-    <div class="nav">
-    <ul id="menu-menu" class="menu">
-        
-        <li class="animated fadeInDown menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/whoami/" title="ABOUT" external="false">ABOUT</a>
-        </li>
-        
-        <li class="animated fadeInDown menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/categories/" title="CATEGORIES" external="false">CATEGORIES</a>
-        </li>
-        
-        <li class="animated fadeInDown menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/tags/" title="TAGS" external="false">TAGS</a>
-        </li>
-        
-        <li class="animated fadeInDown menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/archives/" title="ARCHIVES" external="false">ARCHIVES</a>
-        </li>
-        
-        <li class="animated fadeInDown menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/rss/" title="RSS" external="false">RSS</a>
-        </li>
-        
-    </ul>
-    <p class="copyright" id="copyright">
-        &copy; 2020 HCLonely.
-        Powered by <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a>
-        Theme <a href="https://github.com/TriDiamond/hexo-theme-obsidian" title="Obsidian" target="_blank" rel="noopener">Obsidian</a>
-    </p>
-</div>
+} else if (autoChangeMode == '2'){
+  now = new Date();
+  hour = now.getHours();
+  isNight = hour < 6 || hour >= 18
+  if(t === undefined) isNight? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode() 
+} else {
+  if ( t == 'dark' ) activateDarkMode()
+  else if ( t == 'light') activateLightMode()
+}
 
-<div id="container">
-    
-<div class="search-box">
-    <form class="site-search-form">
-        <span class="iconfont icon-search"></span>
-        <input type="text" id="local-search-input" class="st-search-input" />
-        <div class="iconfont icon-cross search-box-close"></div>
-    </form>
-    <div class="search-scrollable">
-        <div id="local-search-result" class="local-search-result-cls" data-initialise="首次搜索，正在载入索引文件，请稍后……"
-            data-start="输入关键词搜索。" data-empty="没有找到内容，请尝试更换检索词。">
-            <span>输入关键词搜索。</span>
-        </div>
-    </div>
-</div>
-<div id="header">
-    <div>
-        <div class="logo animated fadeInDown">
-            <img src="/img/favicon.png" alt="">
-            <a class="image-logo" href="/"></a>
-        </div>
-        <ul id="menu-menu" class="menu text-menu">
-            
-            <li class="animated fadeInDown menu-item menu-item-type-post_type menu-item-object-page">
-                <a href="/whoami/" title="ABOUT" external="false" class="menu-link">ABOUT</a>
-            </li>
-            
-            <li class="animated fadeInDown menu-item menu-item-type-post_type menu-item-object-page">
-                <a href="/categories/" title="CATEGORIES" external="false" class="menu-link">CATEGORIES</a>
-            </li>
-            
-            <li class="animated fadeInDown menu-item menu-item-type-post_type menu-item-object-page">
-                <a href="/tags/" title="TAGS" external="false" class="menu-link">TAGS</a>
-            </li>
-            
-            <li class="animated fadeInDown menu-item menu-item-type-post_type menu-item-object-page">
-                <a href="/archives/" title="ARCHIVES" external="false" class="menu-link">ARCHIVES</a>
-            </li>
-            
-            <li class="animated fadeInDown menu-item menu-item-type-post_type menu-item-object-page">
-                <a href="/rss/" title="RSS" external="false" class="menu-link">RSS</a>
-            </li>
-            
-            
-            <li class="animated fadeInDown search-bar iconfont icon-search"></li>
-            
-        </ul>
-        <div class="iconfont icon-menu switchmenu gradient-text animated fadeInDown"></div>
-    </div>
-</div>
-<div id="screen">
-    <div id="mark">
-        <div class="cover animated fadeIn" style="
-            animation-delay: 900ms;
-            animation-duration: 2.8s;
-            background-image:
-                radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.56), #100e17),
-                url(/img/cover.jpg);">
-        </div>
-    </div>
-    
-    <div id="post0" class="else">
-        <p class="animated fadeInDown">
-            
-            <a href="/categories/网页制作"><b>「
-                </b>网页制作<b> 」</b></a>
-            
-            八月 13, 2019
-        </p>
-        <h3 class="post-title animated fadeInDown">
-            <a href="/ck67sglwg000lporx10krhvvi/" title="为网页添加一个天气插件" class="posttitle">为网页添加一个天气插件</a></h3>
-        
-        <p class="post-count animated fadeInDown">
-            
-            <span>
-                <b class="iconfont icon-text2"></b> <i>文章字数</i>
-                7.9k
-            </span>
-            
-            
-            <span>
-                <b class="iconfont icon-timer__s"></b> <i>阅读约需</i>
-                7 mins.
-            </span>
-            
-            
-        </p>
-        
-        
-        <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/%E5%A4%A9%E6%B0%94/" rel="tag">天气</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/%E7%BD%91%E9%A1%B5/" rel="tag">网页</a></li></ul>
-        
-        <div class="md-content animated fadeIn">
-            
-            <p><strong>本篇文章教大家如何给自己的网页添加一个类似右上角的天气预报插件。</strong></p>
-<h3 id="1-注册中国天气网帐号或登录（已有帐号）"><a href="#1-注册中国天气网帐号或登录（已有帐号）" class="headerlink" title="1.注册中国天气网帐号或登录（已有帐号）"></a>1.<a href="http://u2.weather.com.cn/web/sso/regist-ui.do" target="_blank" rel="noopener">注册中国天气网帐号</a>或<a href="http://u2.weather.com.cn/web/sso/login-ui.do" target="_blank" rel="noopener">登录</a>（已有帐号）</h3><h3 id="2-登陆后打开天气插件网页：-https-cj-weather-com-cn-plugin-pc"><a href="#2-登陆后打开天气插件网页：-https-cj-weather-com-cn-plugin-pc" class="headerlink" title="2.登陆后打开天气插件网页： https://cj.weather.com.cn/plugin/pc"></a>2.登陆后打开天气插件网页： <a href="https://cj.weather.com.cn/plugin/pc" target="_blank" rel="noopener">https://cj.weather.com.cn/plugin...</a></h3>
-            
-            <span class="read-more"><a href="/ck67sglwg000lporx10krhvvi/" title="查看全文" class="posttitle">查看全文</a>
-                <b class="iconfont icon-arrow-right- gradient-text"></b></span>
-        </div>
-    </div>
-    
-</div>
-
-<div class="screen-gradient-after">
-    <div class="screen-gradient-content">
-        <div class="screen-gradient-content-inside">
-            <div class="bold-underline-links screen-gradient-sponsor">
-                <p>
-                    <span class="typed-text"></span>
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
-
-    <div id="primary">
-        
-    </div>
-    
-</div>
-<div id="preview"></div>
-
-
-    <div id="back-to-top" class="animated fadeIn faster">
-        <div class="flow"></div>
-        <span class="percentage animated fadeIn faster">0%</span>
-        <span class="iconfont icon-top02 animated fadeIn faster"></span>
-    </div>
-</body>
-<footer>
-    <p class="copyright" id="copyright">
-        &copy; 2020
-        <span class="gradient-text">
-            HCLonely
-        </span>.
-        Powered by <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a>
-        Theme
-        <span class="gradient-text">
-            <a href="https://github.com/TriDiamond/hexo-theme-obsidian" title="Obsidian" target="_blank" rel="noopener">Obsidian</a>
-        </span>
-        <small><a href="https://github.com/TriDiamond/hexo-theme-obsidian/blob/master/CHANGELOG.md" title="v1.4.3" target="_blank" rel="noopener">v1.4.3</a></small>
-    </p>
-</footer>
-
-<script type="text/javascript" src="https://cdn.bootcss.com/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-<script>
-  MathJax.Hub.Config({
-    "HTML-CSS": {
-      preferredFont: "TeX",
-      availableFonts: ["STIX", "TeX"],
-      linebreaks: {
-        automatic: true
-      },
-      EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
-    },
-    tex2jax: {
-      inlineMath: [
-        ["$", "$"],
-        ["\\(", "\\)"]
-      ],
-      processEscapes: true,
-      ignoreClass: "tex2jax_ignore|dno",
-      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-    },
-    TeX: {
-      noUndefined: {
-        attributes: {
-          mathcolor: "red",
-          mathbackground: "#FFEEEE",
-          mathsize: "90%"
-        }
-      },
-      Macros: {
-        href: "{}"
-      }
-    },
-    messageStyle: "none"
-  });
-</script>
-<script>
-  function initialMathJax() {
-    MathJax.Hub.Queue(function () {
-      var all = MathJax.Hub.getAllJax(),
-        i;
-      // console.log(all);
-      for (i = 0; i < all.length; i += 1) {
-        console.log(all[i].SourceElement().parentNode)
-        all[i].SourceElement().parentNode.className += ' has-jax';
-      }
-    });
+function activateDarkMode(){
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+    document.querySelector('meta[name="theme-color"]').setAttribute('content','#000')
   }
-
-  function reprocessMathJax() {
-    if (typeof MathJax !== 'undefined') {
-      MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
-    }
+}
+function activateLightMode(){
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+  document.querySelector('meta[name="theme-color"]').setAttribute('content','#fff')
   }
-</script>
-
-
-
-
-<link rel="stylesheet" href="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css">
-
-
-<script src="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
-
-
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="/js/plugin.js"></script>
-<script src="/js/obsidian.js"></script>
-<script src="/js/jquery.truncate.js"></script>
-<script src="/js/search.js"></script>
-
-
-<script src="//cdn.bootcss.com/typed.js/2.0.10/typed.min.js"></script>
-
-
-<script src="//cdn.bootcss.com/blueimp-md5/2.12.0/js/md5.min.js"></script>
-
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
-
-
-<script src="https://cdn.bootcss.com/codemirror/5.48.4/codemirror.min.js"></script>
-
-
-<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/javascript/javascript.min.js"></script>
-
-
-
-<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/css/css.min.js"></script>
-
-
-
-<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/xml/xml.min.js"></script>
-
-
-
-<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/htmlmixed/htmlmixed.min.js"></script>
-
-
-
-<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/clike/clike.min.js"></script>
-
-
-
-<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/php/php.min.js"></script>
-
-
-
-<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/shell/shell.min.js"></script>
-
-
-
-<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/python/python.min.js"></script>
-
-
-
-
-
-<script src="/js/busuanzi.min.js"></script>
-
-<script>
-    $(document).ready(function () {
-        if ($('span[id^="busuanzi_"]').length) {
-            initialBusuanzi();
-        }
-    });
-</script>
-
-
-
-<link rel="stylesheet" href="//cdn.bootcss.com/photoswipe/4.1.3/photoswipe.min.css">
-<link rel="stylesheet" href="//cdn.bootcss.com/photoswipe/4.1.3/default-skin/default-skin.min.css">
-
-
-<script src="//cdn.bootcss.com/photoswipe/4.1.3/photoswipe.min.js"></script>
-<script src="//cdn.bootcss.com/photoswipe/4.1.3/photoswipe-ui-default.min.js"></script>
-
-
-<!-- Root element of PhotoSwipe. Must have class pswp. -->
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-    <!-- Background of PhotoSwipe. 
-         It's a separate element as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
-        <!-- Container that holds slides. 
-            PhotoSwipe keeps only 3 of them in the DOM to save memory.
-            Don't modify these 3 pswp__item elements, data is added later on. -->
-        <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-        </div>
-        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-        <div class="pswp__ui pswp__ui--hidden">
-            <div class="pswp__top-bar">
-                <!--  Controls are self-explanatory. Order can be changed. -->
-                <div class="pswp__counter"></div>
-                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-                <button class="pswp__button pswp__button--share" title="Share"></button>
-                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-                <!-- element will get class pswp__preloader--active when preloader is running -->
-                <div class="pswp__preloader">
-                    <div class="pswp__preloader__icn">
-                      <div class="pswp__preloader__cut">
-                        <div class="pswp__preloader__donut"></div>
-                      </div>
-                    </div>
-                </div>
-            </div>
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div> 
-            </div>
-            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-            </button>
-            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-            </button>
-            <div class="pswp__caption">
-                <div class="pswp__caption__center"></div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="//www.googletagmanager.com/gtag/js?id=UA-157706573-1"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-157706573-1');
-</script>
-
-
-
-
-
-<script>
-    function initialTyped() {
-        var typedTextEl = $('.typed-text');
-        if (typedTextEl && typedTextEl.length > 0) {
-            var typed = new Typed('.typed-text', {
-                strings: ["艺术家思维去思考问题，工匠创造精神去开发", "Think like an artist, develop like an artisan"],
-                typeSpeed: 90,
-                loop: true,
-                loopCount: Infinity,
-                backSpeed: 20,
-            });
-        }
-    }
-
-    if ($('.article-header') && $('.article-header').length) {
-        $(document).ready(function () {
-            initialTyped();
-        });
-    }
-</script>
-
-
-
-
-<script src="//cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="//cdn.hclonely.com/live2d/autoloadHexo.js"></script>
-<script src="//lib.baomitu.com/layer/2.3/layer.js"></script>
-
-<script>
-    //动态标题
-    jQuery(document).ready(function () {
-        function d() {
-            document.title = document[b] ? "(つェ⊂)看不见我看不见我" : a
-        }
-        var b, c, a = document.title;
-        "undefined" != typeof document.hidden ? (b = "hidden", c = "visibilitychange") : "undefined" != typeof
-        document.mozHidden ? (b = "mozHidden", c = "mozvisibilitychange") : "undefined" != typeof document
-            .webkitHidden &&
-            (b = "webkitHidden", c = "webkitvisibilitychange"), ("undefined" != typeof document
-                .addEventListener || "undefined" !=
-                typeof document[b]) && document.addEventListener(c, d, !1)
-    });
-    //复制提醒
-    document.body.oncopy = function() {layer.msg('【HCLonely】复制成功,若要转载请务必保留原文链接', function(){});};
-    //鼠标点击特效
-    window.onload = () => {
-        let i = 0; //定义获取词语下标
-        let body = document.getElementsByTagName("body")[0];
-        body.onclick = function (e) { //点击body时触发事件
-            const a = ["富强", "民主", "文明", "和谐", "自由", "平等", "公正", "法治", "爱国", "敬业", "诚信", "友善"]; //需要显示的词语
-            let span = document.createElement("span"); //创建span标签
-            span.innerText = a[(i++) % a.length]; //设置词语给span标签
-            let x = e.pageX; //获取x指针坐标
-            let y = e.pageY; //获取y指针坐标
-            span.style.cssText = "z-index:999999999999999999999999;top:" + (y - 20) + "px;left:" + x +
-                "px;position:absolute;font-weight:bold;color:#0ed2f7;"; //在鼠标的指针的位置给span标签添加css样式
-            body.appendChild(span); //在body添加这个span标签
-            animate(span, {
-                "top": y - 180,
-                "opacity": 0
-            }, 15, 0.01, function () {
-                body.removeChild(span); //时间到了自动删除
-            })
-        }
-        //animate函数执行 CSS 属性集的自定义动画。
-        function animate(obj, json, interval, sp, fn) {
-            clearInterval(obj.timer);
-
-            function getStyle(obj, arr) {
-                if (obj.currentStyle) {
-                    return obj.currentStyle[arr]; //针对ie
-                } else {
-                    return document.defaultView.getComputedStyle(obj, null)[arr].replace(/px/g, "");
-                }
-            }
-            obj.timer = setInterval(function () {
-                var flag = true;
-                for (var arr in json) {
-                    var icur = 0;
-                    if (arr == "opacity") {
-                        icur = Math.round(parseFloat(getStyle(obj, arr)) * 100);
-                    } else {
-                        icur = parseInt(getStyle(obj, arr));
-                    }
-                    var speed = (json[arr] - icur) * sp;
-                    speed = speed > 0 ? Math.ceil(speed) : Math.floor(speed);
-                    if (icur != json[arr]) {
-                        flag = false;
-                    }
-                    if (arr == "opacity") {
-                        obj.style.filter = "alpha(opacity : '+(icur + speed)+' )";
-                        obj.style.opacity = (icur + speed) / 100;
-                    } else {
-                        obj.style[arr] = icur + speed + "px";
-                    }
-                }
-
-                if (flag) {
-                    clearInterval(obj.timer);
-                    if (fn) {
-                        fn();
-                    }
-                }
-            }, interval);
-        }
-    }
-</script>
-
-</html>
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css"><link rel="canonical" href="https://blog.hclonely.com/tags/%E7%BD%91%E9%A1%B5/"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.css"><script src="https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js"></script><script src="https://cdn.jsdelivr.net/npm/blueimp-md5@2.10.0/js/md5.min.js"></script><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?597e5142486e51e7c0b0e0b1dd4667c7";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-157706573-1', 'auto');
+ga('send', 'pageview');
+</script><script src="http://tajs.qq.com/stats?sId=66514997" charset="UTF-8"></script><link rel="preload" href="https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/tag.png" as="image"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容:${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"cookieDomain":"https://blog.hclonely.com/","msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简"},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    title: 'Snackbar.bookmark.title',
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime_unit: '天',
+  runtime: true,
+  copyright: {"languages":{"author":"作者: HCLonely","link":"链接: https://blog.hclonely.com/tags/%E7%BD%91%E9%A1%B5/","source":"来源: HCLonely Blog","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  ClickShowText: {"text":"富强,民主,文明,和谐,自由,平等,公正,法治,爱国,敬业,诚信,友善","fontSize":"15px"},
+  medium_zoom: true,
+  fancybox: true,
+  Snackbar: {"bookmark":{"title":"Snackbar.bookmark.title","message_prev":"按","message_next":"键将本页加入书签"},"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#2d3035","position":"bottom-left"},
+  baiduPush: false,
+  isHome: false,
+  isPost: false
+  
+}</script><meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="HCLonely Blog" type="application/atom+xml">
+</head><body><header> <div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="/">HCLonely Blog</a></span><span class="toggle-menu pull_right close"><a class="site-page"><i class="fa fa-bars fa-fw" aria-hidden="true"></i></a></span><span class="pull_right menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-list" aria-hidden="true"></i><span> 娱乐</span><i class="fa fa-chevron-down menus-expand" aria-hidden="true"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/music/"><i class="fa-fw fa fa-music"></i><span> 音乐</span></a></li><li><a class="site-page" href="/Gallery/"><i class="fa-fw fa fa-picture-o"></i><span> 照片</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fa fa-film"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div></div></span><span class="pull_right" id="search_button"><a class="site-page social-icon search"><i class="fa fa-search fa-fw"></i><span> 搜索</span></a></span></div></header><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="/img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">18</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">35</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">13</div></a></div></div></div><hr><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-list" aria-hidden="true"></i><span> 娱乐</span><i class="fa fa-chevron-down menus-expand" aria-hidden="true"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/music/"><i class="fa-fw fa fa-music"></i><span> 音乐</span></a></li><li><a class="site-page" href="/Gallery/"><i class="fa-fw fa fa-picture-o"></i><span> 照片</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fa fa-film"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div></div></div></div><div id="body-wrap"><nav class="not_index_bg" id="nav" style="background-image: url(https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/tag.png)"><div id="page_site-info"><div id="site-title"><span class="blogtitle">网页</span></div></div></nav><main id="content-outer"><div class="layout_page" id="content-inner"><div id="tag"><div class="article-sort-title">标签 - 网页</div><div class="article-sort"><div class="article-sort-item year">2019</div><div class="article-sort-item"><div class="article-sort-img"><a class="article-sort-item__img" href="/posts/4d6ecc07/"><img src="https://img.hclonely.com/blog/Butterfly/005.png" alt="为网页添加一个天气插件"></a></div><div class="article-sort-post"><a class="article-sort-item__post" href="/posts/4d6ecc07/"><i class="fa fa-clock-o" aria-hidden="true"></i><time class="article-sort-item__time">2019-08-13</time><div class="article-sort-item__title">为网页添加一个天气插件</div></a></div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside_content" id="aside_content"><div class="card-widget card-info"><div class="card-content"><div class="card-info-avatar is-center"><img class="avatar-img" src="/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"><div class="author-info__name">HCLonely</div><div class="author-info__description">懒，是社会发展的动力...</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length_num">18</div></a></div><div class="card-info-data-item is-center">      <a href="/tags/"><div class="headline">标签</div><div class="length_num">35</div></a></div><div class="card-info-data-item is-center">     <a href="/categories/"><div class="headline">分类</div><div class="length_num">13</div></a></div></div><div class="card-info-bookmark is-center"><a class="bookmark button--primary button--animated" id="bookmark-it" href="javascript:;" title="加入书签" target="_self"><i class="fa fa-bookmark" aria-hidden="true"></i><span>加入书签</span></a></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/HCLonely" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a><a class="social-icon" href="mailto:h1606051253@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a><a class="social-icon" href="https://twitter.com/HCL_Lonely" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a><a class="social-icon" href="https://weibo.com/u/5665925139" target="_blank"><i class="fa fa-weibo" aria-hidden="true"></i></a><a class="social-icon" href="/atom.xml" target="_blank"><i class="fa fa-rss" aria-hidden="true"></i></a></div></div></div><div class="card-widget card-announcement"><div class="card-content"><div class="item-headline"><i class="fa fa-bullhorn card-announcement-animation" aria-hidden="true"></i><span>公告</span></div><div class="announcement_content">感谢访问本站，若喜欢请收藏 ^_^</div></div></div><div class="card-widget card-recent-post"><div class="card-content"><div class="item-headline"><i class="fa fa-history" aria-hidden="true"></i><span>最新文章</span></div><div class="aside-recent-item"> <div class="aside-recent-post"><a href="/posts/777c60d5/"><div class="aside-post-cover"><img class="aside-post-bg lazyload" data-src="https://img.hclonely.com/blog/Butterfly/013.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" title="Key站自动任务脚本" alt="Key站自动任务脚本"></div><div class="aside-post-title"><div class="aside-post_title" href="/posts/777c60d5/" title="Key站自动任务脚本">Key站自动任务脚本</div><time class="aside-post_meta post-meta__date">2020-02-05</time></div></a></div><div class="aside-recent-post"><a href="/posts/72a59031/"><div class="aside-post-cover"><img class="aside-post-bg lazyload" data-src="https://img.hclonely.com/blog/Butterfly/010.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" title="Chrome插件推荐" alt="Chrome插件推荐"></div><div class="aside-post-title"><div class="aside-post_title" href="/posts/72a59031/" title="Chrome插件推荐">Chrome插件推荐</div><time class="aside-post_meta post-meta__date">2020-02-04</time></div></a></div><div class="aside-recent-post"><a href="/posts/4b4a0e66/"><div class="aside-post-cover"><img class="aside-post-bg lazyload" data-src="https://img.hclonely.com/blog/Butterfly/009.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" title="Aria2 WebUI界面搭建" alt="Aria2 WebUI界面搭建"></div><div class="aside-post-title"><div class="aside-post_title" href="/posts/4b4a0e66/" title="Aria2 WebUI界面搭建">Aria2 WebUI界面搭建</div><time class="aside-post_meta post-meta__date">2020-02-04</time></div></a></div><div class="aside-recent-post"><a href="/posts/70c32a14/"><div class="aside-post-cover"><img class="aside-post-bg lazyload" data-src="https://img.hclonely.com/blog/Butterfly/012.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" title="JS精简代码合集" alt="JS精简代码合集"></div><div class="aside-post-title"><div class="aside-post_title" href="/posts/70c32a14/" title="JS精简代码合集">JS精简代码合集</div><time class="aside-post_meta post-meta__date">2019-11-09</time></div></a></div><div class="aside-recent-post"><a href="/posts/a3dcda7b/"><div class="aside-post-cover"><img class="aside-post-bg lazyload" data-src="https://img.hclonely.com/blog/Butterfly/017.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" title="NodeJs读取某目录下所有目录和文件名" alt="NodeJs读取某目录下所有目录和文件名"></div><div class="aside-post-title"><div class="aside-post_title" href="/posts/a3dcda7b/" title="NodeJs读取某目录下所有目录和文件名">NodeJs读取某目录下所有目录和文件名</div><time class="aside-post_meta post-meta__date">2019-11-09</time></div></a></div></div></div></div><div class="card-widget card-categories"><div class="card-content"><div class="item-headline"><i class="fa fa-folder-open" aria-hidden="true"></i><span>分类</span></div><ul class="aside-category-item">       <li class="aside-category-list"><a class="aside-category-list_link" href="/categories/Linux/"><span class="aside-category-list_name">Linux</span><span class="aside-category-list_length">3</span></a></li><ul class="aside-category-item child"><li class="aside-category-list"><a class="aside-category-list_link" href="/categories/Linux/%E4%B8%8B%E8%BD%BD%E8%BD%AF%E4%BB%B6/"><span class="aside-category-list_name">下载软件</span><span class="aside-category-list_length">1</span></a></li></ul><li class="aside-category-list"><a class="aside-category-list_link" href="/categories/Tampermonkey%E8%84%9A%E6%9C%AC/"><span class="aside-category-list_name">Tampermonkey脚本</span><span class="aside-category-list_length">1</span></a></li><ul class="aside-category-item child"><li class="aside-category-list"><a class="aside-category-list_link" href="/categories/Tampermonkey%E8%84%9A%E6%9C%AC/%E7%BD%91%E9%A1%B5%E5%88%B6%E4%BD%9C/"><span class="aside-category-list_name">网页制作</span><span class="aside-category-list_length">1</span></a></li></ul><li class="aside-category-list"><a class="aside-category-list_link" href="/categories/jsvascript/"><span class="aside-category-list_name">jsvascript</span><span class="aside-category-list_length">2</span></a></li><ul class="aside-category-item child"><li class="aside-category-list"><a class="aside-category-list_link" href="/categories/jsvascript/NodeJs/"><span class="aside-category-list_name">NodeJs</span><span class="aside-category-list_length">1</span></a></li></ul><li class="aside-category-list"><a class="aside-category-list_link" href="/categories/windows/"><span class="aside-category-list_name">windows</span><span class="aside-category-list_length">1</span></a></li><li class="aside-category-list"><a class="aside-category-list_link" href="/categories/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6/"><span class="aside-category-list_name">浏览器插件</span><span class="aside-category-list_length">1</span></a></li><li class="aside-category-list"><a class="aside-category-list_link" href="/categories/%E7%BD%91%E9%A1%B5%E5%88%B6%E4%BD%9C/"><span class="aside-category-list_name">网页制作</span><span class="aside-category-list_length">7</span></a></li><ul class="aside-category-item child"><li class="aside-category-list"><a class="aside-category-list_link" href="/categories/%E7%BD%91%E9%A1%B5%E5%88%B6%E4%BD%9C/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"><span class="aside-category-list_name">音乐播放器</span><span class="aside-category-list_length">1</span></a></li></ul><li class="aside-category-list"><a class="aside-category-list_link" href="/categories/%E8%84%9A%E6%9C%AC/"><span class="aside-category-list_name">脚本</span><span class="aside-category-list_length">1</span></a></li><li class="aside-category-list"><a class="aside-category-list_link" href="/categories/%E8%BD%AF%E4%BB%B6/"><span class="aside-category-list_name">软件</span><span class="aside-category-list_length">1</span></a></li><ul class="aside-category-item child"><li class="aside-category-list"><a class="aside-category-list_link" href="/categories/%E8%BD%AF%E4%BB%B6/%E4%B8%8B%E8%BD%BD%E8%BD%AF%E4%BB%B6/"><span class="aside-category-list_name">下载软件</span><span class="aside-category-list_length">1</span></a></li></ul></ul></div></div><div class="card-widget card-tags"><div class="card-content"><div class="item-headline"><i class="fa fa-tags" aria-hidden="true"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/APlayer/" style="font-size: 16px; color: #999">APlayer</a> <a href="/tags/Aria2/" style="font-size: 16px; color: #999">Aria2</a> <a href="/tags/Chrome/" style="font-size: 16px; color: #999">Chrome</a> <a href="/tags/Linux/" style="font-size: 24px; color: #99a9bf">Linux</a> <a href="/tags/NodeJs/" style="font-size: 16px; color: #999">NodeJs</a> <a href="/tags/WebUI/" style="font-size: 16px; color: #999">WebUI</a> <a href="/tags/addThis/" style="font-size: 16px; color: #999">addThis</a> <a href="/tags/aria2/" style="font-size: 20px; color: #99a1ac">aria2</a> <a href="/tags/bat/" style="font-size: 16px; color: #999">bat</a> <a href="/tags/ip/" style="font-size: 16px; color: #999">ip</a> <a href="/tags/jsvascript/" style="font-size: 20px; color: #99a1ac">jsvascript</a> <a href="/tags/key/" style="font-size: 16px; color: #999">key</a> <a href="/tags/live2d/" style="font-size: 16px; color: #999">live2d</a> <a href="/tags/ownCloud/" style="font-size: 16px; color: #999">ownCloud</a> <a href="/tags/steam/" style="font-size: 16px; color: #999">steam</a> <a href="/tags/steam%E6%BF%80%E6%B4%BB%E7%A0%81/" style="font-size: 16px; color: #999">steam激活码</a> <a href="/tags/webui/" style="font-size: 16px; color: #999">webui</a> <a href="/tags/%E4%B8%80%E8%A8%80/" style="font-size: 16px; color: #999">一言</a> <a href="/tags/%E4%B8%8B%E8%BD%BD%E8%BD%AF%E4%BB%B6/" style="font-size: 20px; color: #99a1ac">下载软件</a> <a href="/tags/%E5%88%86%E4%BA%AB/" style="font-size: 16px; color: #999">分享</a> <a href="/tags/%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2/" style="font-size: 16px; color: #999">图形界面</a> <a href="/tags/%E5%9B%BE%E7%89%87%E7%AD%BE%E5%90%8D%E6%A1%A3/" style="font-size: 16px; color: #999">图片签名档</a> <a href="/tags/%E5%A4%A9%E6%B0%94/" style="font-size: 16px; color: #999">天气</a> <a href="/tags/%E6%8F%92%E4%BB%B6/" style="font-size: 16px; color: #999">插件</a> <a href="/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/" style="font-size: 16px; color: #999">浏览器</a> <a href="/tags/%E7%9C%8B%E6%9D%BF%E5%A8%98/" style="font-size: 16px; color: #999">看板娘</a> <a href="/tags/%E7%A1%AC%E7%9B%98/" style="font-size: 16px; color: #999">硬盘</a> <a href="/tags/%E7%A4%BE%E4%BA%A4/" style="font-size: 16px; color: #999">社交</a> <a href="/tags/%E7%AD%BE%E5%90%8D%E6%A1%A3/" style="font-size: 16px; color: #999">签名档</a> <a href="/tags/%E7%BD%91%E9%A1%B5/" style="font-size: 16px; color: #999">网页</a> <a href="/tags/%E7%BD%91%E9%A1%B5%E7%89%B9%E6%95%88/" style="font-size: 16px; color: #999">网页特效</a> <a href="/tags/%E8%84%9A%E6%9C%AC/" style="font-size: 16px; color: #999">脚本</a> <a href="/tags/%E8%87%AA%E5%8A%A8%E4%BB%BB%E5%8A%A1/" style="font-size: 16px; color: #999">自动任务</a> <a href="/tags/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/" style="font-size: 16px; color: #999">音乐播放器</a> <a href="/tags/%E9%BC%A0%E6%A0%87%E7%89%B9%E6%95%88/" style="font-size: 16px; color: #999">鼠标特效</a></div></div></div><div class="card-widget card-archives"><div class="card-content"><div class="item-headline"><i class="fa fa-archive" aria-hidden="true"></i><span>归档</span></div><ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/02/"><span class="archive-list-date">2020年02月</span><span class="archive-list-count">3</span></a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/11/"><span class="archive-list-date">2019年11月</span><span class="archive-list-count">2</span></a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/10/"><span class="archive-list-date">2019年10月</span><span class="archive-list-count">2</span></a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/09/"><span class="archive-list-date">2019年09月</span><span class="archive-list-count">2</span></a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/08/"><span class="archive-list-date">2019年08月</span><span class="archive-list-count">9</span></a></li></ul></div></div><div class="card-widget card-webinfo"><div class="card-content"><div class="item-headline"><i class="fa fa-line-chart" aria-hidden="true"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="webinfo-article-name">文章数目 :</div><div class="webinfo-article-count">18</div></div><div class="webinfo-item"><div class="webinfo-runtime-name">已运行时间 :</div><div class="webinfo-runtime-count" id="webinfo-runtime-count" start_date="10/1/2019 00:00:00">     </div></div><div class="webinfo-item">      <div class="webinfo-site-uv-name">本站访客数 :</div><div class="webinfo-site-uv-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="webinfo-site-name">本站总访问量 :</div><div class="webinfo-site-pv-count" id="busuanzi_value_site_pv"></div></div></div></div></div></div></div></main><footer id="footer" style="background-image: url(https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/tag.png)" data-type="photo"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2020 By HCLonely</div><div class="framework-info"><span>驱动 </span><a href="http://hexo.io" target="_blank" rel="noopener"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 </span><a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank" rel="noopener"><span>Butterfly</span></a></div></div></footer></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><a class="translate_chn_to_cht" id="translateLink" href="javascript:translatePage();" title="简繁转换" target="_self">繁</a><i class="darkmode fa fa-moon-o" id="darkmode" title="夜间模式"></i></div><div id="rightside-config-show"><div id="rightside_config" title="设置"><i class="fa fa-cog" aria-hidden="true"></i></div><i class="fa fa-arrow-up" id="go-up" title="回到顶部" aria-hidden="true"></i></div></section><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.min.js"></script><script src="https://cdn.hclonely.com/live2d/autoloadButterfly.js"></script><script src="https://lib.baomitu.com/layer/2.3/layer.js"></script><script src="https://cdn.hclonely.com/hclonely.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script id="ribbon_piao" mobile="false" src="https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/js/piao.js"></script><script id="canvas_nest" color="0,0,255" opacity="0.7" zIndex="-1" count="99" mobile="false" src="https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/js/canvas-nest.js"></script><script src="https://cdn.jsdelivr.net/npm/activate-power-mode/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true; 
+document.body.addEventListener('input', POWERMODE);
+</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@latest/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@latest/lazysizes.min.js" async=""></script><script src="https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/js/ClickShowText.js"></script><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章"></div></div></div><hr><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a href="https://github.com/wzpan/hexo-generator-search" target="_blank" rel="noopener" style="color:#49B1F5;">hexo-generator-search</a>
+ <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fa fa-times"></i></span></div><div class="search-mask"></div></body></html>
