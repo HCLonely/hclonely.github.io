@@ -2,9 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.hclonely.com/categories/index.html</loc>
+    
+    <lastmod>2020-02-05T14:27:21.895Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.hclonely.com/tags/index.html</loc>
+    
+    <lastmod>2020-02-05T14:26:59.647Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.hclonely.com/link/index.html</loc>
     
-    <lastmod>2020-02-05T13:24:51.601Z</lastmod>
+    <lastmod>2020-02-05T14:26:40.685Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.hclonely.com/music/index.html</loc>
+    
+    <lastmod>2020-02-05T14:14:35.799Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.hclonely.com/movies/index.html</loc>
+    
+    <lastmod>2020-02-05T14:14:22.553Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.hclonely.com/posts/a3dcda7b/</loc>
+    
+    <lastmod>2020-02-05T13:56:35.937Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.hclonely.com/posts/a6b0234c/</loc>
+    
+    <lastmod>2020-02-05T13:53:14.845Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.hclonely.com/posts/777c60d5/</loc>
+    
+    <lastmod>2020-02-05T13:53:05.176Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.hclonely.com/posts/70c32a14/</loc>
+    
+    <lastmod>2020-02-05T13:52:09.694Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.hclonely.com/posts/5579cd4b/</loc>
+    
+    <lastmod>2020-02-05T13:51:21.697Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.hclonely.com/posts/b9ab9265/</loc>
+    
+    <lastmod>2020-02-05T13:50:47.304Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.hclonely.com/posts/e1f9f17c/</loc>
+    
+    <lastmod>2020-02-05T13:49:34.417Z</lastmod>
     
   </url>
   
@@ -23,20 +100,6 @@
   </url>
   
   <url>
-    <loc>https://blog.hclonely.com/posts/b9ab9265/</loc>
-    
-    <lastmod>2020-02-05T11:27:26.314Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.hclonely.com/posts/5579cd4b/</loc>
-    
-    <lastmod>2020-02-05T11:27:26.296Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.hclonely.com/posts/c733a53b/</loc>
     
     <lastmod>2020-02-05T11:27:26.291Z</lastmod>
@@ -51,13 +114,6 @@
   </url>
   
   <url>
-    <loc>https://blog.hclonely.com/posts/e1f9f17c/</loc>
-    
-    <lastmod>2020-02-05T11:15:17.994Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.hclonely.com/posts/d92292e2/</loc>
     
     <lastmod>2020-02-05T11:15:17.890Z</lastmod>
@@ -68,13 +124,6 @@
     <loc>https://blog.hclonely.com/posts/8f55ce4c/</loc>
     
     <lastmod>2020-02-05T11:15:17.879Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.hclonely.com/posts/a6b0234c/</loc>
-    
-    <lastmod>2020-02-05T11:15:17.874Z</lastmod>
     
   </url>
   
@@ -96,27 +145,6 @@
     <loc>https://blog.hclonely.com/posts/3562b7af/</loc>
     
     <lastmod>2020-02-05T11:15:17.866Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.hclonely.com/posts/a3dcda7b/</loc>
-    
-    <lastmod>2020-02-05T11:15:17.840Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.hclonely.com/posts/777c60d5/</loc>
-    
-    <lastmod>2020-02-05T11:15:17.820Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.hclonely.com/posts/70c32a14/</loc>
-    
-    <lastmod>2020-02-05T11:15:17.807Z</lastmod>
     
   </url>
   
@@ -149,44 +177,9 @@
   </url>
   
   <url>
-    <loc>https://blog.hclonely.com/movies/index.html</loc>
-    
-    <lastmod>2020-02-05T08:09:08.513Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.hclonely.com/Gallery/index.html</loc>
     
     <lastmod>2020-02-05T08:08:34.991Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.hclonely.com/music/index.html</loc>
-    
-    <lastmod>2020-02-05T08:08:08.385Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.hclonely.com/rss/index.html</loc>
-    
-    <lastmod>2020-02-04T10:01:47.788Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.hclonely.com/tags/index.html</loc>
-    
-    <lastmod>2020-02-04T07:16:22.313Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.hclonely.com/categories/index.html</loc>
-    
-    <lastmod>2020-02-04T07:16:11.560Z</lastmod>
     
   </url>
   
