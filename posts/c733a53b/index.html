@@ -119,14 +119,14 @@ ga('send', 'pageview');
 <p>创建数据库并记住数<code>据库名</code>,<code>用户名</code>,<code>密码</code>。</p>
 <h2 id="配置数据库及管理员帐号"><a class="markdownIt-Anchor" href="#配置数据库及管理员帐号"></a> 配置数据库及管理员帐号</h2>
 <p>访问你的网站(ip或域名)看到如下内容(报错请给根目录&quot;775&quot;或&quot;777&quot;权限):</p>
-<p><a href="https://img.hclonely.com/blog/2019/10/006brDXlly1g7ldu7hya4j31460l0hcf.jpg" target="_blank" rel="noopener" data-fancybox="group" data-caption="初次访问" class="fancybox"><img alt="初次访问" data-src="https://img.hclonely.com/blog/2019/10/006brDXlly1g7ldu7hya4j31460l0hcf.jpg" class="lazyload" title="初次访问"></a></p>
+<p><a href="https://img.hclonely.com/blog/2019/10/006brDXlly1g7ldu7hya4j31460l0hcf.jpg" target="_blank" rel="noopener" data-fancybox="group" data-caption="初次访问" class="fancybox"><img alt="初次访问" title="初次访问" data-src="https://img.hclonely.com/blog/2019/10/006brDXlly1g7ldu7hya4j31460l0hcf.jpg" class="lazyload"></a></p>
 <ul>
 <li>输入管理员帐号密码(需要记住)</li>
 <li>数据目录可不修改</li>
 <li>数据库选择<em>MySQL/MariaDB</em>并输入数据库名、帐号、密码、主机名及端口号(默认localhost:3306)</li>
 </ul>
 <p>填完上述内容后点击安装完成可看到如下内容:</p>
-<p><a href="https://img.hclonely.com/blog/2019/10/006brDXlly1g7ldzu1721j31460l01kx.jpg" target="_blank" rel="noopener" data-fancybox="group" data-caption="登录" class="fancybox"><img alt="登录" data-src="https://img.hclonely.com/blog/2019/10/006brDXlly1g7ldzu1721j31460l01kx.jpg" class="lazyload" title="登录"></a></p>
+<p><a href="https://img.hclonely.com/blog/2019/10/006brDXlly1g7ldzu1721j31460l01kx.jpg" target="_blank" rel="noopener" data-fancybox="group" data-caption="登录" class="fancybox"><img alt="登录" title="登录" data-src="https://img.hclonely.com/blog/2019/10/006brDXlly1g7ldzu1721j31460l01kx.jpg" class="lazyload"></a></p>
 <p>输入之前输入的<strong>管理员帐号密码</strong>登录即可。</p>
 <h2 id="安全及设置警告"><a class="markdownIt-Anchor" href="#安全及设置警告"></a> 安全及设置警告</h2>
 <h3 id="1php-似乎没有设置好查询的系统环境变量-用-getenvpath-测试只返回一个空值-请检查-php-配置说明和服务器的-php-配置-安装文档-使用-php-fpm-时尤其注意"><a class="markdownIt-Anchor" href="#1php-似乎没有设置好查询的系统环境变量-用-getenvpath-测试只返回一个空值-请检查-php-配置说明和服务器的-php-配置-安装文档-使用-php-fpm-时尤其注意"></a> 1.PHP 似乎没有设置好查询的系统环境变量。 用 getenv(“PATH”) 测试只返回一个空值。请检查 PHP 配置说明和服务器的 PHP 配置 安装文档 ↗，使用 PHP-FPM 时尤其注意。</h3>
@@ -146,7 +146,7 @@ ga('send', 'pageview');
 <li>脚本内容:<code>sudo -u www /www/server/php/72/bin/php -f .../owncloud/cron.php</code><strong>(&quot;…&quot;要根据自己的实际情况修改)</strong></li>
 </ul>
 <p>设置中计划任务改为<code>Cron</code></p>
-<p><a href="https://img.hclonely.com/blog/2019/10/006brDXlly1g7lf0g13exj31460l00us.jpg" target="_blank" rel="noopener" data-fancybox="group" data-caption="计划任务" class="fancybox"><img alt="计划任务" data-src="https://img.hclonely.com/blog/2019/10/006brDXlly1g7lf0g13exj31460l00us.jpg" class="lazyload" title="计划任务"></a></p>
+<p><a href="https://img.hclonely.com/blog/2019/10/006brDXlly1g7lf0g13exj31460l00us.jpg" target="_blank" rel="noopener" data-fancybox="group" data-caption="计划任务" class="fancybox"><img alt="计划任务" title="计划任务" data-src="https://img.hclonely.com/blog/2019/10/006brDXlly1g7lf0g13exj31460l00us.jpg" class="lazyload"></a></p>
 <h3 id="4您正在通过-http-访问该站点我们强烈建议您按照安全提示配置服务器强制使用-https"><a class="markdownIt-Anchor" href="#4您正在通过-http-访问该站点我们强烈建议您按照安全提示配置服务器强制使用-https"></a> 4.您正在通过 HTTP 访问该站点，我们强烈建议您按照安全提示配置服务器强制使用 HTTPS。</h3>
 <p>给网站配置SSL证书，启用HTTPS即可。</p>
 <h3 id="5http-严格传输安全strict-transport-security报头未配置到至少15552000秒-处于增强安全性考虑我们推荐按照安全提示启用-hsts"><a class="markdownIt-Anchor" href="#5http-严格传输安全strict-transport-security报头未配置到至少15552000秒-处于增强安全性考虑我们推荐按照安全提示启用-hsts"></a> 5.HTTP 严格传输安全（Strict-Transport-Security）报头未配置到至少“15552000”秒。处于增强安全性考虑，我们推荐按照安全提示启用 HSTS。</h3>
@@ -165,7 +165,7 @@ ga('send', 'pageview');
 <li>在<code>设置 &gt; 个人 &gt; 常规</code>中设置好管理员邮箱地址并保存</li>
 <li>按下图配置好<strong>电子邮件服务器</strong>(以QQ邮箱为例，<strong>不要和上面使用同一个邮箱</strong>)<a href="https://www.baidu.com/s?ie=utf-8&amp;f=3&amp;rsv_bp=1&amp;ch=&amp;tn=baidu&amp;bar=&amp;wd=qq%E9%82%AE%E7%AE%B1smtp%E8%AE%BE%E7%BD%AE&amp;oq=smtp%25E8%25AE%25BE%25E7%25BD%25AE&amp;rsv_pq=9a0979000000eac7&amp;rsv_t=f83a3KFhWkpW6TId%2FD2Iw5tyFH5uV0QQiVmc%2FNTC0kVZ3KZoC%2BSrhsjUJsY&amp;rqlang=cn&amp;rsv_enter=1&amp;prefixsug=smtp%25E8%25AE%25BE%25E7%25BD%25AE&amp;rsp=2&amp;rsv_dl=ts_2" target="_blank" rel="noopener">如何配置？</a></li>
 </ul>
-<p><a href="https://img.hclonely.com/blog/2019/10/006brDXlly1g7lz7j7bk5j31460l0766.jpg" target="_blank" rel="noopener" data-fancybox="group" data-caption="邮箱配置" class="fancybox"><img alt="邮箱配置" data-src="https://img.hclonely.com/blog/2019/10/006brDXlly1g7lz7j7bk5j31460l0766.jpg" class="lazyload" title="邮箱配置"></a></p>
+<p><a href="https://img.hclonely.com/blog/2019/10/006brDXlly1g7lz7j7bk5j31460l0766.jpg" target="_blank" rel="noopener" data-fancybox="group" data-caption="邮箱配置" class="fancybox"><img alt="邮箱配置" title="邮箱配置" data-src="https://img.hclonely.com/blog/2019/10/006brDXlly1g7lz7j7bk5j31460l0766.jpg" class="lazyload"></a></p>
 <ul>
 <li>配置完成后点击下面的***发送邮件***发送测试邮件，如果之前设置的管理员邮箱可以收到测试邮件说明配置成功。</li>
 </ul>
