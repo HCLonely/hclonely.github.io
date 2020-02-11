@@ -3403,12 +3403,12 @@ header {
 #top-container > #post-info #post-meta .post-meta-pv-cv {
   display: inline-block;
 }
-#post-content h1,
-#post-content h2,
-#post-content h3,
-#post-content h4,
-#post-content h5,
-#post-content h6 {
+.article-container h1,
+.article-container h2,
+.article-container h3,
+.article-container h4,
+.article-container h5,
+.article-container h6 {
   cursor: pointer;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -3416,12 +3416,12 @@ header {
   -ms-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-#post-content h1:before,
-#post-content h2:before,
-#post-content h3:before,
-#post-content h4:before,
-#post-content h5:before,
-#post-content h6:before {
+.article-container h1:before,
+.article-container h2:before,
+.article-container h3:before,
+.article-container h4:before,
+.article-container h5:before,
+.article-container h6:before {
   position: absolute;
   top: calc(50% - 0.35rem);
   left: 0;
@@ -3435,133 +3435,133 @@ header {
   -ms-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-#post-content h1:hover,
-#post-content h2:hover,
-#post-content h3:hover,
-#post-content h4:hover,
-#post-content h5:hover,
-#post-content h6:hover {
+.article-container h1:hover,
+.article-container h2:hover,
+.article-container h3:hover,
+.article-container h4:hover,
+.article-container h5:hover,
+.article-container h6:hover {
   padding-left: 1.1rem;
 }
-#post-content h1:hover:before,
-#post-content h2:hover:before,
-#post-content h3:hover:before,
-#post-content h4:hover:before,
-#post-content h5:hover:before,
-#post-content h6:hover:before {
+.article-container h1:hover:before,
+.article-container h2:hover:before,
+.article-container h3:hover:before,
+.article-container h4:hover:before,
+.article-container h5:hover:before,
+.article-container h6:hover:before {
   color: #49b1f5;
 }
-#post-content h1 {
+.article-container h1 {
   padding-left: 1.3rem;
 }
-#post-content h1 code {
+.article-container h1 code {
   font-size: 1rem;
 }
-#post-content h1:before {
+.article-container h1:before {
   top: calc(50% - unit(fontsize / 2 - 0.05, 'rem'));
   font-size: 1rem;
 }
-#post-content h1:hover {
+.article-container h1:hover {
   padding-left: 1.2rem;
 }
-#post-content h2 {
+.article-container h2 {
   padding-left: 1.2rem;
 }
-#post-content h2 code {
+.article-container h2 code {
   font-size: 0.9rem;
 }
-#post-content h2:before {
+.article-container h2:before {
   top: calc(50% - unit(fontsize / 2 - 0.05, 'rem'));
   font-size: 0.9rem;
 }
-#post-content h2:hover {
+.article-container h2:hover {
   padding-left: 1.1rem;
 }
-#post-content h3 {
+.article-container h3 {
   padding-left: 1.1rem;
 }
-#post-content h3 code {
+.article-container h3 code {
   font-size: 0.8rem;
 }
-#post-content h3:before {
+.article-container h3:before {
   top: calc(50% - unit(fontsize / 2 - 0.05, 'rem'));
   font-size: 0.8rem;
 }
-#post-content h3:hover {
+.article-container h3:hover {
   padding-left: 1rem;
 }
-#post-content h4 {
+.article-container h4 {
   padding-left: 1rem;
 }
-#post-content h4 code {
+.article-container h4 code {
   font-size: 0.7rem;
 }
-#post-content h4:before {
+.article-container h4:before {
   top: calc(50% - unit(fontsize / 2 - 0.05, 'rem'));
   font-size: 0.7rem;
 }
-#post-content h4:hover {
+.article-container h4:hover {
   padding-left: 0.9rem;
 }
-#post-content h5 {
+.article-container h5 {
   padding-left: 0.9rem;
 }
-#post-content h5 code {
+.article-container h5 code {
   font-size: 0.6rem;
 }
-#post-content h5:before {
+.article-container h5:before {
   top: calc(50% - unit(fontsize / 2 - 0.05, 'rem'));
   font-size: 0.6rem;
 }
-#post-content h5:hover {
+.article-container h5:hover {
   padding-left: 0.8rem;
 }
-#post-content h6 {
+.article-container h6 {
   padding-left: 0.9rem;
 }
-#post-content h6 code {
+.article-container h6 code {
   font-size: 0.6rem;
 }
-#post-content h6:before {
+.article-container h6:before {
   top: calc(50% - unit(fontsize / 2 - 0.05, 'rem'));
   font-size: 0.6rem;
 }
-#post-content h6:hover {
+.article-container h6:hover {
   padding-left: 0.8rem;
 }
-#post-content ol,
-#post-content ul {
+.article-container ol,
+.article-container ul {
   margin-top: 0.4rem;
   padding: 0 0 0 0.8rem;
   list-style: none;
   counter-reset: li;
 }
-#post-content ol p,
-#post-content ul p {
+.article-container ol p,
+.article-container ul p {
   margin: 0 0 0.5rem;
 }
-#post-content ol ol,
-#post-content ul ol,
-#post-content ol ul,
-#post-content ul ul {
+.article-container ol ol,
+.article-container ul ol,
+.article-container ol ul,
+.article-container ul ul {
   padding-left: 0.5rem;
 }
-#post-content ol li,
-#post-content ul li {
+.article-container ol li,
+.article-container ul li {
   position: relative;
   margin: 0.2rem 0;
   padding: 0.1rem 0.5rem 0.1rem 1.5rem;
 }
-#post-content ol li:hover:before,
-#post-content ul li:hover:before {
+.article-container ol li:hover:before,
+.article-container ul li:hover:before {
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
   -o-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
   transform: rotate(360deg);
 }
-#post-content ol li:before,
-#post-content ul li:before {
+.article-container ol li:before,
+.article-container ul li:before {
   position: absolute;
   top: 0;
   left: 0;
@@ -3574,7 +3574,7 @@ header {
   -ms-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
-#post-content ol > li:before {
+.article-container ol > li:before {
   margin-top: 0.2rem;
   width: 1.2rem;
   height: 1.2rem;
@@ -3585,10 +3585,10 @@ header {
   font-size: 0.6rem;
   line-height: 1.2rem;
 }
-#post-content ul > li:hover:before {
+.article-container ul > li:hover:before {
   border-color: #ff7242;
 }
-#post-content ul > li:before {
+.article-container ul > li:before {
   top: 10px;
   margin-left: 0.45rem;
   width: 0.3rem;
@@ -3867,6 +3867,22 @@ img {
   #top-container > #post-info > #post-meta .post-meta-pv-cv .post-meta__separator:first-child {
     display: none;
   }
+}
+.post-qrcode {
+  display: inline-block;
+}
+.post-qrcode-img {
+  float: right;
+  position: absolute;
+  bottom: 30%;
+  background: #fff;
+  width: 140px;
+  height: 140px;
+  display: none;
+}
+#post-img {
+  margin: 7px;
+  width: 90%;
 }
 .read-mode {
   padding: 0 !important;
