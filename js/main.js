@@ -627,19 +627,21 @@ $(function () {
   if (typeof autoChangeMode !== 'undefined') {
     if (autoChangeMode === '1' || autoChangeMode === '2') {
       if (Cookies.get('theme') === 'dark') {
+        loadModel(105,1)
         changeLightIcon()
       } else {
+        loadModel(131,1)
         changeDarkIcon()
       }
     }
   }
 
   function changeLightIcon () {
-    $('#darkmode').removeClass('fa-moon-o').addClass('fa-sun-o')
+    $('#darkmode').removeClass('fa-moon').addClass('fa-sun')
   }
 
   function changeDarkIcon () {
-    $('#darkmode').removeClass('fa-sun-o').addClass('fa-moon-o')
+    $('#darkmode').removeClass('fa-sun').addClass('fa-moon')
   }
 
   function switchReadMode () {

@@ -79,7 +79,7 @@
       
       <categories>
           
-          <category> JsvaScript </category>
+          <category> JavaScript </category>
           
           <category> Tampermonkey脚本 </category>
           
@@ -88,9 +88,9 @@
       
         <tags>
             
-            <tag> 脚本 </tag>
-            
             <tag> steam </tag>
+            
+            <tag> 脚本 </tag>
             
         </tags>
       
@@ -103,23 +103,9 @@
       <link href="/posts/6a28b89f/"/>
       <url>/posts/6a28b89f/</url>
       
-        <content type="html"><![CDATA[<html><head></head><body><h2 id="功能"><a class="markdownIt-Anchor" href="#功能"></a> 功能</h2><ul><li><a href="https://www.keyjoker.com" target="_blank" rel="noopener">keyjoker</a>网站有新任务时通过Windows通知提醒，需要<a href="https://www.keyjoker.com/entries" target="_blank" rel="noopener">keyjoker任务页面</a>一直开着。</li></ul><h2 id="脚本链接"><a class="markdownIt-Anchor" href="#脚本链接"></a> 脚本链接</h2><ul><li><a href="https://js.hclonely.com/keyjoker%E6%96%B0%E4%BB%BB%E5%8A%A1%E6%A3%80%E6%B5%8B.user.js" target="_blank" rel="noopener">点此安装</a></li><li><a href="https://greasyfork.org/zh-CN/scripts/383411" target="_blank" rel="noopener">GreasyFork</a></li></ul><h2 id="使用方法"><a class="markdownIt-Anchor" href="#使用方法"></a> 使用方法</h2><ol><li>打开<a href="https://www.keyjoker.com/entries" target="_blank" rel="noopener">任务页面</a>；</li><li>安装好脚本后点击Tampermonkey插件图标；<br><a href="https://img.hclonely.com/blog/2019/10/pglokR.png" data-fancybox="group" data-caption="设置菜单" class="fancybox"><img alt="设置菜单" data-src="https://img.hclonely.com/blog/2019/10/pglokR.png" class="lazyload" title="设置菜单"></a></li><li>点击“设置时间间隔”可以自定义获取新任务的时间间隔，默认60秒，建议不要太快；<br><a href="https://img.hclonely.com/blog/2019/10/Gvz7jn.png" data-fancybox="group" data-caption="设置时间间隔" class="fancybox"><img alt="设置时间间隔" data-src="https://img.hclonely.com/blog/2019/10/Gvz7jn.png" class="lazyload" title="设置时间间隔"></a></li><li>点击“开始检测”就会自动检测（任务页面不能关闭，可以浏览其他页面），显示这个就说明脚本开始运行了。<br><a href="https://img.hclonely.com/blog/2019/10/BhO2zU.png" data-fancybox="group" data-caption="运行示例" class="fancybox"><img alt="运行示例" data-src="https://img.hclonely.com/blog/2019/10/BhO2zU.png" class="lazyload" title="运行示例"></a></li><li><span style="color: #ff0000;">点击停止检测才会停止检测，否则刷新页面后也会自动检测！</span></li></ol></body></html>]]></content>
+        <content type="html"><![CDATA[<html><head></head><body></body></html>]]></content>
       
       
-      <categories>
-          
-          <category> JsvaScript </category>
-          
-          <category> Tampermonkey脚本 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 脚本 </tag>
-            
-        </tags>
       
     </entry>
     
@@ -135,7 +121,7 @@
       
       <categories>
           
-          <category> JsvaScript </category>
+          <category> JavaScript </category>
           
           <category> Tampermonkey脚本 </category>
           
@@ -162,7 +148,7 @@
       
       <categories>
           
-          <category> JsvaScript </category>
+          <category> JavaScript </category>
           
           <category> Tampermonkey脚本 </category>
           
@@ -193,7 +179,7 @@
       
       <categories>
           
-          <category> JsvaScript </category>
+          <category> JavaScript </category>
           
           <category> Tampermonkey脚本 </category>
           
@@ -202,9 +188,9 @@
       
         <tags>
             
-            <tag> 脚本 </tag>
-            
             <tag> steam </tag>
+            
+            <tag> 脚本 </tag>
             
             <tag> key </tag>
             
@@ -226,7 +212,7 @@
       
       <categories>
           
-          <category> JsvaScript </category>
+          <category> JavaScript </category>
           
           <category> Tampermonkey脚本 </category>
           
@@ -235,9 +221,9 @@
       
         <tags>
             
-            <tag> 脚本 </tag>
-            
             <tag> steam </tag>
+            
+            <tag> 脚本 </tag>
             
             <tag> key </tag>
             
@@ -313,14 +299,14 @@
       
       <categories>
           
-          <category> JsvaScript </category>
+          <category> JavaScript </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> JsvaScript </tag>
+            <tag> JavaScript </tag>
             
         </tags>
       
@@ -338,7 +324,7 @@
       
       <categories>
           
-          <category> JsvaScript </category>
+          <category> JavaScript </category>
           
           <category> NodeJs </category>
           
@@ -349,7 +335,7 @@
             
             <tag> NodeJs </tag>
             
-            <tag> jsvascript </tag>
+            <tag> javascript </tag>
             
         </tags>
       
@@ -453,11 +439,11 @@
       
         <tags>
             
-            <tag> Linux </tag>
-            
             <tag> aria2 </tag>
             
             <tag> 下载软件 </tag>
+            
+            <tag> Linux </tag>
             
         </tags>
       
@@ -486,9 +472,9 @@
             
             <tag> aria2 </tag>
             
-            <tag> 下载软件 </tag>
-            
             <tag> webui </tag>
+            
+            <tag> 下载软件 </tag>
             
         </tags>
       
