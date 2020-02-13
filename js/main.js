@@ -627,20 +627,20 @@ $(function () {
   if (typeof autoChangeMode !== 'undefined') {
     if (autoChangeMode === '1' || autoChangeMode === '2') {
       if (Cookies.get('theme') === 'dark') {
-        loadModel(105,1)
         changeLightIcon()
       } else {
-        loadModel(131,1)
         changeDarkIcon()
       }
     }
   }
 
   function changeLightIcon () {
+    try{loadModel(105,1)}catch(e){}
     $('#darkmode').removeClass('fa-moon').addClass('fa-sun')
   }
 
   function changeDarkIcon () {
+    try { loadModel(131, 1) } catch (e) { }
     $('#darkmode').removeClass('fa-sun').addClass('fa-moon')
   }
 
