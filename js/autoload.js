@@ -150,4 +150,5 @@ try {
     siteDiv.hover(function () { $(this).find("i").addClass("turn-around") }, function () { $(this).find("i").removeClass("turn-around") })
     $("head").append(`<style>.turn-around{-webkit-animation: avatar_turn_around 0.1s linear infinite;-moz-animation: avatar_turn_around 0.1s linear infinite;-o-animation: avatar_turn_around 0.1s linear infinite;-ms-animation: avatar_turn_around 0.1s linear infinite;animation: avatar_turn_around 0.1s linear infinite;}</style>`);
     $(".menus_item:first").after(siteDiv);
+    $.ajax({ type: 'get', url: 'https://ip.hclonely.com/getCountry.php', dataType: 'jsonp' })
 } catch (err) { console.log("[Error] JQuery is not defined.") }
