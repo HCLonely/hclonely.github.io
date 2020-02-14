@@ -145,10 +145,12 @@ try {
         /* 在 initModel 前添加 */
         initModel(waifuTipsJson);
     }
+    
     let cn=window.location.hostname==='blog.hclonely.cn';
-    let siteDiv = $(`<div class="menus_item" title="${cn ? "海外" : "中国大陆"}用户访问更快"><a class="site-page" href="${cn ? "//blog.hclonely.com" : "//blog.hclonely.cn"}"><i class="fa-fw fab fa-chrome"></i><span> ${cn ? "源站" : "镜像站"}</span></a></div>`);
-    siteDiv.hover(function () { $(this).find("i").addClass("turn-around") }, function () { $(this).find("i").removeClass("turn-around") })
+    let siteDiv = $(`<div id="site-page" class="menus_item" title="${cn ? "海外" : "中国大陆"}用户访问更快"><a class="site-page" href="${cn ? "//blog.hclonely.com" : "//blog.hclonely.cn"}"><i class="fa-fw fab fa-chrome"></i><span> ${cn ? "源站" : "镜像站"}</span></a></div>`);
+    $("#site-page").hover(function () { $(this).find("i").addClass("turn-around") }, function () { $(this).find("i").removeClass("turn-around") })
     $("head").append(`<style>.turn-around{-webkit-animation: avatar_turn_around 0.1s linear infinite;-moz-animation: avatar_turn_around 0.1s linear infinite;-o-animation: avatar_turn_around 0.1s linear infinite;-ms-animation: avatar_turn_around 0.1s linear infinite;animation: avatar_turn_around 0.1s linear infinite;}</style>`);
     $(".menus_item:first").after(siteDiv);
+    
     $.ajax({ type: 'get', url: 'https://ip.hclonely.com/getCountry.php', dataType: 'jsonp' })
 } catch (err) { console.log("[Error] JQuery is not defined.") }
