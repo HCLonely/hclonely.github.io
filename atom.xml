@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.hclonely.com/"/>
-  <updated>2020-02-13T06:38:34.527Z</updated>
+  <updated>2020-02-15T08:27:05.673Z</updated>
   <id>https://blog.hclonely.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>NodeJs实用模块</title>
+    <link href="https://blog.hclonely.com/posts/2413eaa8/"/>
+    <id>https://blog.hclonely.com/posts/2413eaa8/</id>
+    <published>2020-02-15T06:15:28.000Z</published>
+    <updated>2020-02-15T08:27:05.673Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+&lt;p&gt;为了避免每次找模块时都要百度，这里记一下我比较常用的模块及其简单的使用。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;cheerio&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hexo Steam游戏库页面插件</title>
@@ -617,38 +643,6 @@
     
     
       <category term="鼠标特效" scheme="https://blog.hclonely.com/tags/%E9%BC%A0%E6%A0%87%E7%89%B9%E6%95%88/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>为网页添加一个社交分享插件</title>
-    <link href="https://blog.hclonely.com/posts/9522d51b/"/>
-    <id>https://blog.hclonely.com/posts/9522d51b/</id>
-    <published>2019-08-14T12:51:36.000Z</published>
-    <updated>2020-02-13T08:02:06.870Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;strong&gt;本篇文章教大家如何给自己的网页添加一个如页面底部和左下的社交分享插件。&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&quot;使用说明&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="网页制作" scheme="https://blog.hclonely.com/categories/%E7%BD%91%E9%A1%B5%E5%88%B6%E4%BD%9C/"/>
-    
-    
-      <category term="addThis" scheme="https://blog.hclonely.com/tags/addThis/"/>
-    
-      <category term="分享" scheme="https://blog.hclonely.com/tags/%E5%88%86%E4%BA%AB/"/>
-    
-      <category term="社交" scheme="https://blog.hclonely.com/tags/%E7%A4%BE%E4%BA%A4/"/>
     
   </entry>
   
