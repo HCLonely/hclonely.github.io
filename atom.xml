@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.hclonely.com/"/>
-  <updated>2020-02-15T12:34:54.601Z</updated>
+  <updated>2020-02-17T14:44:45.440Z</updated>
   <id>https://blog.hclonely.com/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>NodeJs实用模块</title>
     <link href="https://blog.hclonely.com/posts/2413eaa8/"/>
     <id>https://blog.hclonely.com/posts/2413eaa8/</id>
-    <published>2020-02-15T06:15:28.000Z</published>
-    <updated>2020-02-15T12:34:54.601Z</updated>
+    <published>2020-02-15T06:15:00.000Z</published>
+    <updated>2020-02-17T14:44:45.440Z</updated>
     
     <summary type="html">
     
@@ -39,6 +39,16 @@
     </summary>
     
     
+      <category term="JavaScript" scheme="https://blog.hclonely.com/categories/JavaScript/"/>
+    
+      <category term="NodeJs" scheme="https://blog.hclonely.com/categories/JavaScript/NodeJs/"/>
+    
+    
+      <category term="JavaScript" scheme="https://blog.hclonely.com/tags/JavaScript/"/>
+    
+      <category term="NodeJs" scheme="https://blog.hclonely.com/tags/NodeJs/"/>
+    
+      <category term="module" scheme="https://blog.hclonely.com/tags/module/"/>
     
   </entry>
   
@@ -376,7 +386,7 @@
     <link href="https://blog.hclonely.com/posts/a3dcda7b/"/>
     <id>https://blog.hclonely.com/posts/a3dcda7b/</id>
     <published>2019-11-09T13:59:05.000Z</published>
-    <updated>2020-02-13T06:38:34.504Z</updated>
+    <updated>2020-02-17T14:44:54.734Z</updated>
     
     <summary type="html">
     
@@ -397,9 +407,9 @@
       <category term="NodeJs" scheme="https://blog.hclonely.com/categories/JavaScript/NodeJs/"/>
     
     
-      <category term="NodeJs" scheme="https://blog.hclonely.com/tags/NodeJs/"/>
+      <category term="JavaScript" scheme="https://blog.hclonely.com/tags/JavaScript/"/>
     
-      <category term="javascript" scheme="https://blog.hclonely.com/tags/javascript/"/>
+      <category term="NodeJs" scheme="https://blog.hclonely.com/tags/NodeJs/"/>
     
   </entry>
   
