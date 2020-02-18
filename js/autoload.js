@@ -155,7 +155,11 @@ try {
 
     $(document).ready(function () {
         $('#calendar').aCalendar('zh-CN');
-        $.ajax({ type: 'get', url: 'https://ip.hclonely.com/getCountry.php', dataType: 'jsonp' });
+        if(window.location.pathname==="/") $.ajax({ type: 'get', url: 'https://ip.hclonely.com/getCountry.php', dataType: 'jsonp' });
+        if($("#clstr_globe").length===0){
+            $("head").append(`<style>.clstrm_outer{display:none !important}</style>`);
+            $("body").append(`<script id="clstr_globe" type="text/javascript" src="//cdn.clustrmaps.com/globe.js?d=7RJAye3Doa8wj5huc-j4LftrwmQQMkdycswG6qp6330"></script>`);
+        }
     });
 
 } catch (err) { console.log("[Error] JQuery is not defined.") }
