@@ -58,3 +58,6 @@ i.fa-heartbeat{
     transform: scale(1.1);
   }
 }
+[data-theme='dark'] .post-qrcode-img{
+  background:#bdbdbd;
+}
