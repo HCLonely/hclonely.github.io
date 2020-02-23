@@ -626,7 +626,8 @@ $(function () {
 
   if (typeof autoChangeMode !== 'undefined') {
     if (autoChangeMode === '1' || autoChangeMode === '2') {
-      if (Cookies.get('theme') === 'dark') {
+      var nowMode = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light'
+      if (nowMode === 'dark') {
         changeLightIcon()
       } else {
         changeDarkIcon()

@@ -4865,9 +4865,6 @@ img {
 [data-theme='dark'] #gitalk-container .gt-popup {
   filter: brightness(0.7);
 }
-[data-theme='dark'] #gitalk-container svg {
-  fill: rgba(255,255,255,0.6) !important;
-}
 [data-theme='dark'] #vcomment p,
 [data-theme='dark'] #vcomment a,
 [data-theme='dark'] #vcomment textarea,
