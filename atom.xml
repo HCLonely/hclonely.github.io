@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.hclonely.com/"/>
-  <updated>2020-02-26T14:48:40.218Z</updated>
+  <updated>2020-02-26T15:06:59.018Z</updated>
   <id>https://blog.hclonely.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.hclonely.com/posts/ebe9edfc/"/>
     <id>https://blog.hclonely.com/posts/ebe9edfc/</id>
     <published>2020-02-26T14:46:26.000Z</published>
-    <updated>2020-02-26T14:48:40.218Z</updated>
+    <updated>2020-02-26T15:06:59.018Z</updated>
     
     <summary type="html">
     
@@ -636,9 +636,9 @@
     
       <category term="aria2" scheme="https://blog.hclonely.com/tags/aria2/"/>
     
-      <category term="webui" scheme="https://blog.hclonely.com/tags/webui/"/>
-    
       <category term="下载软件" scheme="https://blog.hclonely.com/tags/%E4%B8%8B%E8%BD%BD%E8%BD%AF%E4%BB%B6/"/>
+    
+      <category term="webui" scheme="https://blog.hclonely.com/tags/webui/"/>
     
   </entry>
   
