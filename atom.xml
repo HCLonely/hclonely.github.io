@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>HCLonely Blog</title>
+  <icon>https://blog.hclonely.com/icon.png</icon>
+  <subtitle>一个懒人的博客</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://blog.hclonely.com/"/>
+  <updated>2020-02-26T14:48:40.218Z</updated>
+  <id>https://blog.hclonely.com/</id>
+  
+  <author>
+    <name>HCLonely</name>
+    <email>h1606051253@gmail.com</email>
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo-online-server在线编辑发布文章插件</title>
+    <link href="https://blog.hclonely.com/posts/ebe9edfc/"/>
+    <id>https://blog.hclonely.com/posts/ebe9edfc/</id>
+    <published>2020-02-26T14:46:26.000Z</published>
+    <updated>2020-02-26T14:48:40.218Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;本插件已实现以下功能:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在线新建，编辑，删除post和page(默认路径)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hexo clean&lt;/code&gt;,&lt;code&gt;hexo
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://blog.hclonely.com/categories/Hexo/"/>
+    
+      <category term="插件" scheme="https://blog.hclonely.com/categories/Hexo/%E6%8F%92%E4%BB%B6/"/>
+    
+    
+      <category term="插件" scheme="https://blog.hclonely.com/tags/%E6%8F%92%E4%BB%B6/"/>
+    
+      <category term="Hexo" scheme="https://blog.hclonely.com/tags/Hexo/"/>
+    
+      <category term="online" scheme="https://blog.hclonely.com/tags/online/"/>
+    
+      <category term="server" scheme="https://blog.hclonely.com/tags/server/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo添加小部件(Butterfly主题)</title>
+    <link href="https://blog.hclonely.com/posts/57bd67ce/"/>
+    <id>https://blog.hclonely.com/posts/57bd67ce/</id>
+    <published>2020-02-18T06:37:51.000Z</published>
+    <updated>2020-02-26T09:07:34.468Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;div class=&quot;note warning&quot;&gt;
+            &lt;p&gt;注意，本文方法只适用于Butterfly主题！！！&lt;/p&gt;
+          &lt;/div&gt;
+&lt;h2 id=&quot;pixiv日榜&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://blog.hclonely.com/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="https://blog.hclonely.com/tags/Hexo/"/>
+    
+      <category term="小部件" scheme="https://blog.hclonely.com/tags/%E5%B0%8F%E9%83%A8%E4%BB%B6/"/>
+    
+      <category term="日历" scheme="https://blog.hclonely.com/tags/%E6%97%A5%E5%8E%86/"/>
+    
+      <category term="访客地图" scheme="https://blog.hclonely.com/tags/%E8%AE%BF%E5%AE%A2%E5%9C%B0%E5%9B%BE/"/>
+    
+      <category term="pixiv" scheme="https://blog.hclonely.com/tags/pixiv/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NodeJs实用模块</title>
+    <link href="https://blog.hclonely.com/posts/2413eaa8/"/>
+    <id>https://blog.hclonely.com/posts/2413eaa8/</id>
+    <published>2020-02-15T06:15:00.000Z</published>
+    <updated>2020-02-26T13:24:57.242Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+&lt;p&gt;为了避免每次找模块时都要百度，这里记一下我比较常用的模块及其简单的使用。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;cheerio&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="JavaScript" scheme="https://blog.hclonely.com/categories/JavaScript/"/>
+    
+      <category term="NodeJs" scheme="https://blog.hclonely.com/categories/JavaScript/NodeJs/"/>
+    
+    
+      <category term="JavaScript" scheme="https://blog.hclonely.com/tags/JavaScript/"/>
+    
+      <category term="NodeJs" scheme="https://blog.hclonely.com/tags/NodeJs/"/>
+    
+      <category term="module" scheme="https://blog.hclonely.com/tags/module/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo Steam游戏库页面插件</title>
+    <link href="https://blog.hclonely.com/posts/672d4d3b/"/>
+    <id>https://blog.hclonely.com/posts/672d4d3b/</id>
+    <published>2020-02-09T14:19:51.000Z</published>
+    <updated>2020-02-26T09:07:34.468Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://nodei.co/npm/hexo-steam-games.png?downloads=true&amp;downloadRank=true&amp;stars=true&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://blog.hclonely.com/categories/Hexo/"/>
+    
+      <category term="插件" scheme="https://blog.hclonely.com/categories/Hexo/%E6%8F%92%E4%BB%B6/"/>
+    
+    
+      <category term="Hexo" scheme="https://blog.hclonely.com/tags/Hexo/"/>
+    
+      <category term="steam" scheme="https://blog.hclonely.com/tags/steam/"/>
+    
+      <category term="game" scheme="https://blog.hclonely.com/tags/game/"/>
+    
+      <category term="游戏" scheme="https://blog.hclonely.com/tags/%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo哔哩哔哩番剧页面插件</title>
+    <link href="https://blog.hclonely.com/posts/8422e92e/"/>
+    <id>https://blog.hclonely.com/posts/8422e92e/</id>
+    <published>2020-02-09T05:54:11.000Z</published>
+    <updated>2020-02-26T09:07:34.468Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://nodei.co/npm/hexo-bilibili-bangumi.png?downloads=true&amp;downloadRank=true&amp;stars=true&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://blog.hclonely.com/categories/Hexo/"/>
+    
+      <category term="插件" scheme="https://blog.hclonely.com/categories/Hexo/%E6%8F%92%E4%BB%B6/"/>
+    
+    
+      <category term="Hexo" scheme="https://blog.hclonely.com/tags/Hexo/"/>
+    
+      <category term="bilibili" scheme="https://blog.hclonely.com/tags/bilibili/"/>
+    
+      <category term="bangumi" scheme="https://blog.hclonely.com/tags/bangumi/"/>
+    
+      <category term="哔哩哔哩" scheme="https://blog.hclonely.com/tags/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>steam一键移除脚本</title>
+    <link href="https://blog.hclonely.com/posts/6a0923b1/"/>
+    <id>https://blog.hclonely.com/posts/6a0923b1/</id>
+    <published>2020-02-07T06:15:43.000Z</published>
+    <updated>2020-02-26T09:07:34.469Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h2 id=&quot;功能&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#功能&quot;&gt;&lt;/a&gt; 功能&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;取关鉴赏家：取关 &lt;span style=&quot;text-decoration:
+        
+      
+    
+    </summary>
+    
+    
+      <category term="JavaScript" scheme="https://blog.hclonely.com/categories/JavaScript/"/>
+    
+      <category term="Tampermonkey脚本" scheme="https://blog.hclonely.com/categories/JavaScript/Tampermonkey%E8%84%9A%E6%9C%AC/"/>
+    
+    
+      <category term="steam" scheme="https://blog.hclonely.com/tags/steam/"/>
+    
+      <category term="脚本" scheme="https://blog.hclonely.com/tags/%E8%84%9A%E6%9C%AC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于我写的一些Tampermonkey脚本</title>
+    <link href="https://blog.hclonely.com/posts/578f9be7/"/>
+    <id>https://blog.hclonely.com/posts/578f9be7/</id>
+    <published>2020-02-07T05:45:28.000Z</published>
+    <updated>2020-02-26T09:07:34.469Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+&lt;p&gt;介绍一些我写的不那么大众的Tampermonkey脚本&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;steam-redeem-sub&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="JavaScript" scheme="https://blog.hclonely.com/categories/JavaScript/"/>
+    
+      <category term="Tampermonkey脚本" scheme="https://blog.hclonely.com/categories/JavaScript/Tampermonkey%E8%84%9A%E6%9C%AC/"/>
+    
+    
+      <category term="脚本" scheme="https://blog.hclonely.com/tags/%E8%84%9A%E6%9C%AC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>live2D看板娘脚本</title>
+    <link href="https://blog.hclonely.com/posts/f09c9fef/"/>
+    <id>https://blog.hclonely.com/posts/f09c9fef/</id>
+    <published>2020-02-07T05:06:43.000Z</published>
+    <updated>2020-02-26T09:07:34.469Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h2 id=&quot;功能&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#功能&quot;&gt;&lt;/a&gt; 功能&lt;/h2&gt;
+&lt;p&gt;给网页添加一个Live2D看板娘。&lt;/p&gt;
+&lt;h2 id=&quot;脚本链接&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="JavaScript" scheme="https://blog.hclonely.com/categories/JavaScript/"/>
+    
+      <category term="Tampermonkey脚本" scheme="https://blog.hclonely.com/categories/JavaScript/Tampermonkey%E8%84%9A%E6%9C%AC/"/>
+    
+    
+      <category term="脚本" scheme="https://blog.hclonely.com/tags/%E8%84%9A%E6%9C%AC/"/>
+    
+      <category term="live2d" scheme="https://blog.hclonely.com/tags/live2d/"/>
+    
+      <category term="看板娘" scheme="https://blog.hclonely.com/tags/%E7%9C%8B%E6%9D%BF%E5%A8%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AuTo Redeem Steamkey脚本</title>
+    <link href="https://blog.hclonely.com/posts/71381355/"/>
+    <id>https://blog.hclonely.com/posts/71381355/</id>
+    <published>2020-02-07T04:50:01.000Z</published>
+    <updated>2020-02-26T09:07:34.470Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h2 id=&quot;功能&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#功能&quot;&gt;&lt;/a&gt; 功能&lt;/h2&gt;
+&lt;p&gt;复制网页中的Steamkey后自动激活。&lt;/p&gt;
+&lt;h2 id=&quot;脚本链接&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="JavaScript" scheme="https://blog.hclonely.com/categories/JavaScript/"/>
+    
+      <category term="Tampermonkey脚本" scheme="https://blog.hclonely.com/categories/JavaScript/Tampermonkey%E8%84%9A%E6%9C%AC/"/>
+    
+    
+      <category term="steam" scheme="https://blog.hclonely.com/tags/steam/"/>
+    
+      <category term="脚本" scheme="https://blog.hclonely.com/tags/%E8%84%9A%E6%9C%AC/"/>
+    
+      <category term="key" scheme="https://blog.hclonely.com/tags/key/"/>
+    
+      <category term="steam激活码" scheme="https://blog.hclonely.com/tags/steam%E6%BF%80%E6%B4%BB%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Key站自动任务脚本</title>
+    <link href="https://blog.hclonely.com/posts/777c60d5/"/>
+    <id>https://blog.hclonely.com/posts/777c60d5/</id>
+    <published>2020-02-05T09:47:40.000Z</published>
+    <updated>2020-02-26T09:07:34.468Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h2 id=&quot;适用网站&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#适用网站&quot;&gt;&lt;/a&gt; 适用网站&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://giveaway.su/&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="JavaScript" scheme="https://blog.hclonely.com/categories/JavaScript/"/>
+    
+      <category term="Tampermonkey脚本" scheme="https://blog.hclonely.com/categories/JavaScript/Tampermonkey%E8%84%9A%E6%9C%AC/"/>
+    
+    
+      <category term="steam" scheme="https://blog.hclonely.com/tags/steam/"/>
+    
+      <category term="脚本" scheme="https://blog.hclonely.com/tags/%E8%84%9A%E6%9C%AC/"/>
+    
+      <category term="key" scheme="https://blog.hclonely.com/tags/key/"/>
+    
+      <category term="自动任务" scheme="https://blog.hclonely.com/tags/%E8%87%AA%E5%8A%A8%E4%BB%BB%E5%8A%A1/"/>
+    
+      <category term="steam激活码" scheme="https://blog.hclonely.com/tags/steam%E6%BF%80%E6%B4%BB%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Chrome插件推荐</title>
+    <link href="https://blog.hclonely.com/posts/72a59031/"/>
+    <id>https://blog.hclonely.com/posts/72a59031/</id>
+    <published>2020-02-04T10:24:23.000Z</published>
+    <updated>2020-02-26T09:07:34.468Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;strong&gt;这里推荐一些好用的谷歌浏览器(Chrome)插件&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;adblock-最佳广告拦截工具&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="浏览器插件" scheme="https://blog.hclonely.com/categories/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6/"/>
+    
+    
+      <category term="Chrome" scheme="https://blog.hclonely.com/tags/Chrome/"/>
+    
+      <category term="插件" scheme="https://blog.hclonely.com/tags/%E6%8F%92%E4%BB%B6/"/>
+    
+      <category term="浏览器" scheme="https://blog.hclonely.com/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Aria2 WebUI界面搭建</title>
+    <link href="https://blog.hclonely.com/posts/4b4a0e66/"/>
+    <id>https://blog.hclonely.com/posts/4b4a0e66/</id>
+    <published>2020-02-04T07:07:45.000Z</published>
+    <updated>2020-02-26T10:43:04.648Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;strong&gt;Aria2是没有图形界面的，这里介绍几款WebUI界面。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;webui-aria2&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Aria2" scheme="https://blog.hclonely.com/tags/Aria2/"/>
+    
+      <category term="WebUI" scheme="https://blog.hclonely.com/tags/WebUI/"/>
+    
+      <category term="图形界面" scheme="https://blog.hclonely.com/tags/%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>加密测试</title>
+    <link href="https://blog.hclonely.com/posts/70c32a14/"/>
+    <id>https://blog.hclonely.com/posts/70c32a14/</id>
+    <published>2019-11-09T14:22:43.000Z</published>
+    <updated>2020-02-26T09:07:34.468Z</updated>
+    
+    <summary type="html">
+    
+      有东西被加密了, 请输入密码查看.
+    
+    </summary>
+    
+    
+      <category term="JavaScript" scheme="https://blog.hclonely.com/categories/JavaScript/"/>
+    
+    
+      <category term="JavaScript" scheme="https://blog.hclonely.com/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NodeJs读取某目录下所有目录和文件名</title>
+    <link href="https://blog.hclonely.com/posts/a3dcda7b/"/>
+    <id>https://blog.hclonely.com/posts/a3dcda7b/</id>
+    <published>2019-11-09T13:59:05.000Z</published>
+    <updated>2020-02-26T09:07:34.469Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;strong&gt;代码如下：&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;code-area-wrap&quot;&gt;&lt;div class=&quot;highlight-tools&quot;&gt;&lt;i class=&quot;fa fa-angle-down
+        
+      
+    
+    </summary>
+    
+    
+      <category term="JavaScript" scheme="https://blog.hclonely.com/categories/JavaScript/"/>
+    
+      <category term="NodeJs" scheme="https://blog.hclonely.com/categories/JavaScript/NodeJs/"/>
+    
+    
+      <category term="JavaScript" scheme="https://blog.hclonely.com/tags/JavaScript/"/>
+    
+      <category term="NodeJs" scheme="https://blog.hclonely.com/tags/NodeJs/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>实用bat脚本</title>
+    <link href="https://blog.hclonely.com/posts/d92292e2/"/>
+    <id>https://blog.hclonely.com/posts/d92292e2/</id>
+    <published>2019-10-16T11:43:14.000Z</published>
+    <updated>2020-02-26T09:07:34.469Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h2 id=&quot;将所有子文件夹里的文件上移一层&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#将所有子文件夹里的文件上移一层&quot;&gt;&lt;/a&gt; 将所有子文件夹里的文件上移一层&lt;/h2&gt;
+&lt;h3
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Windows" scheme="https://blog.hclonely.com/categories/Windows/"/>
+    
+    
+      <category term="bat" scheme="https://blog.hclonely.com/tags/bat/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux ownCloud私有云搭建</title>
+    <link href="https://blog.hclonely.com/posts/c733a53b/"/>
+    <id>https://blog.hclonely.com/posts/c733a53b/</id>
+    <published>2019-10-04T04:38:16.000Z</published>
+    <updated>2020-02-26T09:07:34.468Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;strong&gt;关于ownCloud&lt;br&gt;
+  ownCloud是一个开源免费专业的私有云存储项目，它能帮你快速在个人电脑或服务器上架设一套专属的私有云文件同步网盘，可以像
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Linux" scheme="https://blog.hclonely.com/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="https://blog.hclonely.com/tags/Linux/"/>
+    
+      <category term="ownCloud" scheme="https://blog.hclonely.com/tags/ownCloud/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux挂载硬盘</title>
+    <link href="https://blog.hclonely.com/posts/f096f3bc/"/>
+    <id>https://blog.hclonely.com/posts/f096f3bc/</id>
+    <published>2019-09-14T11:49:14.000Z</published>
+    <updated>2020-02-26T09:07:34.468Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;strong&gt;需求: Linux新增加一块硬盘sdb，将sdb分区，只分一个区，格式化，挂载到目录/ssd下。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;1查看现在已有的分区状态&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Linux" scheme="https://blog.hclonely.com/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="https://blog.hclonely.com/tags/Linux/"/>
+    
+      <category term="硬盘" scheme="https://blog.hclonely.com/tags/%E7%A1%AC%E7%9B%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>linux下aria2的安装与配置</title>
+    <link href="https://blog.hclonely.com/posts/b9ab9265/"/>
+    <id>https://blog.hclonely.com/posts/b9ab9265/</id>
+    <published>2019-09-14T04:19:26.000Z</published>
+    <updated>2020-02-26T09:07:34.469Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;strong&gt;这里来介绍一下linux系统下的安装与配置&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;ubuntu&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#ubuntu&quot;&gt;&lt;/a&gt;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Linux" scheme="https://blog.hclonely.com/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="https://blog.hclonely.com/tags/Linux/"/>
+    
+      <category term="aria2" scheme="https://blog.hclonely.com/tags/aria2/"/>
+    
+      <category term="下载软件" scheme="https://blog.hclonely.com/tags/%E4%B8%8B%E8%BD%BD%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows配置Aria2教程</title>
+    <link href="https://blog.hclonely.com/posts/5579cd4b/"/>
+    <id>https://blog.hclonely.com/posts/5579cd4b/</id>
+    <published>2019-08-17T04:58:21.000Z</published>
+    <updated>2020-02-26T09:07:34.469Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;strong&gt;  Aria2 是一个多平台轻量级，支持 HTTP、FTP、BitTorrent 等多协议、多来源的命令行下载工具。Aria2 可以从多个来源、多个协议下载资源，最大的程度上利用了你的带宽。Aria2
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Windows" scheme="https://blog.hclonely.com/categories/Windows/"/>
+    
+      <category term="软件" scheme="https://blog.hclonely.com/categories/Windows/%E8%BD%AF%E4%BB%B6/"/>
+    
+    
+      <category term="aria2" scheme="https://blog.hclonely.com/tags/aria2/"/>
+    
+      <category term="webui" scheme="https://blog.hclonely.com/tags/webui/"/>
+    
+      <category term="下载软件" scheme="https://blog.hclonely.com/tags/%E4%B8%8B%E8%BD%BD%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>给网页添加一个Live2D看板娘（前端）</title>
+    <link href="https://blog.hclonely.com/posts/e1f9f17c/"/>
+    <id>https://blog.hclonely.com/posts/e1f9f17c/</id>
+    <published>2019-08-16T08:28:18.000Z</published>
+    <updated>2020-02-26T09:07:34.470Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;strong&gt;本篇文章教大家如何给自己的网页添加一个类似右下角的Live2D看板娘。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;使用插件&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="网页制作" scheme="https://blog.hclonely.com/categories/%E7%BD%91%E9%A1%B5%E5%88%B6%E4%BD%9C/"/>
+    
+    
+      <category term="live2d" scheme="https://blog.hclonely.com/tags/live2d/"/>
+    
+      <category term="看板娘" scheme="https://blog.hclonely.com/tags/%E7%9C%8B%E6%9D%BF%E5%A8%98/"/>
+    
+  </entry>
+  
+</feed>
