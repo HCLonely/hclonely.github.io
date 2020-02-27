@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.hclonely.com/"/>
-  <updated>2020-02-27T04:45:46.791Z</updated>
+  <updated>2020-02-27T06:22:45.923Z</updated>
   <id>https://blog.hclonely.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>hexo-online-server在线编辑发布文章插件</title>
+    <title>Hexo-online-server在线编辑发布文章插件</title>
     <link href="https://blog.hclonely.com/posts/ebe9edfc/"/>
     <id>https://blog.hclonely.com/posts/ebe9edfc/</id>
     <published>2020-02-26T14:46:26.000Z</published>
-    <updated>2020-02-27T04:45:46.791Z</updated>
+    <updated>2020-02-27T06:22:45.923Z</updated>
     
     <summary type="html">
     
@@ -29,10 +29,7 @@
       
         
         
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;本插件已实现以下功能:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;在线新建，编辑，删除post和page(默认路径)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;hexo clean&lt;/code&gt;,&lt;code&gt;hexo
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://nodei.co/npm/hexo-online-server.png?downloads=true&amp;downloadRank=true&amp;stars=true&quot;
         
       
     
@@ -44,9 +41,9 @@
       <category term="插件" scheme="https://blog.hclonely.com/categories/Hexo/%E6%8F%92%E4%BB%B6/"/>
     
     
-      <category term="插件" scheme="https://blog.hclonely.com/tags/%E6%8F%92%E4%BB%B6/"/>
-    
       <category term="Hexo" scheme="https://blog.hclonely.com/tags/Hexo/"/>
+    
+      <category term="插件" scheme="https://blog.hclonely.com/tags/%E6%8F%92%E4%BB%B6/"/>
     
       <category term="online" scheme="https://blog.hclonely.com/tags/online/"/>
     
