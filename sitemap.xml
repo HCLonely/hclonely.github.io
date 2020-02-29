@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.hclonely.com/dal/index.html</loc>
+    
+    <lastmod>2020-02-29T04:07:18.225Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.hclonely.com/blhx/index.html</loc>
+    
+    <lastmod>2020-02-29T04:07:01.664Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.hclonely.com/hqxy/index.html</loc>
     
-    <lastmod>2020-02-28T14:13:00.188Z</lastmod>
+    <lastmod>2020-02-29T04:06:39.461Z</lastmod>
     
   </url>
   
@@ -12,20 +26,6 @@
     <loc>https://blog.hclonely.com/fgo/index.html</loc>
     
     <lastmod>2020-02-28T14:12:49.555Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.hclonely.com/dal/index.html</loc>
-    
-    <lastmod>2020-02-28T14:12:39.061Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.hclonely.com/blhx/index.html</loc>
-    
-    <lastmod>2020-02-28T14:12:27.379Z</lastmod>
     
   </url>
   
@@ -79,6 +79,13 @@
   </url>
   
   <url>
+    <loc>https://blog.hclonely.com/music/index.html</loc>
+    
+    <lastmod>2020-02-26T09:07:34.477Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.hclonely.com/messageboard/index.html</loc>
     
     <lastmod>2020-02-26T09:07:34.477Z</lastmod>
@@ -87,13 +94,6 @@
   
   <url>
     <loc>https://blog.hclonely.com/movies/index.html</loc>
-    
-    <lastmod>2020-02-26T09:07:34.477Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.hclonely.com/music/index.html</loc>
     
     <lastmod>2020-02-26T09:07:34.477Z</lastmod>
     
