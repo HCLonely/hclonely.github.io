@@ -135,7 +135,7 @@ try {
         $('body').append('<div class="waifu"><div class="waifu-tips"></div><canvas id="live2d" class="live2d"></canvas><div class="waifu-tool"><span class="fui-home"></span> <span class="fui-chat"></span> <span class="fui-eye"></span> <span class="fui-user"></span> <span class="fui-photo"></span> <span class="fui-info-circle"></span> <span class="fui-cross"></span></div></div>');
         /* 可直接修改部分参数 */
         live2d_settings['modelAPI'] = '//live2d.hclonely.com/';
-        live2d_settings['staticAPI'] = '//hclonely-model-cn.oss-cn-shanghai.aliyuncs.com';
+        live2d_settings['staticAPI'] = '//model.hclonely.com';
         live2d_settings['hitokotoAPI'] = "hitokoto.cn";  // 一言 API
         live2d_settings['modelId'] = 105;                  // 默认模型 ID
         live2d_settings['modelTexturesId'] = 1;          // 默认材质 ID
@@ -144,21 +144,8 @@ try {
         live2d_settings['waifuEdgeSide'] = 'right:30';         // 看板娘贴边方向，例如 'left:0'(靠左 0px), 'right:30'(靠右 30px)
         /* 在 initModel 前添加 */
         initModel(waifuTipsJson);
-        if($("#clstr_globe").length>0){
-        	$("#clstr_globe").attr("src","//cdn.clustrmaps.com/globe.js?d=7RJAye3Doa8wj5huc-j4LftrwmQQMkdycswG6qp6330");
-        }
-    }else{
-        if($("#clstr_globe").length>0){
-        	$("#clstr_globe").attr("id","clustrmaps").attr("src","//cdn.clustrmaps.com/map_v2.js?d=7RJAye3Doa8wj5huc-j4LftrwmQQMkdycswG6qp6330&cl=ffffff&w=a");
-        }
     }
 
-    $(document).ready(function () {
-        if($("#clstr_globe").length===0&&$("#clustrmaps").length===0){
-        	$("head").append(`<style>.clstrm_outer{display:none !important}</style>`);
-        	$("body").append(`<script id="clustrmaps" type="text/javascript" src="//cdn.clustrmaps.com/map_v2.js?d=7RJAye3Doa8wj5huc-j4LftrwmQQMkdycswG6qp6330&cl=ffffff&w=a"></script>`);
-        }
-    });
     let cn = window.location.hostname === 'blog.hclonely.cn';
     let siteDiv = $(`<div class="menus_item mirror-site" title="${cn ? "海外" : "中国大陆"}用户访问更快"><a class="site-page" href="javascript:void(0);" target="_self"><i class="fa-fw fab fa-chrome"></i><span> ${cn ? "源站" : "镜像站"}</span></a></div>`);
     $("head").append(`<style>.turn-around{-webkit-animation: avatar_turn_around 0.1s linear infinite;-moz-animation: avatar_turn_around 0.1s linear infinite;-o-animation: avatar_turn_around 0.1s linear infinite;-ms-animation: avatar_turn_around 0.1s linear infinite;animation: avatar_turn_around 0.1s linear infinite;}</style>`);
@@ -169,10 +156,6 @@ try {
     $(document).ready(function () {
         $('#calendar').aCalendar('zh-CN');
         if(window.location.pathname==="/") $.ajax({ type: 'get', url: 'https://ip.hclonely.com/getCountry.php', dataType: 'jsonp' });
-        if($("#clstr_globe").length===0){
-            $("head").append(`<style>.clstrm_outer{display:none !important}</style>`);
-            $("body").append(`<script id="clstr_globe" type="text/javascript" src="//cdn.clustrmaps.com/globe.js?d=7RJAye3Doa8wj5huc-j4LftrwmQQMkdycswG6qp6330"></script>`);
-        }
     });
     if($('.comment_headling').length>0&&window.location.hostname==="blog.hclonely.com") $('.comment_headling').append(`<span style="margin-left:5px;font-size:15px;">(<i class="fa fa-warning" style="color: #FF9800;"></i>如果此处无法评论请前往<a href="javascript:window.location.hostname='blog.hclonely.cn'" target="_self">镜像站</a>评论)</span>`)
 
