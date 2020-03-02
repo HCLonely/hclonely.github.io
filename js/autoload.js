@@ -135,7 +135,7 @@ try {
         $('body').append('<div class="waifu"><div class="waifu-tips"></div><canvas id="live2d" class="live2d"></canvas><div class="waifu-tool"><span class="fui-home"></span> <span class="fui-chat"></span> <span class="fui-eye"></span> <span class="fui-user"></span> <span class="fui-photo"></span> <span class="fui-info-circle"></span> <span class="fui-cross"></span></div></div>');
         /* 可直接修改部分参数 */
         live2d_settings['modelAPI'] = '//live2d.hclonely.com/';
-        live2d_settings['staticAPI'] = '//hclonely-model-cn.oss-cn-shanghai.aliyuncs.com';
+        live2d_settings['staticAPI'] = '//model.hclonely.com';
         live2d_settings['hitokotoAPI'] = "hitokoto.cn";  // 一言 API
         live2d_settings['modelId'] = 105;                  // 默认模型 ID
         live2d_settings['modelTexturesId'] = 1;          // 默认材质 ID
@@ -148,7 +148,7 @@ try {
 
     let cn = window.location.hostname === 'blog.hclonely.cn';
     let siteDiv = $(`<div class="menus_item mirror-site" title="${cn ? "海外" : "中国大陆"}用户访问更快"><a class="site-page" href="javascript:void(0);" target="_self"><i class="fa-fw fab fa-chrome"></i><span> ${cn ? "源站" : "镜像站"}</span></a></div>`);
-    $("head").append(`<style>.turn-around:before{-webkit-animation: avatar_turn_around 0.1s linear infinite;-moz-animation: avatar_turn_around 0.1s linear infinite;-o-animation: avatar_turn_around 0.1s linear infinite;-ms-animation: avatar_turn_around 0.1s linear infinite;animation: avatar_turn_around 0.1s linear infinite;}</style>`);
+    $("head").append(`<style>.turn-around{-webkit-animation: avatar_turn_around 0.1s linear infinite;-moz-animation: avatar_turn_around 0.1s linear infinite;-o-animation: avatar_turn_around 0.1s linear infinite;-ms-animation: avatar_turn_around 0.1s linear infinite;animation: avatar_turn_around 0.1s linear infinite;}</style>`);
     $(".menus_items:first .menus_item:first").after(siteDiv.clone());
     $(".menus_items:last .menus_item:first").after(siteDiv);
     $(".mirror-site").hover(function () { $(this).find("i").addClass("turn-around") }, function () { $(this).find("i").removeClass("turn-around") }).click(function(){window.location.hostname = cn?'blog.hclonely.com':'blog.hclonely.cn';return false;});
