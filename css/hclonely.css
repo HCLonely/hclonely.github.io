@@ -61,3 +61,10 @@ i.fa-heartbeat{
 [data-theme='dark'] .post-qrcode-img{
   background:#bdbdbd;
 }
+#clock-div{
+	width:300px;
+    height:300px;
+    pointer-events: none;
+    position:absolute;
+    top:50px;
+}
