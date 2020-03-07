@@ -93,13 +93,6 @@
   </url>
   
   <url>
-    <loc>https://blog.hclonely.cn/movies/index.html</loc>
-    
-    <lastmod>2020-02-26T09:07:34.477Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.hclonely.cn/link/index.html</loc>
     
     <lastmod>2020-02-26T09:07:34.477Z</lastmod>
@@ -107,7 +100,7 @@
   </url>
   
   <url>
-    <loc>https://blog.hclonely.cn/steamgames/index.html</loc>
+    <loc>https://blog.hclonely.cn/messageboard/index.html</loc>
     
     <lastmod>2020-02-26T09:07:34.477Z</lastmod>
     
@@ -121,7 +114,14 @@
   </url>
   
   <url>
-    <loc>https://blog.hclonely.cn/messageboard/index.html</loc>
+    <loc>https://blog.hclonely.cn/movies/index.html</loc>
+    
+    <lastmod>2020-02-26T09:07:34.477Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.hclonely.cn/steamgames/index.html</loc>
     
     <lastmod>2020-02-26T09:07:34.477Z</lastmod>
     
@@ -149,14 +149,14 @@
   </url>
   
   <url>
-    <loc>https://blog.hclonely.cn/bangumis/index.html</loc>
+    <loc>https://blog.hclonely.cn/archives/index.html</loc>
     
     <lastmod>2020-02-26T09:07:34.470Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.hclonely.cn/archives/index.html</loc>
+    <loc>https://blog.hclonely.cn/bangumis/index.html</loc>
     
     <lastmod>2020-02-26T09:07:34.470Z</lastmod>
     
