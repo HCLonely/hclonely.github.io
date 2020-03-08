@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.hclonely.com/"/>
-  <updated>2020-03-05T12:44:09.651Z</updated>
+  <updated>2020-03-08T06:26:16.631Z</updated>
   <id>https://blog.hclonely.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.hclonely.com/posts/94295339/"/>
     <id>https://blog.hclonely.com/posts/94295339/</id>
     <published>2020-03-05T12:18:33.000Z</published>
-    <updated>2020-03-05T12:44:09.651Z</updated>
+    <updated>2020-03-08T06:26:16.631Z</updated>
     
     <summary type="html">
     
@@ -29,9 +29,7 @@
       
         
         
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;用于在Hexo博客中嵌入steam游戏。&lt;/p&gt;
-&lt;h2 id=&quot;安装&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#安装&quot;&gt;&lt;/a&gt; 安装&lt;/h2&gt;
-&lt;div
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://nodei.co/npm/hexo-tag-steamgame.png?downloads=true&amp;downloadRank=true&amp;stars=true&quot;
         
       
     
