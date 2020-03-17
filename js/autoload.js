@@ -135,7 +135,7 @@ try {
         $('body').append('<div class="waifu"><div class="waifu-tips"></div><canvas id="live2d" class="live2d"></canvas><div class="waifu-tool"><span class="fui-home"></span> <span class="fui-chat"></span> <span class="fui-eye"></span> <span class="fui-user"></span> <span class="fui-photo"></span> <span class="fui-info-circle"></span> <span class="fui-cross"></span></div></div>');
         /* 可直接修改部分参数 */
         live2d_settings['modelAPI'] = '//live2d.hclonely.com/';
-        live2d_settings['staticAPI'] = '//hclonely-model-cn.oss-cn-shanghai.aliyuncs.com';
+        live2d_settings['staticAPI'] = '//model.hclonely.com';
         live2d_settings['hitokotoAPI'] = "hitokoto.cn";  // 一言 API
         live2d_settings['modelId'] = 105;                  // 默认模型 ID
         live2d_settings['modelTexturesId'] = 1;          // 默认材质 ID
@@ -145,7 +145,6 @@ try {
         /* 在 initModel 前添加 */
         initModel(waifuTipsJson);
     }
-
 
     $('#switch-comment').click(function () {
         switchComment();
@@ -170,5 +169,21 @@ try {
             });
         }
     }
+    
+    $(document).ready(function () {
+      if($('script[src*="webpjs.min.js"]').length>0) return;
+	  var WebP=new Image();
+	  WebP.onload=WebP.onerror=function(){
+        if(WebP.height!=2){
+        	var sc=document.createElement('script');
+        	sc.type='text/javascript';
+        	sc.async=true;
+            var s=document.getElementsByTagName('script')[0];
+            sc.src='/js/webpjs.min.js';
+            s.parentNode.insertBefore(sc,s);
+        }
+	  };
+      WebP.src='data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA';
+    });
 
 } catch (err) { console.log("[Error] JQuery is not defined.") }
