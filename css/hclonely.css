@@ -1,70 +1,116 @@
-i.fa-heartbeat{
-    color: #ff0000;
-    animation: iconAnimate 1.33s ease-in-out infinite;
+i.fa-heartbeat {
+  color: #ff0000;
+  animation: iconAnimate 1.33s ease-in-out infinite;
 }
+
 @-moz-keyframes iconAnimate {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: scale(1);
   }
-  10%, 30% {
+
+  10%,
+  30% {
     transform: scale(0.9);
   }
-  20%, 40%, 60%, 80% {
+
+  20%,
+  40%,
+  60%,
+  80% {
     transform: scale(1.1);
   }
-  50%, 70% {
+
+  50%,
+  70% {
     transform: scale(1.1);
   }
 }
+
 @-webkit-keyframes iconAnimate {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: scale(1);
   }
-  10%, 30% {
+
+  10%,
+  30% {
     transform: scale(0.9);
   }
-  20%, 40%, 60%, 80% {
+
+  20%,
+  40%,
+  60%,
+  80% {
     transform: scale(1.1);
   }
-  50%, 70% {
+
+  50%,
+  70% {
     transform: scale(1.1);
   }
 }
+
 @-o-keyframes iconAnimate {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: scale(1);
   }
-  10%, 30% {
+
+  10%,
+  30% {
     transform: scale(0.9);
   }
-  20%, 40%, 60%, 80% {
+
+  20%,
+  40%,
+  60%,
+  80% {
     transform: scale(1.1);
   }
-  50%, 70% {
+
+  50%,
+  70% {
     transform: scale(1.1);
   }
 }
+
 @keyframes iconAnimate {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: scale(1);
   }
-  10%, 30% {
+
+  10%,
+  30% {
     transform: scale(0.9);
   }
-  20%, 40%, 60%, 80% {
+
+  20%,
+  40%,
+  60%,
+  80% {
     transform: scale(1.1);
   }
-  50%, 70% {
+
+  50%,
+  70% {
     transform: scale(1.1);
   }
 }
-[data-theme='dark'] .post-qrcode-img{
-  background:#bdbdbd;
+
+[data-theme='dark'] .post-qrcode-img {
+  background: #bdbdbd;
 }
-#clock-div{
-	width:300px;
-    height:300px;
-    pointer-events: none;
-    position:absolute;
-    top:50px;
+
+#clock-div {
+  width: 300px;
+  height: 300px;
+  pointer-events: none;
+  position: absolute;
+  top: 50px;
 }
