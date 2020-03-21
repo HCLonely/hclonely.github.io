@@ -668,7 +668,7 @@ $(function () {
   var isFontAwesomeV5 = GLOBAL_CONFIG.isFontAwesomeV5
   var $darkModeButtom = $('#darkmode')
   if (typeof autoChangeMode !== 'undefined') {
-    if (Cookies.get('theme') === 'dark') changeLightIcon()
+    if (document.documentElement.getAttribute('data-theme') === 'dark') changeLightIcon()
     else changeDarkIcon()
   }
 
