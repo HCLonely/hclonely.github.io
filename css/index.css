@@ -3,6 +3,10 @@ i.fa-heartbeat {
   color: #ff0000;
   animation: iconAnimate 1.33s ease-in-out infinite;
 }
+#content-inner {
+	position: relative;
+	width: 100%;
+}
 
 @-moz-keyframes iconAnimate {
 
@@ -106,14 +110,6 @@ i.fa-heartbeat {
 
 [data-theme='dark'] .post-qrcode-img {
   background: #bdbdbd;
-}
-
-#clock-div {
-  width: 300px;
-  height: 300px;
-  pointer-events: none;
-  position: absolute;
-  top: 50px;
 }
 html {
   height: 100%;
