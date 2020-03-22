@@ -668,17 +668,16 @@ $(function () {
   var isFontAwesomeV5 = GLOBAL_CONFIG.isFontAwesomeV5
   var $darkModeButtom = $('#darkmode')
   if (typeof autoChangeMode !== 'undefined') {
-    if (document.documentElement.getAttribute('data-theme') === 'dark') changeLightIcon()
-    else changeDarkIcon()
+    document.documentElement.getAttribute('data-theme') === 'dark' ? changeLightIcon() : changeDarkIcon()
   }
 
   function changeLightIcon () {
-    try{loadModel(105,1)}catch(e){}
+    try { if (location.pathname !== '/blhx/') loadModel(105, 1) } catch (e) { }
     isFontAwesomeV5 ? $darkModeButtom.removeClass('fa-moon').addClass('fa-sun') : $darkModeButtom.removeClass('fa-moon-o').addClass('fa-sun-o')
   }
 
   function changeDarkIcon () {
-    try { loadModel(131, 1) } catch (e) { }
+    try { if (location.pathname !== '/blhx/') loadModel(131, 1) } catch (e) { }
     isFontAwesomeV5 ? $darkModeButtom.removeClass('fa-sun').addClass('fa-moon') : $darkModeButtom.removeClass('fa-sun-o').addClass('fa-moon-o')
   }
 
