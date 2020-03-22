@@ -42,7 +42,7 @@ function activateLightMode(){
   if (document.querySelector('meta[name="theme-color"]') !== null){
   document.querySelector('meta[name="theme-color"]').setAttribute('content','#fff')
   }
-}</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/css/index.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/css/custom/waifu.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/css/custom/APlayer.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css"><link rel="canonical" href="https://blog.hclonely.com/about/"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.css"><script src="https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js"></script><script src="https://cdn.jsdelivr.net/npm/blueimp-md5/js/md5.min.js"></script><script>var _hmt = _hmt || [];
+}</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/css/custom/waifu.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/css/custom/APlayer.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css"><link rel="canonical" href="https://blog.hclonely.com/about/"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.css"><script src="https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js"></script><script src="https://cdn.jsdelivr.net/npm/blueimp-md5/js/md5.min.js"></script><script>var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
   hm.src = "https://hm.baidu.com/hm.js?597e5142486e51e7c0b0e0b1dd4667c7";
@@ -133,7 +133,7 @@ ga('send', 'pageview');
 &#x56FE;&#x7247;&#x8D44;&#x6E90;&#x6258;&#x7BA1;&#x4E8E;<a href="/go/?to=aHR0cHM6Ly93d3cuYWxpeXVuLmNvbS9wcm9kdWN0L29zcw==" target="_blank" rel="noopener">&#x963F;&#x91CC;&#x4E91;OSS</a><br>
 <a href="/go/?to=aHR0cHM6Ly93d3cuanNkZWxpdnIuY29tLw==" target="_blank" rel="noopener">jsDelivr</a>&#x63D0;&#x4F9B;CDN&#x52A0;&#x901F;&#x670D;&#x52A1;</p>
 </blockquote>
-</div><hr><div id="post-comment"><div class="comment_headling"><i class="fa fa-comments fa-fw" aria-hidden="true"></i><span> &#x8BC4;&#x8BBA;<a id="switch-comment" href="javascript:void(0);" title="&#x5207;&#x6362;&#x4E3A;Gitalk" target="_self"><i class="fas fa-toggle-off" aria-hidden="true"></i></a></span></div><div id="gitalk-container" style="display:none;"></div><script>var gitalk = new Gitalk({
+</div><hr><div id="post-comment"><div class="comment_headling"><i class="fa fa-comments fa-fw" aria-hidden="true"></i><span> &#x8BC4;&#x8BBA;<a id="switch-comment" href="javascript:void(0);" title="&#x5207;&#x6362;&#x4E3A;Valine" target="_self"><i class="fas fa-toggle-off" aria-hidden="true"></i></a></span></div><div id="gitalk-container"></div><script>var gitalk = new Gitalk({
   clientID: '9e528f4c9431c9714512',
   clientSecret: '35d723e7bfd4e47d84513518145269dac36807ed',
   repo: 'hclonely.github.io',
@@ -152,7 +152,7 @@ gitalk.render('gitalk-container')
 function commentCount(n){
     let el=document.getElementsByClassName('gitalk-comment-count')[0];
     if(el) el.innerHTML= n
-}</script><div class="vcomment" id="vcomment"></div><script src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/js/custom/volantis.min.js"></script><script>var GUEST_INFO = ['nick','mail','link'];
+}</script><div class="vcomment" id="vcomment" style="display:none;"></div><script src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/js/custom/volantis.min.js"></script><script>var GUEST_INFO = ['nick','mail','link'];
 var guest_info = '昵称,邮箱,主页'.split(',').filter(function(item){
   return GUEST_INFO.indexOf(item) > -1
 });
