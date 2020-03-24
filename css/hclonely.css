@@ -111,6 +111,14 @@ i.fa-heartbeat {
   background: #bdbdbd;
 }
 
+#badge {
+	display: none !important;
+}
+
+#badge + p {
+	display: inline-block !important;
+}
+
 a[href^='https://img.shields.io'] {
 	float: left !important;
     display: inline !important;
