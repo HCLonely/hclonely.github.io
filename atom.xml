@@ -152,11 +152,11 @@
       <category term="NodeJs" scheme="https://blog.hclonely.com/categories/JavaScript/NodeJs/"/>
     
     
+      <category term="JavaScript" scheme="https://blog.hclonely.com/tags/JavaScript/"/>
+    
       <category term="NodeJs" scheme="https://blog.hclonely.com/tags/NodeJs/"/>
     
       <category term="module" scheme="https://blog.hclonely.com/tags/module/"/>
-    
-      <category term="JavaScript" scheme="https://blog.hclonely.com/tags/JavaScript/"/>
     
   </entry>
   
@@ -513,9 +513,9 @@
       <category term="NodeJs" scheme="https://blog.hclonely.com/categories/JavaScript/NodeJs/"/>
     
     
-      <category term="NodeJs" scheme="https://blog.hclonely.com/tags/NodeJs/"/>
-    
       <category term="JavaScript" scheme="https://blog.hclonely.com/tags/JavaScript/"/>
+    
+      <category term="NodeJs" scheme="https://blog.hclonely.com/tags/NodeJs/"/>
     
   </entry>
   
