@@ -153,7 +153,10 @@ try {
     function switchComment() {
         let time = new Date();
         let hour = time.getHours();
-        if(hour>22||hour<7) return;
+        if(hour>22||hour<7) {
+        	snackbarShow("仅7:00-23:00可切换为Valine",1,5000);
+        	return;
+        };
         let title = $('#switch-comment').attr("title") === '切换为Gitalk' ? '切换为Valine' : '切换为Gitalk';
         let i = $('#switch-comment>i');
         if ($('#gitalk-container').css('display') === "none") {
