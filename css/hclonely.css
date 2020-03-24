@@ -111,11 +111,7 @@ i.fa-heartbeat {
   background: #bdbdbd;
 }
 
-#badge {
-	display: none !important;
-}
-
-#badge + p {
+.badge + p {
 	display: inline-block !important;
 }
 
