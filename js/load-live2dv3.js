@@ -70,7 +70,7 @@ window.onload = () => {
   }
   const l2dmodel = getModel(Math.ceil(new Date().getTime() / (1000 * 60 * 60 * 24)) % 48)
   new l2dViewer({
-    el: $('#L2dCanvas'),
+    el: document.getElementById('L2dCanvas'),
     basePath: 'https://cdn.jsdelivr.net/npm/' + l2dmodel[0],
     modelName: l2dmodel[1],
     width: 500,
