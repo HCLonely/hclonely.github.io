@@ -619,10 +619,10 @@
 		var pattern=/^\d+$/g;
 		var result= prefix.match(/^\d+$/g);
 		if(result!==null){
-			imgUrl = "//q1.qlogo.cn/g?b=qq&nk="+ prefix +"&s=100";
+			imgUrl = "https://cors-anywhere.herokuapp.com/q1.qlogo.cn/g?b=qq&nk="+ prefix +"&s=100";
 		}
 	}
-                        var o = m.hide ? "" : '<img class="vimg" src="' + imgUrl + '">',
+                        var o = m.hide ? "" : '<img class="vimg" src="' + imgUrl + '" crossorigin="Anonymous">',
                         s = e.get("ua") || "",
                         l = "";
                     s && (l = '<span class="vsys">' + (s = d(s)).browser + " " + s.version + '</span> <span class="vsys">' + s.os + " " + s.osVersion + "</span>"), "*" === y && (l = '<a href="' + e.get("url") + '" class="vsys">' + e.get("url") + "</a>");
