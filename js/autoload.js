@@ -151,12 +151,6 @@ try {
         return false;
     });
     function switchComment() {
-        let time = new Date();
-        let hour = time.getHours();
-        if(hour>22||hour<7) {
-        	snackbarShow("仅7:00-23:00可切换为Valine",1,5000);
-        	return;
-        };
         let title = $('#switch-comment').attr("title") === '切换为Gitalk' ? '切换为Valine' : '切换为Gitalk';
         let i = $('#switch-comment>i');
         if ($('#gitalk-container').css('display') === "none") {
@@ -177,13 +171,6 @@ try {
     }
     
     $(document).ready(function () {
-      let time = new Date();
-      let hour = time.getHours();
-      if(hour>22||hour<7){
-      	$('#vcomment').hide();
-      	$('#gitalk-container').show();
-      	$('#switch-comment').attr("disabled","disabled").attr("title", "仅7:00-23:00可切换");
-      }
       if($('script[src*="webpjs.min.js"]').length>0) return;
 	  var WebP=new Image();
 	  WebP.onload=WebP.onerror=function(){
