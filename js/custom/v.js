@@ -611,7 +611,7 @@
                     var i = u.create("div", {
                         class: "vcard",
                         id: e.id
-                    }),
+                    });
                     
                     var imgUrl=m.cdn+a(e.get("mail"))+m.params;//默认gravator头像接口
 	 if(e.get("mail").includes("@qq.com")){
