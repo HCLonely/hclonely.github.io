@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.hclonely.com/"/>
-  <updated>2020-03-24T09:34:04.639Z</updated>
+  <updated>2020-03-26T03:58:49.497Z</updated>
   <id>https://blog.hclonely.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>给你的网页添加一个moc3格式的Live2d模型</title>
+    <link href="https://blog.hclonely.com/posts/8a7f7919/"/>
+    <id>https://blog.hclonely.com/posts/8a7f7919/</id>
+    <published>2020-03-26T03:34:30.000Z</published>
+    <updated>2020-03-26T03:58:49.497Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="网页制作" scheme="https://blog.hclonely.com/categories/%E7%BD%91%E9%A1%B5%E5%88%B6%E4%BD%9C/"/>
+    
+    
+      <category term="live2d" scheme="https://blog.hclonely.com/tags/live2d/"/>
+    
+      <category term="看板娘" scheme="https://blog.hclonely.com/tags/%E7%9C%8B%E6%9D%BF%E5%A8%98/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo-tag-steamgame插件</title>
@@ -41,11 +70,11 @@
       <category term="插件" scheme="https://blog.hclonely.com/categories/Hexo/%E6%8F%92%E4%BB%B6/"/>
     
     
-      <category term="插件" scheme="https://blog.hclonely.com/tags/%E6%8F%92%E4%BB%B6/"/>
-    
       <category term="Hexo" scheme="https://blog.hclonely.com/tags/Hexo/"/>
     
       <category term="steam" scheme="https://blog.hclonely.com/tags/steam/"/>
+    
+      <category term="插件" scheme="https://blog.hclonely.com/tags/%E6%8F%92%E4%BB%B6/"/>
     
       <category term="tag" scheme="https://blog.hclonely.com/tags/tag/"/>
     
@@ -76,9 +105,9 @@
       <category term="插件" scheme="https://blog.hclonely.com/categories/Hexo/%E6%8F%92%E4%BB%B6/"/>
     
     
-      <category term="插件" scheme="https://blog.hclonely.com/tags/%E6%8F%92%E4%BB%B6/"/>
-    
       <category term="Hexo" scheme="https://blog.hclonely.com/tags/Hexo/"/>
+    
+      <category term="插件" scheme="https://blog.hclonely.com/tags/%E6%8F%92%E4%BB%B6/"/>
     
       <category term="online" scheme="https://blog.hclonely.com/tags/online/"/>
     
@@ -300,7 +329,7 @@
     <link href="https://blog.hclonely.com/posts/f09c9fef/"/>
     <id>https://blog.hclonely.com/posts/f09c9fef/</id>
     <published>2020-02-07T05:06:43.000Z</published>
-    <updated>2020-03-24T09:44:41.228Z</updated>
+    <updated>2020-03-26T03:31:42.611Z</updated>
     
     <summary type="html">
     
@@ -634,39 +663,6 @@
       <category term="Linux" scheme="https://blog.hclonely.com/tags/Linux/"/>
     
       <category term="aria2" scheme="https://blog.hclonely.com/tags/aria2/"/>
-    
-      <category term="下载软件" scheme="https://blog.hclonely.com/tags/%E4%B8%8B%E8%BD%BD%E8%BD%AF%E4%BB%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Windows配置Aria2教程</title>
-    <link href="https://blog.hclonely.com/posts/5579cd4b/"/>
-    <id>https://blog.hclonely.com/posts/5579cd4b/</id>
-    <published>2019-08-17T04:58:21.000Z</published>
-    <updated>2020-03-22T13:01:58.368Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;strong&gt;  Aria2 是一个多平台轻量级，支持 HTTP、FTP、BitTorrent 等多协议、多来源的命令行下载工具。Aria2 可以从多个来源、多个协议下载资源，最大的程度上利用了你的带宽。Aria2
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Windows" scheme="https://blog.hclonely.com/categories/Windows/"/>
-    
-      <category term="软件" scheme="https://blog.hclonely.com/categories/Windows/%E8%BD%AF%E4%BB%B6/"/>
-    
-    
-      <category term="aria2" scheme="https://blog.hclonely.com/tags/aria2/"/>
-    
-      <category term="webui" scheme="https://blog.hclonely.com/tags/webui/"/>
     
       <category term="下载软件" scheme="https://blog.hclonely.com/tags/%E4%B8%8B%E8%BD%BD%E8%BD%AF%E4%BB%B6/"/>
     
