@@ -58,7 +58,7 @@
       
         
         
-          &lt;p&gt;&lt;img src=&quot;/&quot; alt=&quot;&quot; / class=&quot;lazyload&quot;
+          &lt;p&gt;&lt;img src=&quot;/&quot; class=&quot;lazyload&quot; data-src=&quot;https://nodei.co/npm/hexo-tag-steamgame.png?downloads=true&amp;amp;downloadRank=true&amp;amp;stars=true&quot;
         
       
     
@@ -93,7 +93,7 @@
       
         
         
-          &lt;p&gt;&lt;img src=&quot;/&quot; alt=&quot;&quot; / class=&quot;lazyload&quot;
+          &lt;p&gt;&lt;img src=&quot;/&quot; class=&quot;lazyload&quot; data-src=&quot;https://nodei.co/npm/hexo-online-server.png?downloads=true&amp;amp;downloadRank=true&amp;amp;stars=true&quot;
         
       
     
@@ -183,9 +183,9 @@
     
       <category term="NodeJs" scheme="https://blog.hclonely.com/tags/NodeJs/"/>
     
-      <category term="module" scheme="https://blog.hclonely.com/tags/module/"/>
-    
       <category term="JavaScript" scheme="https://blog.hclonely.com/tags/JavaScript/"/>
+    
+      <category term="module" scheme="https://blog.hclonely.com/tags/module/"/>
     
   </entry>
   
@@ -202,7 +202,7 @@
       
         
         
-          &lt;p&gt;&lt;img src=&quot;/&quot; alt=&quot;&quot; / class=&quot;lazyload&quot;
+          &lt;p&gt;&lt;img src=&quot;/&quot; class=&quot;lazyload&quot; data-src=&quot;https://nodei.co/npm/hexo-steam-games.png?downloads=true&amp;amp;downloadRank=true&amp;amp;stars=true&quot; 
         
       
     
@@ -237,7 +237,7 @@
       
         
         
-          &lt;p&gt;&lt;img src=&quot;/&quot; alt=&quot;&quot; / class=&quot;lazyload&quot;
+          &lt;p&gt;&lt;img src=&quot;/&quot; class=&quot;lazyload&quot;
         
       
     
@@ -338,7 +338,7 @@
         
         
           &lt;div class=&quot;badge&quot;&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img src=&quot;/&quot; alt=&quot;GitHub language count&quot; / class=&quot;lazyload&quot;
+&lt;p&gt;&lt;img src=&quot;/&quot; class=&quot;lazyload&quot; data-src=&quot;https://img.shields.io/github/languages/count/HCLonely/live2d.user.js&quot;
         
       
     
@@ -409,7 +409,7 @@
         
         
           &lt;div class=&quot;badge&quot;&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img src=&quot;/&quot; alt=&quot;JavaScript Style Guide&quot; / class=&quot;lazyload&quot;
+&lt;p&gt;&lt;img src=&quot;/&quot; class=&quot;lazyload&quot; data-src=&quot;https://img.shields.io/badge/code_style-standard-brightgreen.svg&quot; 
         
       
     
