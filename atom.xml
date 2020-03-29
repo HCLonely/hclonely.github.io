@@ -70,11 +70,11 @@
       <category term="插件" scheme="https://blog.hclonely.com/categories/Hexo/%E6%8F%92%E4%BB%B6/"/>
     
     
+      <category term="插件" scheme="https://blog.hclonely.com/tags/%E6%8F%92%E4%BB%B6/"/>
+    
       <category term="Hexo" scheme="https://blog.hclonely.com/tags/Hexo/"/>
     
       <category term="steam" scheme="https://blog.hclonely.com/tags/steam/"/>
-    
-      <category term="插件" scheme="https://blog.hclonely.com/tags/%E6%8F%92%E4%BB%B6/"/>
     
       <category term="tag" scheme="https://blog.hclonely.com/tags/tag/"/>
     
@@ -105,9 +105,9 @@
       <category term="插件" scheme="https://blog.hclonely.com/categories/Hexo/%E6%8F%92%E4%BB%B6/"/>
     
     
-      <category term="Hexo" scheme="https://blog.hclonely.com/tags/Hexo/"/>
-    
       <category term="插件" scheme="https://blog.hclonely.com/tags/%E6%8F%92%E4%BB%B6/"/>
+    
+      <category term="Hexo" scheme="https://blog.hclonely.com/tags/Hexo/"/>
     
       <category term="online" scheme="https://blog.hclonely.com/tags/online/"/>
     
@@ -183,9 +183,9 @@
     
       <category term="NodeJs" scheme="https://blog.hclonely.com/tags/NodeJs/"/>
     
-      <category term="JavaScript" scheme="https://blog.hclonely.com/tags/JavaScript/"/>
-    
       <category term="module" scheme="https://blog.hclonely.com/tags/module/"/>
+    
+      <category term="JavaScript" scheme="https://blog.hclonely.com/tags/JavaScript/"/>
     
   </entry>
   
