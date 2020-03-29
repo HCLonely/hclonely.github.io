@@ -148,7 +148,7 @@ try {
 
     $('#switch-comment').click(function () {
         //switchComment();
-        snackbarShow("国内用户点击上面的镜像站访问更快哦！",1,5000);
+        snackbarShow("正在修改Valine后台，请先使用Gitalk！",1,5000);
         return false;
     });
     function switchComment() {
