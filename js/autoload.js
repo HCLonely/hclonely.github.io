@@ -1,6 +1,6 @@
 try {
     if (!navigator.userAgent.match(/Mobile/i)) {
-        let waifuTipsJson = {
+        window.waifuTipsJson = {
             "waifu": {
                 "console_open_msg": ["哈哈，你打开了控制台，是想要看看我的秘密吗？"],
                 "copy_message": ["你都复制了些什么呀，转载要记得加上出处哦"],
@@ -141,7 +141,7 @@ try {
         live2d_settings['modelStorage'] = true;
         live2d_settings['waifuSize'] = '280x250';
         live2d_settings['waifuEdgeSide'] = 'right:30';
-        initModel(waifuTipsJson);
+        if (!['/blhx/','/hqxy'].includes(location.pathname)) initModel(waifuTipsJson);
     }
 
     $('#switch-comment').click(function () {

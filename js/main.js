@@ -659,12 +659,12 @@ $(function () {
   }
 
   function changeLightIcon () {
-    try { if (location.pathname !== '/blhx/') loadModel(105, 1) } catch (e) { }
+    try { loadModel(105, 1) } catch (e) { }
     isFontAwesomeV5 ? $darkModeButtom.removeClass('fa-moon').addClass('fa-sun') : $darkModeButtom.removeClass('fa-moon-o').addClass('fa-sun-o')
   }
 
   function changeDarkIcon () {
-    try { if (location.pathname !== '/blhx/') loadModel(131, 1) } catch (e) { }
+    try { loadModel(131, 1) } catch (e) { }
     isFontAwesomeV5 ? $darkModeButtom.removeClass('fa-sun').addClass('fa-moon') : $darkModeButtom.removeClass('fa-sun-o').addClass('fa-moon-o')
   }
 
