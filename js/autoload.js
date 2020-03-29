@@ -147,10 +147,12 @@ try {
     }
 
     $('#switch-comment').click(function () {
-        switchComment();
+        //switchComment();
+        snackbarShow("国内用户点击上面的镜像站访问更快哦！",1,5000);
         return false;
     });
     function switchComment() {
+    	return;
         let title = $('#switch-comment').attr("title") === '切换为Gitalk' ? '切换为Valine' : '切换为Gitalk';
         let i = $('#switch-comment>i');
         if ($('#gitalk-container').css('display') === "none") {
@@ -171,6 +173,10 @@ try {
     }
     
     $(document).ready(function () {
+    	$('#vcomment').remove();
+    	$('#gitalk-container').show();
+    	$('#switch-comment').attr("disabled","disabled");
+    	$('#switch-comment').attr("title","正在修改Valine后台，请先使用Gitalk")
       if($('script[src*="webpjs.min.js"]').length>0) return;
 	  var WebP=new Image();
 	  WebP.onload=WebP.onerror=function(){
