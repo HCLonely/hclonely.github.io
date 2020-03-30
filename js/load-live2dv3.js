@@ -49,14 +49,22 @@ window.onload = () => {
       'xianghe_2',
       'xixuegui_4'
     ],
-    'l2dmodelv3_6@0.0.1': [
+    'l2dmodelv3_6@1.0.0': [
       'xuefeng',
       'xuefeng_3',
       'xukufu_2',
       'yichui_2',
       'z23',
       'z46_2',
-      'zhala_2'
+      'zhala_2',
+      'kubo_2',
+      'junhe_5'
+    ],
+    'l2dmodelv3_7@0.0.1': [
+      'shengluyisi_2',
+      'weiyan_2',
+      'wuqi_2',
+      'z46_3'
     ]
   }
   function getModel (idx) {
