@@ -326,11 +326,13 @@ img:not([src]) {
   font-size: 20px;
 }
 .post-ad {
-  margin: 2rem 0 !important;
+  margin: 2rem 0;
+  overflow-x: scroll;
 }
 .ad_height {
   display: block !important;
   height: auto !important;
+  overflow-x: scroll !important;
 }
 #content-inner,
 #footer {
@@ -414,25 +416,25 @@ canvas,
   animation: tocsidebarLtoR 0.9s;
 }
 .tocOpenMobile .sidebar-toc__title {
-  -webkit-animation: tocsidebarRtoL 0.5s;
-  -moz-animation: tocsidebarRtoL 0.5s;
-  -o-animation: tocsidebarRtoL 0.5s;
-  -ms-animation: tocsidebarRtoL 0.5s;
-  animation: tocsidebarRtoL 0.5s;
+  -webkit-animation: tocsidebarRtoL 0.4s;
+  -moz-animation: tocsidebarRtoL 0.4s;
+  -o-animation: tocsidebarRtoL 0.4s;
+  -ms-animation: tocsidebarRtoL 0.4s;
+  animation: tocsidebarRtoL 0.4s;
 }
 .tocOpenMobile .sidebar-toc__progress {
+  -webkit-animation: tocsidebarRtoL 0.6s;
+  -moz-animation: tocsidebarRtoL 0.6s;
+  -o-animation: tocsidebarRtoL 0.6s;
+  -ms-animation: tocsidebarRtoL 0.6s;
+  animation: tocsidebarRtoL 0.6s;
+}
+.tocOpenMobile .sidebar-toc__content {
   -webkit-animation: tocsidebarRtoL 0.7s;
   -moz-animation: tocsidebarRtoL 0.7s;
   -o-animation: tocsidebarRtoL 0.7s;
   -ms-animation: tocsidebarRtoL 0.7s;
   animation: tocsidebarRtoL 0.7s;
-}
-.tocOpenMobile .sidebar-toc__content {
-  -webkit-animation: tocsidebarRtoL 0.9s;
-  -moz-animation: tocsidebarRtoL 0.9s;
-  -o-animation: tocsidebarRtoL 0.9s;
-  -ms-animation: tocsidebarRtoL 0.9s;
-  animation: tocsidebarRtoL 0.9s;
 }
 @-moz-keyframes scroll-down-effect {
   0% {
@@ -590,114 +592,6 @@ canvas,
     -o-transform: translateY(-50px);
     -ms-transform: translateY(-50px);
     transform: translateY(-50px);
-  }
-  100% {
-    opacity: 1;
-    -ms-filter: none;
-    filter: none;
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -o-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-  }
-}
-@-moz-keyframes header-effect {
-  0% {
-    opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-  }
-  60% {
-    opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-    -webkit-transform: translateY(-30px);
-    -moz-transform: translateY(-30px);
-    -o-transform: translateY(-30px);
-    -ms-transform: translateY(-30px);
-    transform: translateY(-30px);
-  }
-  100% {
-    opacity: 1;
-    -ms-filter: none;
-    filter: none;
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -o-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-  }
-}
-@-webkit-keyframes header-effect {
-  0% {
-    opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-  }
-  60% {
-    opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-    -webkit-transform: translateY(-30px);
-    -moz-transform: translateY(-30px);
-    -o-transform: translateY(-30px);
-    -ms-transform: translateY(-30px);
-    transform: translateY(-30px);
-  }
-  100% {
-    opacity: 1;
-    -ms-filter: none;
-    filter: none;
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -o-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-  }
-}
-@-o-keyframes header-effect {
-  0% {
-    opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-  }
-  60% {
-    opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-    -webkit-transform: translateY(-30px);
-    -moz-transform: translateY(-30px);
-    -o-transform: translateY(-30px);
-    -ms-transform: translateY(-30px);
-    transform: translateY(-30px);
-  }
-  100% {
-    opacity: 1;
-    -ms-filter: none;
-    filter: none;
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -o-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-  }
-}
-@keyframes header-effect {
-  0% {
-    opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-  }
-  60% {
-    opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-    -webkit-transform: translateY(-30px);
-    -moz-transform: translateY(-30px);
-    -o-transform: translateY(-30px);
-    -ms-transform: translateY(-30px);
-    transform: translateY(-30px);
   }
   100% {
     opacity: 1;
@@ -3450,7 +3344,6 @@ figure.gallery-group .gallery-group-name:after {
   display: -webkit-box;
   overflow: hidden;
   margin-top: 0.3rem;
-  height: 85px;
   word-break: break-word;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -3751,6 +3644,11 @@ figure.gallery-group .gallery-group-name:after {
 @media screen and (max-width: 900px) {
   .layout_page > div:first-child:not(.recent-posts) {
     width: 100% !important;
+  }
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .recent-post-info .content {
+    height: 90px;
   }
 }
 #pagination {
@@ -4275,6 +4173,17 @@ img {
   }
   .layout_post > #post {
     padding: 1.8rem 0.7rem;
+  }
+}
+@media screen and (min-width: 2000px) {
+  .layout_post {
+    max-width: 1300px;
+  }
+  .layout_page {
+    max-width: 1500px;
+  }
+  .layout_page.hide-aside {
+    max-width: 1300px;
   }
 }
 .post-qrcode {
@@ -5174,7 +5083,6 @@ img {
 }
 [data-theme='light'] .read-mode #article-container .note {
   border: 2px solid #eee;
-  border-left-color: transparent;
   background-color: transparent;
 }
 [data-theme='light'] .read-mode #mobile-sidebar-menus,
@@ -5203,7 +5111,6 @@ img {
 }
 [data-theme='dark'] .read-mode #article-container .note {
   border: 2px solid rgba(255,255,255,0.6);
-  border-left-color: transparent;
   filter: none;
   background-color: transparent;
   color: rgba(255,255,255,0.6);
@@ -5242,9 +5149,6 @@ img {
 }
 .read-mode .highlight {
   display: block !important;
-}
-.read-mode #rightside #darkmode {
-  display: none;
 }
 .read-mode > canvas {
   display: none !important;
