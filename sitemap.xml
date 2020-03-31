@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.hclonely.com/hqxy/index.html</loc>
+    
+    <lastmod>2020-03-31T14:46:57.163Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.hclonely.com/dal/index.html</loc>
     
     <lastmod>2020-03-31T14:32:42.152Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>https://blog.hclonely.com/posts/f09c9fef/</loc>
     
     <lastmod>2020-03-30T13:23:25.040Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.hclonely.com/hqxy/index.html</loc>
-    
-    <lastmod>2020-03-30T05:17:02.315Z</lastmod>
     
   </url>
   
