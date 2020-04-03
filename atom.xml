@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.hclonely.com/"/>
-  <updated>2020-04-02T09:11:38.054Z</updated>
+  <updated>2020-04-03T11:56:59.973Z</updated>
   <id>https://blog.hclonely.com/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用Cloud Studio在线搭建、编辑、部署Hexo</title>
+    <link href="https://blog.hclonely.com/posts/a7676fbe/"/>
+    <id>https://blog.hclonely.com/posts/a7676fbe/</id>
+    <published>2020-04-03T09:02:42.000Z</published>
+    <updated>2020-04-03T11:56:59.973Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;创建工作空间&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#创建工作空间&quot;&gt;&lt;/a&gt; 创建工作空间&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;前往&lt;a href=&quot;https://coding.net/&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://blog.hclonely.com/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="https://blog.hclonely.com/tags/Hexo/"/>
+    
+      <category term="Cloud Studio" scheme="https://blog.hclonely.com/tags/Cloud-Studio/"/>
+    
+  </entry>
   
   <entry>
     <title>给你的网页添加一个moc3格式的Live2d模型</title>
@@ -70,11 +102,11 @@
       <category term="插件" scheme="https://blog.hclonely.com/categories/Hexo/%E6%8F%92%E4%BB%B6/"/>
     
     
-      <category term="插件" scheme="https://blog.hclonely.com/tags/%E6%8F%92%E4%BB%B6/"/>
-    
       <category term="Hexo" scheme="https://blog.hclonely.com/tags/Hexo/"/>
     
       <category term="steam" scheme="https://blog.hclonely.com/tags/steam/"/>
+    
+      <category term="插件" scheme="https://blog.hclonely.com/tags/%E6%8F%92%E4%BB%B6/"/>
     
       <category term="tag" scheme="https://blog.hclonely.com/tags/tag/"/>
     
@@ -105,9 +137,9 @@
       <category term="插件" scheme="https://blog.hclonely.com/categories/Hexo/%E6%8F%92%E4%BB%B6/"/>
     
     
-      <category term="插件" scheme="https://blog.hclonely.com/tags/%E6%8F%92%E4%BB%B6/"/>
-    
       <category term="Hexo" scheme="https://blog.hclonely.com/tags/Hexo/"/>
+    
+      <category term="插件" scheme="https://blog.hclonely.com/tags/%E6%8F%92%E4%BB%B6/"/>
     
       <category term="online" scheme="https://blog.hclonely.com/tags/online/"/>
     
@@ -183,9 +215,9 @@
     
       <category term="NodeJs" scheme="https://blog.hclonely.com/tags/NodeJs/"/>
     
-      <category term="module" scheme="https://blog.hclonely.com/tags/module/"/>
-    
       <category term="JavaScript" scheme="https://blog.hclonely.com/tags/JavaScript/"/>
+    
+      <category term="module" scheme="https://blog.hclonely.com/tags/module/"/>
     
   </entry>
   
@@ -633,38 +665,6 @@
       <category term="Linux" scheme="https://blog.hclonely.com/tags/Linux/"/>
     
       <category term="硬盘" scheme="https://blog.hclonely.com/tags/%E7%A1%AC%E7%9B%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>linux下aria2的安装与配置</title>
-    <link href="https://blog.hclonely.com/posts/b9ab9265/"/>
-    <id>https://blog.hclonely.com/posts/b9ab9265/</id>
-    <published>2019-09-14T04:19:26.000Z</published>
-    <updated>2020-03-22T13:02:29.888Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;strong&gt;这里来介绍一下linux系统下的安装与配置&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&quot;ubuntu&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#ubuntu&quot;&gt;&lt;/a&gt;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Linux" scheme="https://blog.hclonely.com/categories/Linux/"/>
-    
-    
-      <category term="Linux" scheme="https://blog.hclonely.com/tags/Linux/"/>
-    
-      <category term="aria2" scheme="https://blog.hclonely.com/tags/aria2/"/>
-    
-      <category term="下载软件" scheme="https://blog.hclonely.com/tags/%E4%B8%8B%E8%BD%BD%E8%BD%AF%E4%BB%B6/"/>
     
   </entry>
   
