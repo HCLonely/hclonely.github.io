@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.hclonely.com/"/>
-  <updated>2020-04-03T11:56:59.973Z</updated>
+  <updated>2020-04-03T11:57:52.866Z</updated>
   <id>https://blog.hclonely.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.hclonely.com/posts/a7676fbe/"/>
     <id>https://blog.hclonely.com/posts/a7676fbe/</id>
     <published>2020-04-03T09:02:42.000Z</published>
-    <updated>2020-04-03T11:56:59.973Z</updated>
+    <updated>2020-04-03T11:57:52.866Z</updated>
     
     <summary type="html">
     
@@ -215,9 +215,9 @@
     
       <category term="NodeJs" scheme="https://blog.hclonely.com/tags/NodeJs/"/>
     
-      <category term="JavaScript" scheme="https://blog.hclonely.com/tags/JavaScript/"/>
-    
       <category term="module" scheme="https://blog.hclonely.com/tags/module/"/>
+    
+      <category term="JavaScript" scheme="https://blog.hclonely.com/tags/JavaScript/"/>
     
   </entry>
   
@@ -489,9 +489,9 @@
       <category term="浏览器插件" scheme="https://blog.hclonely.com/categories/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6/"/>
     
     
-      <category term="Chrome" scheme="https://blog.hclonely.com/tags/Chrome/"/>
-    
       <category term="插件" scheme="https://blog.hclonely.com/tags/%E6%8F%92%E4%BB%B6/"/>
+    
+      <category term="Chrome" scheme="https://blog.hclonely.com/tags/Chrome/"/>
     
       <category term="浏览器" scheme="https://blog.hclonely.com/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
     
