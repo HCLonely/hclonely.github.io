@@ -141,7 +141,11 @@ try {
         live2d_settings['modelStorage'] = true;
         live2d_settings['waifuSize'] = '280x250';
         live2d_settings['waifuEdgeSide'] = 'right:30';
-        if (!['/blhx/','/hqxy/','/dal/','/bh3/'].includes(location.pathname)) initModel(waifuTipsJson);
+        if (!['/blhx/','/hqxy/','/dal/','/bh3/'].includes(location.pathname)) {
+        	initModel(waifuTipsJson);
+        } else if (typeof loadGameModel === 'function'){
+        	loadGameModel()
+        }
     }
 
     $('#switch-comment').click(function () {
