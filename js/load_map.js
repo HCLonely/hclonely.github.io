@@ -1,4 +1,4 @@
-$(window).load(()=>{
+$(window).on('load',()=>{
 	if($("#visitors-map").length>0){
 		if (navigator.userAgent.match(/Mobile/i)) {
 			$("#visitors-map").append('<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=7RJAye3Doa8wj5huc-j4LftrwmQQMkdycswG6qp6330&cl=ffffff&w=a"></script>');
