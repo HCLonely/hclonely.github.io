@@ -1,4 +1,4 @@
-window.onload = () => {
+$(document).ready(() => {
   if (navigator.userAgent.match(/Mobile/i)) return
   const models = {
     'l2dmodelv3_1@1.0.1': [
@@ -81,4 +81,4 @@ window.onload = () => {
     width: 500,
     height: 300
   })
-}
+})
