@@ -184,4 +184,4 @@ try {
       WebP.src='data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA';
     });
 
-} ca
+} catch (err) { console.log("[Error] JQuery is not defined.") }
