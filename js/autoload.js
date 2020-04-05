@@ -177,11 +177,11 @@ try {
         	sc.type='text/javascript';
         	sc.async=true;
             var s=document.getElementsByTagName('script')[0];
-            sc.src='/js/webpjs.min.js';
+            sc.src='https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io@1.2.0/js/webpjs.min.js';
             s.parentNode.insertBefore(sc,s);
         }
 	  };
       WebP.src='data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA';
     });
 
-} catch (err) { console.log("[Error] JQuery is not defined.") }
+} ca
