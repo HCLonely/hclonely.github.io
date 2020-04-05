@@ -169,6 +169,19 @@ try {
     }
     
     $(document).ready(function () {
+      //访客地图
+      if($("#visitors-map").length>0){
+        if (navigator.userAgent.match(/Mobile/i)) {
+          $("#visitors-map").append('<script type="text/javascript" id="clustrmaps" src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io@1.2.4/js/js/map_v2.min.js?d=7RJAye3Doa8wj5huc-j4LftrwmQQMkdycswG6qp6330&cl=ffffff&w=a"></script>');
+        }else{
+          $("#visitors-map").append('<script type="text/javascript" id="clstr_globe" src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io@1.2.4/js/js/globe.min.js?d=7RJAye3Doa8wj5huc-j4LftrwmQQMkdycswG6qp6330"></script>');
+        }
+      }else{
+        $("head").append("<style>.clustrmaps-map-control{display:none !important;}</style>");
+        $("body").append('<script type="text/javascript" id="clustrmaps" src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io@1.2.4/js/js/map_v2.min.js?d=7RJAye3Doa8wj5huc-j4LftrwmQQMkdycswG6qp6330&cl=ffffff&w=a"></script>');
+      }
+
+      //webp处理
       if($('script[src*="webpjs.min.js"]').length>0) return;
 	  var WebP=new Image();
 	  WebP.onload=WebP.onerror=function(){
