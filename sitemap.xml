@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.hclonely.com/posts/4d6ecc07/</loc>
+    
+    <lastmod>2020-04-08T12:48:31.711Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.hclonely.com/posts/3562b7af/</loc>
+    
+    <lastmod>2020-04-08T12:47:27.102Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.hclonely.com/posts/71381355/</loc>
     
     <lastmod>2020-04-08T12:16:13.433Z</lastmod>
@@ -103,13 +117,6 @@
     <loc>https://blog.hclonely.com/posts/8f55ce4c/</loc>
     
     <lastmod>2020-04-08T11:32:21.958Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.hclonely.com/posts/4d6ecc07/</loc>
-    
-    <lastmod>2020-04-08T11:31:10.714Z</lastmod>
     
   </url>
   
@@ -268,13 +275,6 @@
   </url>
   
   <url>
-    <loc>https://blog.hclonely.com/posts/3562b7af/</loc>
-    
-    <lastmod>2020-03-22T13:02:58.753Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.hclonely.com/posts/a3dcda7b/</loc>
     
     <lastmod>2020-03-22T13:01:48.882Z</lastmod>
@@ -303,13 +303,6 @@
   </url>
   
   <url>
-    <loc>https://blog.hclonely.com/music/index.html</loc>
-    
-    <lastmod>2020-02-26T09:07:34.477Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.hclonely.com/messageboard/index.html</loc>
     
     <lastmod>2020-02-26T09:07:34.477Z</lastmod>
@@ -317,14 +310,21 @@
   </url>
   
   <url>
-    <loc>https://blog.hclonely.com/steamgames/index.html</loc>
+    <loc>https://blog.hclonely.com/movies/index.html</loc>
     
     <lastmod>2020-02-26T09:07:34.477Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.hclonely.com/movies/index.html</loc>
+    <loc>https://blog.hclonely.com/music/index.html</loc>
+    
+    <lastmod>2020-02-26T09:07:34.477Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.hclonely.com/steamgames/index.html</loc>
     
     <lastmod>2020-02-26T09:07:34.477Z</lastmod>
     
