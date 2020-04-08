@@ -53,7 +53,7 @@
     <link href="https://blog.hclonely.com/posts/8a7f7919/"/>
     <id>https://blog.hclonely.com/posts/8a7f7919/</id>
     <published>2020-03-26T03:34:30.000Z</published>
-    <updated>2020-04-02T09:11:38.054Z</updated>
+    <updated>2020-04-08T10:52:42.840Z</updated>
     
     <summary type="html">
     
@@ -102,11 +102,11 @@
       <category term="插件" scheme="https://blog.hclonely.com/categories/Hexo/%E6%8F%92%E4%BB%B6/"/>
     
     
+      <category term="插件" scheme="https://blog.hclonely.com/tags/%E6%8F%92%E4%BB%B6/"/>
+    
       <category term="Hexo" scheme="https://blog.hclonely.com/tags/Hexo/"/>
     
       <category term="steam" scheme="https://blog.hclonely.com/tags/steam/"/>
-    
-      <category term="插件" scheme="https://blog.hclonely.com/tags/%E6%8F%92%E4%BB%B6/"/>
     
       <category term="tag" scheme="https://blog.hclonely.com/tags/tag/"/>
     
@@ -137,9 +137,9 @@
       <category term="插件" scheme="https://blog.hclonely.com/categories/Hexo/%E6%8F%92%E4%BB%B6/"/>
     
     
-      <category term="Hexo" scheme="https://blog.hclonely.com/tags/Hexo/"/>
-    
       <category term="插件" scheme="https://blog.hclonely.com/tags/%E6%8F%92%E4%BB%B6/"/>
+    
+      <category term="Hexo" scheme="https://blog.hclonely.com/tags/Hexo/"/>
     
       <category term="online" scheme="https://blog.hclonely.com/tags/online/"/>
     
@@ -215,9 +215,9 @@
     
       <category term="NodeJs" scheme="https://blog.hclonely.com/tags/NodeJs/"/>
     
-      <category term="JavaScript" scheme="https://blog.hclonely.com/tags/JavaScript/"/>
-    
       <category term="module" scheme="https://blog.hclonely.com/tags/module/"/>
+    
+      <category term="JavaScript" scheme="https://blog.hclonely.com/tags/JavaScript/"/>
     
   </entry>
   
@@ -502,7 +502,7 @@
     <link href="https://blog.hclonely.com/posts/4b4a0e66/"/>
     <id>https://blog.hclonely.com/posts/4b4a0e66/</id>
     <published>2020-02-04T07:07:45.000Z</published>
-    <updated>2020-03-22T12:59:55.402Z</updated>
+    <updated>2020-04-08T11:12:30.501Z</updated>
     
     <summary type="html">
     
@@ -613,7 +613,7 @@
     <link href="https://blog.hclonely.com/posts/c733a53b/"/>
     <id>https://blog.hclonely.com/posts/c733a53b/</id>
     <published>2019-10-04T04:38:16.000Z</published>
-    <updated>2020-03-22T13:01:22.165Z</updated>
+    <updated>2020-04-08T11:25:34.289Z</updated>
     
     <summary type="html">
     
@@ -643,7 +643,7 @@
     <link href="https://blog.hclonely.com/posts/f096f3bc/"/>
     <id>https://blog.hclonely.com/posts/f096f3bc/</id>
     <published>2019-09-14T11:49:14.000Z</published>
-    <updated>2020-03-22T13:01:30.833Z</updated>
+    <updated>2020-04-08T11:26:59.338Z</updated>
     
     <summary type="html">
     
@@ -652,7 +652,7 @@
         
         
           &lt;p&gt;&lt;strong&gt;需求: Linux新增加一块硬盘sdb，将sdb分区，只分一个区，格式化，挂载到目录/ssd下。&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&quot;1查看现在已有的分区状态&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;
+&lt;h2 id=&quot;查看现在已有的分区状态&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;
         
       
     
