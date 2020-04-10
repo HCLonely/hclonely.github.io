@@ -117,7 +117,7 @@
     <link href="https://blog.hclonely.com/posts/ebe9edfc/"/>
     <id>https://blog.hclonely.com/posts/ebe9edfc/</id>
     <published>2020-02-26T14:46:26.000Z</published>
-    <updated>2020-03-24T09:33:58.362Z</updated>
+    <updated>2020-04-10T09:01:42.099Z</updated>
     
     <summary type="html">
     
@@ -215,9 +215,9 @@
     
       <category term="NodeJs" scheme="https://blog.hclonely.com/tags/NodeJs/"/>
     
-      <category term="module" scheme="https://blog.hclonely.com/tags/module/"/>
-    
       <category term="JavaScript" scheme="https://blog.hclonely.com/tags/JavaScript/"/>
+    
+      <category term="module" scheme="https://blog.hclonely.com/tags/module/"/>
     
   </entry>
   
