@@ -5,7 +5,7 @@ function loadGameModel() {
   initModel(waifuTipsJson);
   loadModel(live2d_settings['modelId']);
 }
-</script></div><hr><div id="post-comment"><div class="comment_headling"><i class="fa fa-comments fa-fw" aria-hidden="true"></i> <span>&#x8BC4;&#x8BBA;<a id="switch-comment" href="javascript:void(0);" title="&#x5207;&#x6362;&#x4E3A;Gitalk" target="_self"><i class="fas fa-toggle-off" aria-hidden="true"></i></a></span></div><div id="gitalk-container" style="display:none"></div><script>var gitalk = new Gitalk({
+</script></div><hr><div id="post-comment"><div class="comment_headling"><i class="fa fa-comments fa-fw" aria-hidden="true"></i> <span>&#x8BC4;&#x8BBA;<a id="switch-comment" href="javascript:void(0);" title="&#x5207;&#x6362;&#x4E3A;Valine" target="_self"><i class="fas fa-toggle-off" aria-hidden="true"></i></a></span></div><div id="gitalk-container"></div><script>var gitalk = new Gitalk({
   clientID: '9e528f4c9431c9714512',
   clientSecret: '35d723e7bfd4e47d84513518145269dac36807ed',
   repo: 'hclonely.github.io',
@@ -24,7 +24,7 @@ gitalk.render('gitalk-container')
 function commentCount(n){
     let el=document.getElementsByClassName('gitalk-comment-count')[0];
     if(el) el.innerHTML= n
-}</script><div class="vcomment" id="vcomment"></div><script src="https://cdn.jsdelivr.net/gh/HCLonely/Valine@1.4.2/dist/Valine.min.js"></script><script>var GUEST_INFO = ['nick','mail','link'];
+}</script><div class="vcomment" id="vcomment" style="display:none"></div><script src="https://cdn.jsdelivr.net/gh/HCLonely/Valine@1.4.3/dist/Valine.min.js"></script><script>var GUEST_INFO = ['nick','mail','link'];
 var guest_info = '昵称,邮箱,主页'.split(',').filter(function(item){
   return GUEST_INFO.indexOf(item) > -1
 });
