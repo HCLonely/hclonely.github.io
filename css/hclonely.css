@@ -117,10 +117,15 @@ i.fa-heartbeat {
 
 a[href^='https://img.shields.io'] {
 	float: left !important;
-    display: inline !important;
-    width: auto !important;
+  display: inline !important;
+  width: auto !important;
 }
 
 a[href^='https://img.shields.io']>img {
 	margin: 2px 3px !important;
+}
+
+#wpac-rating{
+  margin-top: 20px;
+  text-align: center;
 }
