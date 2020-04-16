@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.hclonely.com/about/index.html</loc>
+    
+    <lastmod>2020-04-16T14:35:58.075Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.hclonely.com/blhx/index.html</loc>
+    
+    <lastmod>2020-04-16T14:34:53.086Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.hclonely.com/posts/57bd67ce/</loc>
     
     <lastmod>2020-04-16T12:32:25.830Z</lastmod>
@@ -26,20 +40,6 @@
     <loc>https://blog.hclonely.com/posts/b48b8704/</loc>
     
     <lastmod>2020-04-14T12:56:26.647Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.hclonely.com/blhx/index.html</loc>
-    
-    <lastmod>2020-04-13T15:01:46.916Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.hclonely.com/about/index.html</loc>
-    
-    <lastmod>2020-04-13T04:55:22.913Z</lastmod>
     
   </url>
   

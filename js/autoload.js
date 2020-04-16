@@ -172,17 +172,17 @@ try {
         }
     }
     
-    $(document).ready(function () {
+    $(window).on("load",function () {
       //访客地图
       if($("#visitors-map").length>0){
         if (navigator.userAgent.match(/Mobile/i)) {
-          $("#visitors-map").append('<script type="text/javascript" id="clustrmaps" src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io@1.2.4/js/map_v2.min.js?d=7RJAye3Doa8wj5huc-j4LftrwmQQMkdycswG6qp6330&cl=ffffff&w=a"></script>');
+          $("#visitors-map").append('<script type="text/javascript" id="clustrmaps" src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io@1.3.3/js/map_v2.min.js?d=7RJAye3Doa8wj5huc-j4LftrwmQQMkdycswG6qp6330&cl=ffffff&w=a"></script>');
         }else{
-          $("#visitors-map").append('<script type="text/javascript" id="clstr_globe" src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io@1.2.4/js/globe.min.js?d=7RJAye3Doa8wj5huc-j4LftrwmQQMkdycswG6qp6330"></script>');
+          $("#visitors-map").append('<script type="text/javascript" id="clstr_globe" src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io@1.3.3/js/globe.min.js?d=7RJAye3Doa8wj5huc-j4LftrwmQQMkdycswG6qp6330"></script>');
         }
       }else{
         $("head").append("<style>.clustrmaps-map-control{display:none !important;}</style>");
-        $("body").append('<script type="text/javascript" id="clustrmaps" src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io@1.2.4/js/map_v2.min.js?d=7RJAye3Doa8wj5huc-j4LftrwmQQMkdycswG6qp6330&cl=ffffff&w=a"></script>');
+        $("body").append('<script type="text/javascript" id="clustrmaps" src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io@1.3.3/js/map_v2.min.js?d=7RJAye3Doa8wj5huc-j4LftrwmQQMkdycswG6qp6330&cl=ffffff&w=a"></script>');
       }
 
       //webp处理
@@ -194,7 +194,7 @@ try {
         	sc.type='text/javascript';
         	sc.async=true;
             var s=document.getElementsByTagName('script')[0];
-            sc.src='https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io@1.2.0/js/webpjs.min.js';
+            sc.src='https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io@1.3.3/js/webpjs.min.js';
             s.parentNode.insertBefore(sc,s);
         }
 	  };
