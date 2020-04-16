@@ -133,7 +133,7 @@ try {
             ]
         }
         $('body').append('<div class="waifu"><div class="waifu-tips"></div><canvas id="live2d" class="live2d"></canvas><div class="waifu-tool"><span class="fui-home"></span> <span class="fui-chat"></span> <span class="fui-eye"></span> <span class="fui-user"></span> <span class="fui-photo"></span> <span class="fui-info-circle"></span> <span class="fui-cross"></span></div></div>');
-        live2d_settings['modelAPI'] = '//live2d.hclonely.com/';
+        live2d_settings['modelAPI'] = '//l2d.hclonely.com/';
         live2d_settings['staticAPI'] = '//cdn.jsdelivr.net';
         live2d_settings['hitokotoAPI'] = "hitokoto.cn";
         live2d_settings['modelId'] = 105;
