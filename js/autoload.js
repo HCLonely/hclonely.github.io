@@ -144,6 +144,7 @@ $(window).on('load', function () {
       live2d_settings.waifuEdgeSide = 'right:30'
       if (!['/blhx/', '/hqxy/', '/dal/', '/bh3/'].includes(location.pathname)) {
         initModel(waifuTipsJson)
+        document.documentElement.getAttribute('data-theme') === 'dark' ? loadModel(105, 1) : loadModel(131, 1)
       } else if (typeof loadGameModel === 'function') {
         loadGameModel()
       }
