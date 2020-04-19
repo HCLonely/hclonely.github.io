@@ -182,6 +182,19 @@ $(window).on('load', function () {
     WebP.src = 'data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA'
   } catch (err) { console.log('[Error] JQuery is not defined.') }
 })
+$(document).ready(function () {
+  if (window.location.hash && /^#[\w\d]{24}$/.test(window.location.hash)) {
+    $('#switch-comment').attr('title', '切换为Gitalk')
+    $('#gitalk-container').hide()
+    $('#vcomment').show()
+    var checkExist = setInterval(function () {
+      if ($(window.location.hash).length) {
+        $('html, body').animate({ scrollTop: $(window.location.hash).offset().top - 90 }, 1000);
+        clearInterval(checkExist);
+      }
+    }, 100);
+  }
+})
 function switchComment () {
   const title = $('#switch-comment').attr('title') === '切换为Gitalk' ? '切换为Valine' : '切换为Gitalk'
   const i = $('#switch-comment>i')
