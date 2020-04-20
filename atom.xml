@@ -102,11 +102,11 @@
       <category term="插件" scheme="https://blog.hclonely.com/categories/Hexo/%E6%8F%92%E4%BB%B6/"/>
     
     
-      <category term="插件" scheme="https://blog.hclonely.com/tags/%E6%8F%92%E4%BB%B6/"/>
-    
       <category term="Hexo" scheme="https://blog.hclonely.com/tags/Hexo/"/>
     
       <category term="steam" scheme="https://blog.hclonely.com/tags/steam/"/>
+    
+      <category term="插件" scheme="https://blog.hclonely.com/tags/%E6%8F%92%E4%BB%B6/"/>
     
       <category term="tag" scheme="https://blog.hclonely.com/tags/tag/"/>
     
@@ -137,9 +137,9 @@
       <category term="插件" scheme="https://blog.hclonely.com/categories/Hexo/%E6%8F%92%E4%BB%B6/"/>
     
     
-      <category term="插件" scheme="https://blog.hclonely.com/tags/%E6%8F%92%E4%BB%B6/"/>
-    
       <category term="Hexo" scheme="https://blog.hclonely.com/tags/Hexo/"/>
+    
+      <category term="插件" scheme="https://blog.hclonely.com/tags/%E6%8F%92%E4%BB%B6/"/>
     
       <category term="online" scheme="https://blog.hclonely.com/tags/online/"/>
     
@@ -148,11 +148,11 @@
   </entry>
   
   <entry>
-    <title>Hexo博客美化</title>
+    <title>Hexo博客DIY</title>
     <link href="https://blog.hclonely.com/posts/57bd67ce/"/>
     <id>https://blog.hclonely.com/posts/57bd67ce/</id>
     <published>2020-02-18T06:37:51.000Z</published>
-    <updated>2020-04-20T03:45:27.835Z</updated>
+    <updated>2020-04-20T13:45:30.282Z</updated>
     
     <summary type="html">
     
@@ -161,9 +161,9 @@
         
         
           &lt;div class=&quot;note warning&quot;&gt;
-            &lt;p&gt;注意，本文方法主要用于Butterfly主题，其他主题需要有一定的前端知识！！！&lt;/p&gt;
+            &lt;p&gt;注意，本文方法主要用于Butterfly主题，其他主题需要有一定的前端知识！！！&lt;br /&gt;DIY前请先备份！！！&lt;/p&gt;
           &lt;/div&gt;
-&lt;h2 id=&quot;pixiv日榜&quot;&gt;&lt;a
+&lt;h2
         
       
     
