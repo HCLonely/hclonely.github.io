@@ -148,11 +148,11 @@
   </entry>
   
   <entry>
-    <title>Hexo添加小部件(Butterfly主题)</title>
+    <title>Hexo博客美化</title>
     <link href="https://blog.hclonely.com/posts/57bd67ce/"/>
     <id>https://blog.hclonely.com/posts/57bd67ce/</id>
     <published>2020-02-18T06:37:51.000Z</published>
-    <updated>2020-04-18T13:41:09.841Z</updated>
+    <updated>2020-04-20T03:45:27.835Z</updated>
     
     <summary type="html">
     
@@ -161,9 +161,9 @@
         
         
           &lt;div class=&quot;note warning&quot;&gt;
-            &lt;p&gt;注意，本文方法只适用于Butterfly主题！！！&lt;/p&gt;
+            &lt;p&gt;注意，本文方法主要用于Butterfly主题，其他主题需要有一定的前端知识！！！&lt;/p&gt;
           &lt;/div&gt;
-&lt;h2 id=&quot;pixiv日榜&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;
+&lt;h2 id=&quot;pixiv日榜&quot;&gt;&lt;a
         
       
     
@@ -172,8 +172,12 @@
     
       <category term="Hexo" scheme="https://blog.hclonely.com/categories/Hexo/"/>
     
+      <category term="DIY" scheme="https://blog.hclonely.com/categories/Hexo/DIY/"/>
+    
     
       <category term="Hexo" scheme="https://blog.hclonely.com/tags/Hexo/"/>
+    
+      <category term="美化" scheme="https://blog.hclonely.com/tags/%E7%BE%8E%E5%8C%96/"/>
     
       <category term="小部件" scheme="https://blog.hclonely.com/tags/%E5%B0%8F%E9%83%A8%E4%BB%B6/"/>
     
@@ -182,6 +186,8 @@
       <category term="访客地图" scheme="https://blog.hclonely.com/tags/%E8%AE%BF%E5%AE%A2%E5%9C%B0%E5%9B%BE/"/>
     
       <category term="pixiv" scheme="https://blog.hclonely.com/tags/pixiv/"/>
+    
+      <category term="投票" scheme="https://blog.hclonely.com/tags/%E6%8A%95%E7%A5%A8/"/>
     
   </entry>
   
