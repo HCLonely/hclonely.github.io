@@ -178,7 +178,7 @@ table td {
 #site-name,
 #aside_content .author-info__name,
 #aside_content .author-info__description {
-  font-family: Titillium Web, PingFang SC, Hiragino Sans GB, "Microsoft YaHei", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: "Lobster Two", Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 .is_right {
   text-align: right;
@@ -4785,7 +4785,7 @@ img {
   background-color: #ff7242;
 }
 #vcomment textarea {
-  background: url("https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io@1.4.1/img/comment_bg.png") 100% 100% no-repeat;
+  background: url("https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io@1.4.2/img/comment_bg.png") 100% 100% no-repeat;
 }
 #vcomment .vimg {
   -webkit-transition: all 0.3s;
