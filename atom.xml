@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.hclonely.com/"/>
-  <updated>2020-04-08T12:12:26.483Z</updated>
+  <updated>2020-04-23T11:52:25.865Z</updated>
   <id>https://blog.hclonely.com/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Valine添加博主标签及评论微信、QQ通知</title>
+    <link href="https://blog.hclonely.com/posts/409d3090/"/>
+    <id>https://blog.hclonely.com/posts/409d3090/</id>
+    <published>2020-04-23T11:01:09.000Z</published>
+    <updated>2020-04-23T11:52:25.865Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;div class=&quot;note success&quot;&gt;
+            &lt;p&gt;本教程介绍了如何给Valine评论系统添加&lt;code&gt;博主&lt;/code&gt;、&lt;code&gt;小伙伴&lt;/code&gt;、
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://blog.hclonely.com/categories/Hexo/"/>
+    
+      <category term="Valine" scheme="https://blog.hclonely.com/categories/Hexo/Valine/"/>
+    
+    
+      <category term="Hexo" scheme="https://blog.hclonely.com/tags/Hexo/"/>
+    
+      <category term="Valine" scheme="https://blog.hclonely.com/tags/Valine/"/>
+    
+  </entry>
   
   <entry>
     <title>使用Cloud Studio在线搭建、编辑、部署Hexo</title>
@@ -641,36 +673,6 @@
       <category term="Linux" scheme="https://blog.hclonely.com/tags/Linux/"/>
     
       <category term="ownCloud" scheme="https://blog.hclonely.com/tags/ownCloud/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux挂载硬盘</title>
-    <link href="https://blog.hclonely.com/posts/f096f3bc/"/>
-    <id>https://blog.hclonely.com/posts/f096f3bc/</id>
-    <published>2019-09-14T11:49:14.000Z</published>
-    <updated>2020-04-08T12:11:25.631Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;strong&gt;需求: Linux新增加一块硬盘sdb，将sdb分区，只分一个区，格式化，挂载到目录/ssd下。&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&quot;查看现在已有的分区状态&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Linux" scheme="https://blog.hclonely.com/categories/Linux/"/>
-    
-    
-      <category term="Linux" scheme="https://blog.hclonely.com/tags/Linux/"/>
-    
-      <category term="硬盘" scheme="https://blog.hclonely.com/tags/%E7%A1%AC%E7%9B%98/"/>
     
   </entry>
   
