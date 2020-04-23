@@ -5,7 +5,7 @@ function loadGameModel() {
   initModel(waifuTipsJson);
   loadModel(live2d_settings['modelId']);
 }
-</script></div><hr><div id="post-comment"><div class="comment_headling"><i class="fa fa-comments fa-fw" aria-hidden="true"></i> <span>&#x8BC4;&#x8BBA;<a id="switch-comment" href="javascript:void(0);" title="&#x5207;&#x6362;&#x4E3A;Gitalk" target="_self"><i class="fas fa-toggle-off" aria-hidden="true"></i></a></span></div><div id="gitalk-container" style="display:none"></div><script>var gitalk = new Gitalk({
+</script></div><hr><div id="post-comment"><div class="comment_headling"><i class="fa fa-comments fa-fw" aria-hidden="true"></i> <span>&#x8BC4;&#x8BBA;<a id="switch-comment" href="javascript:void(0);" title="&#x5207;&#x6362;&#x4E3A;Valine" target="_self"><i class="fas fa-toggle-off" aria-hidden="true"></i></a></span></div><div id="gitalk-container" style="display:none"></div><script>var gitalk = new Gitalk({
   clientID: '9e528f4c9431c9714512',
   clientSecret: '35d723e7bfd4e47d84513518145269dac36807ed',
   repo: 'hclonely.github.io',
@@ -24,12 +24,12 @@ gitalk.render('gitalk-container')
 function commentCount(n){
     let el=document.getElementsByClassName('gitalk-comment-count')[0];
     if(el) el.innerHTML= n
-}</script><div class="vcomment" id="vcomment"></div><script src="https://cdn.jsdelivr.net/gh/HCLonely/Valine@1.4.8/dist/Valine.min.js"></script><script>var GUEST_INFO = ['nick','mail','link'];
+}</script><div class="vcomment" id="vcomment"></div><script src="https://cdn.jsdelivr.net/gh/HCLonely/Valine@1.4.9/dist/Valine.min.js"></script><script>var GUEST_INFO = ['nick','mail','link'];
 var guest_info = '昵称,邮箱,主页'.split(',').filter(function(item){
   return GUEST_INFO.indexOf(item) > -1
 });
 guest_info = guest_info.length == 0 ? GUEST_INFO :guest_info;
-let friends = '5c2105bbfe6e6c02a6f6ae26dad3819c,a0adabb31677df924f405fb18a02ee4d,6d90600242b27838b9d0b0505ea9e784,0ed68b5b0fb7b26785067a3eff2228bb,6440af55f22e715bab3ba59cf9963840,43f423034161c1234e49b8b8a075d8e0,3507ffe0d2b13504b2451a8b992384f0,e033408cdd127a800d2cf8ef8f5be84a,898a1ce24f258d8b7863ec186021613a,eda72cf28e038a160314c57ee233423a,05d1a06a9da95ae3c01312af4d0a53a0,b7e181f955e497f1b55390f590cace77,69aee6b76ab36ebb647f749f578290e3,76388dc540cd1a49b12ea5684b41b40d,02faa96145bca506ac33c84175428b9e'.split(',')
+let friends = '5c2105bbfe6e6c02a6f6ae26dad3819c,a0adabb31677df924f405fb18a02ee4d,6d90600242b27838b9d0b0505ea9e784,0ed68b5b0fb7b26785067a3eff2228bb,6440af55f22e715bab3ba59cf9963840,43f423034161c1234e49b8b8a075d8e0,3507ffe0d2b13504b2451a8b992384f0,e033408cdd127a800d2cf8ef8f5be84a,898a1ce24f258d8b7863ec186021613a,eda72cf28e038a160314c57ee233423a,05d1a06a9da95ae3c01312af4d0a53a0,b7e181f955e497f1b55390f590cace77,69aee6b76ab36ebb647f749f578290e3,76388dc540cd1a49b12ea5684b41b40d,02faa96145bca506ac33c84175428b9e,0c164af184c4f776d83b0e98f08b5767'.split(',')
 let master = 'f8c7afb61aea2c203160e90cd3b3a26a,db6a7492e718d85bbc9507989d210f9e,db61bf13ef746272a53227821321dd74,d94661ebf78ff5fbfe3c1bc063c02734'.split(',')
 let requiredFields = 'nick,mail'.split(',')
 
